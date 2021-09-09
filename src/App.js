@@ -16,14 +16,14 @@ function App() {
             <div className="app-back-arrow">
                 <a href="https://mustachioverse.com" className="text-decoration-none" title="Go back to Mustachio Website">
                     <FontAwesomeIcon color="white" size="2x" icon={faArrowLeft} />
-                    <span className="app-back-arrow-text text-white font-andes">Back</span>
+                    <span className="app-back-arrow-text text-white font-w-hermann w-hermann-semibold">Back</span>
                 </a>
             </div>
             <div className="app-next-arrow">
-                <a href="#" className="text-decoration-none" title="Release Date: September 13, 2021">
-                    <span className="app-next-arrow-text text-white font-andes">Chapter 1: The Inception<br /><b>Release Date:</b>Sept. 13, 2021</span>
-                    <FontAwesomeIcon color="white" size="2x" icon={faArrowRight} />
-                </a>
+                <span className="app-next-arrow-text chapter text-white text-2xl font-w-hermann w-hermann-heavy">Chapter 1: The Inception</span>
+                <span className="app-next-arrow-text subtitle text-white font-w-hermann w-hermann-semibold d-none d-sm-inline-block">Release Date: Sept. 13, 2021 - 9:00PM SGT</span>
+                <span className="app-next-arrow-text subtitle text-white font-w-hermann w-hermann-semibold d-inline-block d-sm-none">Release Date: Sept. 13, 2021<br />9:00PM SGT</span>
+                <FontAwesomeIcon color="white" size="2x" icon={faArrowRight} />
             </div>
 
             <div className="app-soc-med">

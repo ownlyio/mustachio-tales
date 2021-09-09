@@ -36,10 +36,17 @@
 .app-next-arrow-text {
     display: inline-block;
     position: absolute;
-    width: 250px;
-    top: 0;
+    width: 450px;
     right: 40px;
     text-align: right;
+}
+
+.app-next-arrow-text.chapter {
+    top: 0;
+}
+
+.app-next-arrow-text.subtitle {
+    top: 30px;
 }
 
 .app-back-arrow:hover,
@@ -90,6 +97,14 @@
         top: 4%;
     }
 
+    .app-next-arrow-text.chapter {
+        font-size: 1rem !important;
+    }
+
+    .app-next-arrow-text.subtitle {
+        top: 18px;
+    }
+
     .left-soc {
         width: 80%;
         margin-right: 20%;
@@ -97,5 +112,11 @@
 
     .app-soc-med svg {
         font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .app-back-arrow-text {
+        display: none;
     }
 }
