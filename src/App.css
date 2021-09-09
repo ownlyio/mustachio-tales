@@ -25,14 +25,52 @@
     left: 40px;
 }
 
+.app-next-arrow {
+    position: absolute;
+    top: 5%;
+    right: 2rem;
+    opacity: 0.3;
+    transition: all 0.5s ease;
+}
+
+.app-next-arrow-text {
+    display: inline-block;
+    position: absolute;
+    width: 250px;
+    top: 0;
+    right: 40px;
+    text-align: right;
+}
+
 .app-back-arrow:hover,
-.app-back-arrow:focus {
+.app-back-arrow:focus,
+.app-next-arrow:hover,
+.app-next-arrow:focus {
     opacity: 1;
 }
+
+.app-soc-med {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
 
 @media (max-width: 768px) {
     .app {
         background-image: url('./images/tab1.jpg');
+    }
+
+    .app-soc-med {
+        bottom: 10px;
+    }
+
+    .app-soc-med a:first-child,
+    .app-soc-med a:nth-child(3) {
+        margin-right: 2rem !important;
     }
 }
 
@@ -40,5 +78,30 @@
     .app {
         background-image: url('./images/mobile1.jpg');
         background-position: center bottom;
+    }
+
+    .app-back-arrow svg, .app-next-arrow svg {
+        font-size: 1.5em;
+    }
+
+    .app-back-arrow-text, .app-next-arrow-text {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        top: 4%;
+    }
+
+    .left-soc {
+        width: 80%;
+        margin-right: 20%;
+    }
+
+    .app-soc-med svg {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .app-back-arrow-text, .app-next-arrow-text {
+        display: none;
     }
 }
