@@ -98,6 +98,10 @@
         top: 4%;
     }
 
+    .app-next-arrow-text {
+        width: 170px;
+    }
+
     .app-next-arrow-text.chapter {
         font-size: 1rem !important;
     }
