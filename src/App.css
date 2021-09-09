@@ -31,6 +31,7 @@
     right: 2rem;
     opacity: 0.3;
     transition: all 0.5s ease;
+    cursor: pointer;
 }
 
 .app-next-arrow-text {
