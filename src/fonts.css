@@ -1,0 +1,288 @@
+@font-face {
+    font-family: 'W Hermann';
+    src: url('fonts/WHermann-BlackItalic.woff2') format('woff2'),
+        url('fonts/WHermann-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'W Hermann';
+    src: url('fonts/WHermann-Regular.woff2') format('woff2'),
+        url('fonts/WHermann-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'W Hermann';
+    src: url('fonts/WHermann-Italic.woff2') format('woff2'),
+        url('fonts/WHermann-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'W Hermann';
+    src: url('fonts/WHermann-Black.woff2') format('woff2'),
+        url('fonts/WHermann-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'W Hermann';
+    src: url('fonts/WHermann-Heavy.woff2') format('woff2'),
+        url('fonts/WHermann-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'W Hermann';
+    src: url('fonts/WHermann-HeavyItalic.woff2') format('woff2'),
+        url('fonts/WHermann-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'W Hermann';
+    src: url('fonts/WHermann-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/WHermann-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'W Hermann';
+    src: url('fonts/WHermann-SemiBold.woff2') format('woff2'),
+        url('fonts/WHermann-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'W Hermann';
+    src: url('fonts/WHermann-UltraBold.woff2') format('woff2'),
+        url('fonts/WHermann-UltraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'W Hermann';
+    src: url('fonts/WHermann-UltraBoldItalic.woff2') format('woff2'),
+        url('fonts/WHermann-UltraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montreux C S Rg';
+    src: url('fonts/MontreuxCS-Rg.woff2') format('woff2'),
+        url('fonts/MontreuxCS-Rg.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montreux C S Dm Bd';
+    src: url('fonts/MontreuxCS-DmBd.woff2') format('woff2'),
+        url('fonts/MontreuxCS-DmBd.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montreux C S Th';
+    src: url('fonts/MontreuxCS-Th.woff2') format('woff2'),
+        url('fonts/MontreuxCS-Th.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montreux C S';
+    src: url('fonts/MontreuxCS-RgIt.woff2') format('woff2'),
+        url('fonts/MontreuxCS-RgIt.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montreux C S';
+    src: url('fonts/MontreuxCS-ThIt.woff2') format('woff2'),
+        url('fonts/MontreuxCS-ThIt.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montreux C S Demi';
+    src: url('fonts/MontreuxCS-DmBdIt.woff2') format('woff2'),
+        url('fonts/MontreuxCS-DmBdIt.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montreux C S Ult Th';
+    src: url('fonts/MontreuxCS-UltTh.woff2') format('woff2'),
+        url('fonts/MontreuxCS-UltTh.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montreux J S';
+    src: url('fonts/MontreuxJS-ThIt.woff2') format('woff2'),
+        url('fonts/MontreuxJS-ThIt.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montreux J S';
+    src: url('fonts/MontreuxJS-RgIt.woff2') format('woff2'),
+        url('fonts/MontreuxJS-RgIt.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montreux J S Rg';
+    src: url('fonts/MontreuxJS-Rg.woff2') format('woff2'),
+        url('fonts/MontreuxJS-Rg.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montreux J S Th';
+    src: url('fonts/MontreuxJS-Th.woff2') format('woff2'),
+        url('fonts/MontreuxJS-Th.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montreux C S Ultra';
+    src: url('fonts/MontreuxCS-UltThIt.woff2') format('woff2'),
+        url('fonts/MontreuxCS-UltThIt.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montreux J S X Bd';
+    src: url('fonts/MontreuxJS-XBd.woff2') format('woff2'),
+        url('fonts/MontreuxJS-XBd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montreux J S Extra';
+    src: url('fonts/MontreuxJS-XBdIt.woff2') format('woff2'),
+        url('fonts/MontreuxJS-XBdIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montreux J S Ult Th';
+    src: url('fonts/MontreuxJS-UltTh.woff2') format('woff2'),
+        url('fonts/MontreuxJS-UltTh.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AndesNeue Alt 2 Light it';
+    src: url('fonts/AndesNeueAlt2-Lightit.woff2') format('woff2'),
+        url('fonts/AndesNeueAlt2-Lightit.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AndesNeue Alt 2 Book';
+    src: url('fonts/AndesNeueAlt2-Book.woff2') format('woff2'),
+        url('fonts/AndesNeueAlt2-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AndesNeue Alt 2 Bold it';
+    src: url('fonts/AndesNeueAlt2-Boldit.woff2') format('woff2'),
+        url('fonts/AndesNeueAlt2-Boldit.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AndesNeue Alt 2';
+    src: url('fonts/AndesNeueAlt2-ExtraLight.woff2') format('woff2'),
+        url('fonts/AndesNeueAlt2-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AndesNeue Alt 2 Book it';
+    src: url('fonts/AndesNeueAlt2-Bookit.woff2') format('woff2'),
+        url('fonts/AndesNeueAlt2-Bookit.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AndesNeue Alt 2';
+    src: url('fonts/AndesNeueAlt2-Medium.woff2') format('woff2'),
+        url('fonts/AndesNeueAlt2-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AndesNeue Alt 2 Medium it';
+    src: url('fonts/AndesNeueAlt2-Mediumit.woff2') format('woff2'),
+        url('fonts/AndesNeueAlt2-Mediumit.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
