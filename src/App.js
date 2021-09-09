@@ -16,7 +16,7 @@ function App() {
             <div className="app-back-arrow">
                 <a href="https://mustachioverse.com" className="text-decoration-none" title="Go back to Mustachio Website">
                     <FontAwesomeIcon color="white" size="2x" icon={faArrowLeft} />
-                    <span className="app-back-arrow-text text-white font-andes">Back to Website</span>
+                    <span className="app-back-arrow-text text-white font-andes">Back</span>
                 </a>
             </div>
             <div className="app-next-arrow">
