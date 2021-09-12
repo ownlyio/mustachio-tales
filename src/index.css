@@ -18,7 +18,10 @@ html, body
 }
 
 body {
-    background-color: var(--gen-color);
+    background-image: url('./images/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 /* Utility Classes */
@@ -1170,6 +1173,10 @@ body {
     color: var(--gen-color);
 }
 
+.text-black {
+    color: #333;
+}
+
 hr.gray-line {
     border-bottom: 1px solid #eee;
 }
@@ -1199,4 +1206,16 @@ a:focus {
 		transform: scale(0.95);
 		box-shadow: 0 0 0 0 rgba(162, 182, 52, 0);
 	}
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
 }
