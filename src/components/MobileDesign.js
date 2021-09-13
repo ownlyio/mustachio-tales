@@ -45,25 +45,14 @@ function MobileDesign({ socMedHandles, flipPage}) {
                         {/* Stanzas */}
                         <div className="mb-3 content-mobile-inner">
                             <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">
-                                <span className="text-5xl">O</span>, cried the angels with not a whisper heard
+                                <span className="text-5xl">O</span>ne rainy morning, when the wind blew hard with interest, the smell of pine cones on the wet streets signaled ready for a quest.
                             </p>
-                            <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">For the gods have bestowed tales in a land of few words</p>
                         </div>
                         <div className="mb-3 content-mobile-inner">
-                            <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">'Twas MustachioVerse, where all the Mustachios feasted</p>
-                            <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Realm to the secrets of the folklores and the many exploits ahead</p>
+                            <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Alas! The old Bigode Cave glowed bright like fire in the winter. And so the young Mustachios went to see what the glow is all about when a torn up journal behind the rocks was bestowed to the scouts. Thus they stood and pondered, poised static on their toes, as the wind so solemnly whispers… the portal emerges.</p>
                         </div>
                         <div className="mb-3 content-mobile-inner">
-                            <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">One among these beings, fabled yet mysterious</p>
-                            <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">How he sought the Grooming Kit, no Mustachio can ever deduce</p>
-                        </div>
-                        <div className="mb-3 content-mobile-inner">
-                            <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">The Prospector as we know him, valiant he may be</p>
-                            <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Bearer of the Golden Mustache, a legend - we all agree</p>
-                        </div>
-                        <div className="mb-3 content-mobile-inner">
-                            <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Til one rainy morning, when the wind blew hard with interest</p>
-                            <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">The smell of pine cones on the wet streets signaled ready for a quest</p>
+                            <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Abracadoobie with his staff, a deceitful distraction, eard an echo from a distance, smirking, ready for some action. As Bandwip showed deep interest in treasures and adventures, even Cairo, the great thief, lighted up like a candle in the darkness.</p>
                         </div>
 
                         <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">3</p>
@@ -76,32 +65,16 @@ function MobileDesign({ socMedHandles, flipPage}) {
                         {/* Stanzas */}
                         <div className="mt-3 content-mobile-wrap">
                             <div className="mb-3 content-mobile-inner">
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Abracadoobie with his staff, a deceitful distraction</p>
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Heard an echo from a distance, smirking, ready for some action</p>
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">With a snigger he said, “Ready or not, the next legend is upon us.” Eyes glazing as Berry, the high-pitched wild berry warrior, exclaimed “The coast is clear, now we’re ready for some more!”.</p>
                             </div>
                             <div className="mb-3 content-mobile-inner">
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Alas! The old Bigode Cave glowed bright like fire in the winter</p>
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">As Bandwip showed deep interest in treasures and adventures</p>
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Gamer Boi, the avid video gamer, stopped dead in his tracks as he picked up The Lost Diary. “He who dared seek victory through audacious exploits”, it read. “Shall claim The Grooming Kit and Golden Mustache, some light years ahead”</p>
                             </div>
                             <div className="mb-3 content-mobile-inner">
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Even Cairo, the great thief, lighted up like a candle in the darkness</p>
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">With a snigger he said, "Ready or not, the next legend is upon us."</p>
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">As Aster, the man on a moon mission, flipped over to the next sheet, it showed nine mysterious artifacts, marking nine impossible feats. Bacon Prince, the next ruler of the mouthwatering Breakfast Kingdom, also wanted to pitch in some of his egg and bacon wisdom.</p>
                             </div>
                             <div className="mb-3 content-mobile-inner">
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Eyes glazing as Berry, the high-pitched wild berry warrior</p>
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Exclaimed "The coast is clear, now we’re ready for some more!"</p>
-                            </div>
-                            <div className="mb-3 content-mobile-inner">
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">And so the young Mustachios went to see what the glow is all about</p>
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">When a torn up journal behind the rocks was bestowed to the scouts</p>
-                            </div>
-                            <div className="mb-3 content-mobile-inner">
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Gamer Boi, the avid video gamer, stopped dead in his tracks</p>
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">As he picked up The Lost Diary, which in seconds was unlocked</p>
-                            </div>
-                            <div className="mb-3 content-mobile-inner">
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">"He who dared seek victory through audacious exploits", it read</p>
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">"Shall claim The Grooming Kit and Golden Mustache, some light years ahead"</p>
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Bug, the melancholic Mustachio, grinned from ear to ear. Now in such good spirits, for the first time in a hundred years! Delighted, Bee Lee jumped up and down in his bespoke yellow jumpsuit. “The time has come for me to depart for the wildest pursuit!”. And so Pulsar flapped his wings, beyond thrilled to fly, for the greatest mystery unsolved emerges and no Mustachio knows why.</p>
                             </div>
                         </div>
 
@@ -115,28 +88,13 @@ function MobileDesign({ socMedHandles, flipPage}) {
                         {/* Stanzas */}
                         <div className="mt-3 content-mobile-wrap">
                             <div className="mb-3 content-mobile-inner">
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">As Aster, the man on a moon mission, flipped over to the next sheet</p>
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">It showed nine mysterious artifacts, marking nine impossible feats</p>
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">While they have yet find the answers to the quest of the Golden Mustache, they dragged their horses and satchels and started their journey. Little did these youngsters know I’ve set them up for the greatest mystery, for I am The Prospector, the best Mustachio in all of history.</p>
                             </div>
                             <div className="mb-3 content-mobile-inner">
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Bacon Prince, the next ruler of the mouthwatering Breakfast Kingdom</p>
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Also wanted to pitch in some of his egg and bacon wisdom</p>
-                            </div>
-                            <div className="mb-3 content-mobile-inner">
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Bug, the melancholic Mustachio, grinned from ear to ear</p>
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Now in such good spirits, for the first time in a hundred years</p>
-                            </div>
-                            <div className="mb-3 content-mobile-inner">
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Delighted, Bee Lee jumped up and down in his bespoke yellow jumpsuit</p>
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">"The time has come for me to depart for the wildest pursuit!"</p>
-                            </div>
-                            <div className="mb-3 content-mobile-inner">
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">TAnd so Pulsar flapped his wings, beyond thrilled to fly</p>
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">For the greatest mystery unsolved emerges and no Mustachio knows why</p>
-                            </div>
-                            <div className="mb-3 content-mobile-inner">
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Little did they know I’ve set them up for the greatest mystery</p>
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">For I am The Prospector, the best Mustachio in all of history.</p>
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Mint your Mustachio now and enter the portal that will transport you to MustachioVerse!</p>
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">
+                                    <a href="https://mustachioverse.com/">https://mustachioverse.com/</a>
+                                </p>
                             </div>
                         </div>
 
