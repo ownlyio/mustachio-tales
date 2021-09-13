@@ -44,3 +44,9 @@
 .animate-logo {
     animation: zoom-in-zoom-out 1.5s infinite;
 }
+
+@media (max-width: 1200px) {
+    .book {
+        width: 100% !important;
+    }
+}
