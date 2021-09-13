@@ -45,6 +45,34 @@
     animation: zoom-in-zoom-out 1.5s infinite;
 }
 
+.back-arrow,
+.next-arrow {
+    opacity: 0.3;
+    transition: all 0.5s ease;
+    position: absolute;
+}
+
+.back-arrow {
+    left: 0;
+}
+
+.next-arrow {
+    right: 0;
+}
+
+.back-arrow:hover .arrow-content,
+.next-arrow:hover .arrow-content {
+    display: block !important;
+}
+
+.back-arrow:hover,
+.back-arrow:focus,
+.next-arrow:hover,
+.next-arrow:focus {
+    cursor: pointer;
+    opacity: 1;
+}
+
 @media (max-width: 1200px) {
     .book {
         width: 100% !important;

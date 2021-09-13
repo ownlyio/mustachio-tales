@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import FlipPage from 'react-flip-page'
 import MobileDesign from './components/MobileDesign'
 import './App.css'
@@ -10,9 +10,20 @@ import mustachioLogoFooter from './images/ch_1/mustachio-logo-book.png'
 import mustachioLogo from './images/mustachio_logo_2_white.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDiscord, faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
  
 function App() {
-    let flipPage = useRef(null)
+    var flipPage = useRef(null)
+
+    const [page, setPage] = useState(0)
+
+    const updatePage = pageIndex => {
+        setPage(pageIndex)
+    }
+
+    const goToMustachioWebsite = () => {
+        window.location.href = 'https://mustachioverse.com'
+    }
 
     const socMedHandles = {
         fb: "https://facebook.com/mustachioverse",
@@ -23,16 +34,29 @@ function App() {
     
     return (
         <div className="app">
+            <div className="back-arrow d-none d-lg-block" onClick={() => page === 0 ? goToMustachioWebsite() : flipPage.gotoPreviousPage()}>
+                <div class="d-flex align-items-center">
+                    <FontAwesomeIcon icon={faArrowLeft} color="white" size="2x" />
+                    { page === 0 ? (
+                        <p className="arrow-content font-andes mb-0 text-white page-0 d-none">&nbsp;&nbsp;Back to Website</p>
+                    ) : (
+                        <p className="arrow-content font-andes mb-0 text-white d-none">&nbsp;&nbsp;Previous</p>
+                    )}
+                </div>
+            </div>
+
             <div className="container">
                 <div className="d-none d-lg-block">
                     <FlipPage
                         className="book"
-                        showSwipeHint
+                        disableSwipe="true"
+                        flipOnTouch="false"
                         uncutPages
                         orientation="horizontal"
                         animationDuration="1000"
                         pageBackground="transparent"
                         width="992"
+                        onPageChange={pageIndex => updatePage(pageIndex)}
                         ref={(component) => { flipPage = component }}
                     >
                         <article className="page">
@@ -228,6 +252,13 @@ function App() {
                 </div>
 
                 <MobileDesign socMedHandles={socMedHandles} flipPage={flipPage} />
+            </div>           
+            
+            <div className="next-arrow d-none d-lg-block" onClick={() => flipPage.gotoNextPage()}>
+                <div class="d-flex align-items-center">
+                    <p className="arrow-content font-andes mb-0 text-white d-none">Next&nbsp;&nbsp;</p>
+                    <FontAwesomeIcon icon={faArrowRight} color="white" size="2x" />
+                </div>
             </div>
     </div>
     )
