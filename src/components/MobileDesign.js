@@ -7,7 +7,6 @@ import './MobileDesign.css'
 import chapter1Logo from '../images/ch_1/page1-pic.png'
 import firstPagePic from '../images/ch_1/page2-pic.png'
 import mustachioLogoFooter from '../images/ch_1/mustachio-logo-book.png'
-import mustachioLogo from '../images/mustachio_logo_2_white.png'
 
 function MobileDesign({ socMedHandles, flipPage}) {
     return (
