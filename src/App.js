@@ -113,14 +113,14 @@ function App() {
                                         {/* Stanzas */}
                                         <div className="mb-3 px-2">
                                             <p className="text-center font-w-hermann w-hermann-semibold mb-0">
-                                                <span className="text-5xl">O</span>ne rainy morning, when the wind blew hard with interest, the smell of pine cones on the wet streets signaled ready for a quest.
+                                                <span className="text-5xl">I</span>t is morning in MustachioVerse. Sun hidden in a heavy downpour. A strong wind blows the pouring water into a spray, masking what could be the smell of pine cones into a reminder of how soggy your clothes can be.
                                             </p>
                                         </div>
                                         <div className="mb-3 px-2">
-                                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">Alas! The old Bigode Cave glowed bright like fire in the winter. And so the young Mustachios went to see what the glow is all about when a torn up journal behind the rocks was bestowed to the scouts. Thus they stood and pondered, poised static on their toes, as the wind so solemnly whispers… the portal emerges.</p>
+                                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">An epic time to start a quest if you ask a bored Mustachio. The great wind seemingly nudges a group of Mustachios to an old cave.</p>
                                         </div>
                                         <div className="mb-3 px-2">
-                                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">Abracadoobie with his staff, a deceitful distraction, eard an echo from a distance, smirking, ready for some action. As Bandwip showed deep interest in treasures and adventures, even Cairo, the great thief, lighted up like a candle in the darkness.</p>
+                                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">Alas! The old Bigode Cave glowed bright like fire in the winter. And so the young Mustachios, curious as they are, trudged the wet trail to see what the glow is all about.</p>
                                         </div>
 
                                         <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">3</p>
@@ -133,16 +133,16 @@ function App() {
                                         {/* Stanzas */}
                                         <div className="mt-3 px-2">
                                             <div className="mb-3">
-                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">With a snigger he said, “Ready or not, the next legend is upon us.” Eyes glazing as Berry, the high-pitched wild berry warrior, exclaimed “The coast is clear, now we’re ready for some more!”.</p>
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">As they come upon the cave's mouth, they see the glow pulsating from behind the rocks. Half hidden with debris, they find the source of this immense glow. It looks like a book with light leaking out from cracks on the cover and the pages.</p>
                                             </div>
                                             <div className="mb-3">
-                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Gamer Boi, the avid video gamer, stopped dead in his tracks as he picked up The Lost Diary. “He who dared seek victory through audacious exploits”, it read. “Shall claim The Grooming Kit and Golden Mustache, some light years ahead”</p>
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">As the light dims, they see an aged journal, torn and beat up but shaking like it is charging up. It lights back up again. This time blasting an intense array of light and a booming sound that echoes around the cave. It sounds almost like a deep voice. An announcement as the different colored lights swirl into many interesting shapes. Dancing enchantingly fast and jovial. Then slows down, floats into a circular shape. A tunnel.</p>
                                             </div>
                                             <div className="mb-3">
-                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">As Aster, the man on a moon mission, flipped over to the next sheet, it showed nine mysterious artifacts, marking nine impossible feats. Bacon Prince, the next ruler of the mouthwatering Breakfast Kingdom, also wanted to pitch in some of his egg and bacon wisdom.</p>
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">The deep voice whispers into a fading echo. “The portal opens.” The winds enter the cave, flipping the pages of the now normal looking journal.</p>
                                             </div>
                                             <div className="mb-3">
-                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Bug, the melancholic Mustachio, grinned from ear to ear. Now in such good spirits, for the first time in a hundred years! Delighted, Bee Lee jumped up and down in his bespoke yellow jumpsuit. “The time has come for me to depart for the wildest pursuit!”. And so Pulsar flapped his wings, beyond thrilled to fly, for the greatest mystery unsolved emerges and no Mustachio knows why.</p>
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Abracadoobie with his staff, a deceitful distraction, heard an echo from a distance, smirking, ready for some action. As Bandwip showed deep interest in treasures and adventures, even Cairo, the great thief, lighted up like a candle in the darkness. With a snigger he said, “Ready or not, the next legend is upon us.” Eyes glazing as Berry, the high-pitched wild berry warrior, exclaimed “The coast is clear, now we’re ready for some more!”.</p>
                                             </div>
                                         </div>
 
@@ -160,7 +160,33 @@ function App() {
                                         {/* Stanzas */}
                                         <div className="mt-3 px-2">
                                             <div className="mb-3">
-                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">While they have yet find the answers to the quest of the Golden Mustache, they dragged their horses and satchels and started their journey. Little did these youngsters know I’ve set them up for the greatest mystery, for I am The Prospector, the best Mustachio in all of history.</p>
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Gamer Boi, the avid video gamer, stopped dead in his tracks as he picked up The Lost Diary. “He who dared seek victory through audacious exploits”, it read. “Shall claim The Grooming Kit and Golden Mustache, some light years ahead.”</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">As Aster, the man on a moon mission, flipped over to the next sheet, it showed nine mysterious artifacts, marking nine impossible feats. Bacon Prince, the next ruler of the mouthwatering Breakfast Kingdom, also wanted to pitch in some of his egg and bacon wisdom.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Bug, the melancholic Mustachio, grinned from ear to ear. Now in such good spirits, for the first time in a hundred years! Delighted, Bee Lee jumped up and down in his bespoke yellow jumpsuit. “The time has come for me to depart for the wildest pursuit!”. And so Pulsar flapped his wings, beyond thrilled to fly, for the greatest mystery unsolved emerged and no Mustachio knows why.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">The Sages Rant as the embossed text in the journal reads. The curious Mustachios find themselves engrossed in the torn up pages. As paints outlandish stories of their land. Of a Golden Mustache and magical artifacts.</p>
+                                            </div>
+                                        </div>
+
+                                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">5</p>
+                                    </div>
+                                </div>
+                                <div className="w-2/4 bg-white">
+                                <div className="h-full d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 1: The Inception</p>
+
+                                        {/* Stanzas */}
+                                        <div className="mt-3 px-2">
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Quests! Their brains already buzzing in excitement as they dragged their horses and satchels and got ready the start of their own saga.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Ah, little did these youngsters know of the greatest adventures set before them. I know for they will follow my steps. I am The Prospector, and my tales will be your quest.</p>
                                             </div>
                                             <div className="mb-3">
                                                 <p className="text-center font-w-hermann w-hermann-semibold mb-0">Mint your Mustachio now and enter the portal that will transport you to MustachioVerse!</p>
@@ -170,7 +196,6 @@ function App() {
                                             </div>
                                         </div>
 
-                                        {/* <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">5</p> */}
                                         <div className="mb-5 ch-footer">
                                             <div className="w-1/6 mx-auto">
                                                 <img className="w-100" src={mustachioLogoFooter} alt="Mustachio Logo" />
@@ -178,6 +203,11 @@ function App() {
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </article>
+                        <article className="page">
+                            <div className="d-flex justify-content-around h-full">
+                                <div className="w-2/4 bg-white"></div>
                                 <div className="w-2/4 bg-white">
                                     <div className="h-full d-flex flex-column justify-content-center" style={{position: "relative"}}>
                                         {/* <div className="w-1/3 mx-auto mt-5 mb-5">
