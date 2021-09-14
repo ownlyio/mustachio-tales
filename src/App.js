@@ -86,6 +86,73 @@ function App() {
                                 <div className="w-2/4 page-cover bg-white"></div>
                             </div>
                         </article>
+
+                        {/* Prologue */}
+                        <article className="page">
+                            <div className="d-flex justify-content-around h-full">
+                                <div className="w-2/4 bg-white"></div>
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                                        <div className="w-1/3 mx-auto mt-5 mb-5">
+                                            <img className="w-100" src={chapter1Logo} alt="Prologue" />
+                                        </div>
+                                        {/* <p className="text-center text-xl font-w-hermann w-hermann-reg mb-2">CHAPTER 1</p> */}
+                                        <h3 className="text-center font-w-hermann w-hermann-semibold">Prologue</h3>
+                                        <p className="text-center text-xl font-w-hermann w-hermann-semibold-italic ch-footer mb-5">The Sages Rant</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article className="page">
+                            <div className="d-flex justify-content-around h-full">
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Prologue</p>
+                                        <div className="w-1/3 mx-auto mt-3 mb-4">
+                                            <img className="w-100" src={firstPagePic} alt="Prologue" />
+                                        </div>
+
+                                        {/* Stanzas */}
+                                        <div className="mb-3 px-2">
+                                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">
+                                                <span className="text-5xl">O</span>, cried the angels with not a whisper heard for the gods have bestowed tales in a land of few words. Hidden in fog and wary seas. MustachioVerse, where the Mustachios feasted, a realm rich with secrets, folklores and many adventures yet to be had.
+                                            </p>
+                                        </div>
+                                        <div className="mb-3 px-2">
+                                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">One among these mustachioed beings, fabled among the land and yet quite mysterious. He is the bearer of the Golden Mustache and keeper of the Grooming Kit, 9 artifacts, each one a wondrous gift or a curse. Probably.</p>
+                                        </div>
+                                        <div className="mb-3 px-2">
+                                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">The Prospector as he is known. A valiant one whose exploits became legends! One can say moved mountains and changed the course of rivers.</p>
+                                        </div>
+
+                                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">3</p>
+                                    </div>
+                                </div>
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Prologue</p>
+
+                                        {/* Stanzas */}
+                                        <div className="mt-3 px-2">
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">And now the voice to tell the tales of MustachioVerse. Just so happens portal to this curious land has opened.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">MustachioVerse beckons you!</p>
+                                            </div>
+                                        </div>
+
+                                        <div className="mb-5 ch-footer">
+                                            <div className="w-1/6 mx-auto">
+                                                <img className="w-100" src={mustachioLogoFooter} alt="Mustachio Logo" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        {/* Chapter 1 */}
                         <article className="page">
                             <div className="d-flex justify-content-around h-full">
                                 <div className="w-2/4 bg-white"></div>
@@ -123,7 +190,7 @@ function App() {
                                             <p className="text-center font-w-hermann w-hermann-semibold mb-0">Alas! The old Bigode Cave glowed bright like fire in the winter. And so the young Mustachios, curious as they are, trudged the wet trail to see what the glow is all about.</p>
                                         </div>
 
-                                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">3</p>
+                                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">7</p>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -146,7 +213,7 @@ function App() {
                                             </div>
                                         </div>
 
-                                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">4</p>
+                                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">8</p>
                                     </div>
                                 </div>
                             </div>
@@ -173,7 +240,7 @@ function App() {
                                             </div>
                                         </div>
 
-                                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">5</p>
+                                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">9</p>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
