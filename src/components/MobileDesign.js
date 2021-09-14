@@ -13,12 +13,14 @@ function MobileDesign({ socMedHandles, flipPage}) {
         <div className="d-block d-lg-none">
             <FlipPage
                 className="book"
-                showSwipeHint
+                showTouchHint
                 uncutPages
                 orientation="vertical"
                 animationDuration="1000"
                 // pageBackground="transparent"
                 responsive
+                flipOnTouch="true"
+                disableSwipe="true"
                 ref={(component) => { flipPage = component }}
             >
                 <article className="page h-90vh">
