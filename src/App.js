@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react'
 import FlipPage from 'react-flip-page'
+import TabletDesign from './components/TabletDesign'
 import MobileDesign from './components/MobileDesign'
 import './App.css'
 
@@ -306,6 +307,7 @@ function App() {
                     </FlipPage>
                 </div>
 
+                <TabletDesign socMedHandles={socMedHandles} flipPage={flipPage} />
                 <MobileDesign socMedHandles={socMedHandles} flipPage={flipPage} />
             </div>           
             
