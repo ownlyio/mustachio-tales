@@ -7,32 +7,6 @@
     background-size: contain;
 }
 
-@media (max-width: 992px) {
-    .content-mobile {
-        font-size: 0.825rem;
-        margin-bottom: 1rem;
-    }
-
-    .content-mobile-inner {
-        padding: 0 1.5rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .page-cover-mobile {
-        background: url('../images/ch_1/cover.png') no-repeat center;
-        background-size: contain;
-    }
-
-    .content-mobile-wrap {
-        margin-top: 0.5rem !important;
-    }
-
-    .content-mobile span {
-        font-size: 2rem;
-    }
-}
-
 @media (max-width: 576px) {
     .mustachio-logo-mobile-wrap {
         margin-bottom: 1.2rem !important;

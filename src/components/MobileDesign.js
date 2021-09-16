@@ -10,7 +10,7 @@ import mustachioLogoFooter from '../images/ch_1/mustachio-logo-book.png'
 
 function MobileDesign({ socMedHandles, flipPage}) {
     return (
-        <div className="d-block d-lg-none">
+        <div className="d-block d-md-none">
             <FlipPage
                 className="book"
                 showSwipeHint
