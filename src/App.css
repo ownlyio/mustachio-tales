@@ -5,6 +5,11 @@
     height: 100vh;
     position: relative;
     overflow: hidden;
+    
+    background-image: url('./images/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
   
 .book {
