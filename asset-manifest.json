@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.9bcde578.chunk.css",
-    "main.js": "/static/js/main.68647252.chunk.js",
-    "main.js.map": "/static/js/main.68647252.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b64c3344.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b64c3344.js.map",
+    "main.css": "/static/css/main.ca332fee.chunk.css",
+    "main.js": "/static/js/main.c52f86fe.chunk.js",
+    "main.js.map": "/static/js/main.c52f86fe.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.707d1a48.js",
+    "runtime-main.js.map": "/static/js/runtime-main.707d1a48.js.map",
     "static/css/2.da1eef19.chunk.css": "/static/css/2.da1eef19.chunk.css",
-    "static/js/2.92bee0ae.chunk.js": "/static/js/2.92bee0ae.chunk.js",
-    "static/js/2.92bee0ae.chunk.js.map": "/static/js/2.92bee0ae.chunk.js.map",
-    "static/js/3.344473de.chunk.js": "/static/js/3.344473de.chunk.js",
-    "static/js/3.344473de.chunk.js.map": "/static/js/3.344473de.chunk.js.map",
+    "static/js/2.95dd3ae7.chunk.js": "/static/js/2.95dd3ae7.chunk.js",
+    "static/js/2.95dd3ae7.chunk.js.map": "/static/js/2.95dd3ae7.chunk.js.map",
+    "static/js/3.dc72c371.chunk.js": "/static/js/3.dc72c371.chunk.js",
+    "static/js/3.dc72c371.chunk.js.map": "/static/js/3.dc72c371.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.da1eef19.chunk.css.map": "/static/css/2.da1eef19.chunk.css.map",
-    "static/css/main.9bcde578.chunk.css.map": "/static/css/main.9bcde578.chunk.css.map",
-    "static/js/2.92bee0ae.chunk.js.LICENSE.txt": "/static/js/2.92bee0ae.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/banner.9bdad071.jpg",
+    "static/css/main.ca332fee.chunk.css.map": "/static/css/main.ca332fee.chunk.css.map",
+    "static/js/2.95dd3ae7.chunk.js.LICENSE.txt": "/static/js/2.95dd3ae7.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/WHermann-UltraBoldItalic.81fe754f.woff",
     "static/media/App.css": "/static/media/cover.0de918bf.png",
     "static/media/MobileDesign.css": "/static/media/cover_square.7f46b3b0.jpg",
     "static/media/mustachio_logo_2_white.f0c130fd.png": "/static/media/mustachio_logo_2_white.f0c130fd.png",
@@ -22,10 +22,10 @@
     "static/media/page2-pic.06d7214d.png": "/static/media/page2-pic.06d7214d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b64c3344.js",
+    "static/js/runtime-main.707d1a48.js",
     "static/css/2.da1eef19.chunk.css",
-    "static/js/2.92bee0ae.chunk.js",
-    "static/css/main.9bcde578.chunk.css",
-    "static/js/main.68647252.chunk.js"
+    "static/js/2.95dd3ae7.chunk.js",
+    "static/css/main.ca332fee.chunk.css",
+    "static/js/main.c52f86fe.chunk.js"
   ]
 }
