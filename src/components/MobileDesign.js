@@ -29,7 +29,7 @@ function MobileDesign({ socMedHandles, flipPage}) {
                 uncutPages
                 orientation="vertical"
                 animationDuration="1000"
-                disableSwip="true"
+                disableSwipe="true"
                 flipOnTouch="true"
                 // pageBackground="transparent"
                 responsive
