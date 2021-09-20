@@ -4,8 +4,8 @@ import { faDiscord, faFacebook, faInstagram, faTwitter } from '@fortawesome/free
 import './MobileDesign.css'
 
 // chapter 1
-import chapter1Logo from '../images/ch_1/page1-pic.png'
-import firstPagePic from '../images/ch_1/page2-pic.png'
+import sagesRant from '../images/ch_1/page1-pic.png'
+import chapter1Logo from '../images/ch_1/page2-pic.png'
 import mustachioLogoFooter from '../images/ch_1/mustachio-logo-book.png'
 
 // chapter 1 characters
@@ -19,6 +19,9 @@ import bug from '../images/ch_1/characters/bug.png'
 import cairo from '../images/ch_1/characters/cairo.png'
 import gamerboi from '../images/ch_1/characters/gamerboi.png'
 import pulsar from '../images/ch_1/characters/pulsar.png'
+
+// chapter 2 images
+import chapter2Logo from '../images/ch_2/chap2.png'
 
 // chapter 2 characters
 import candycane from '../images/ch_2/characters/candycane.png'
@@ -55,7 +58,7 @@ function MobileDesign({ socMedHandles, flipPage}) {
                 <article className="page h-90vh">
                     <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
                         <div className="w-1/3 mx-auto mt-5 mb-5">
-                            <img className="w-100" src={chapter1Logo} alt="Prologue" />
+                            <img className="w-100" src={sagesRant} alt="Prologue" />
                         </div>
                         <h3 className="text-center font-w-hermann w-hermann-semibold">Prologue</h3>
                         <p className="text-center text-xl font-w-hermann w-hermann-semibold-italic ch-footer mb-5">The Sages Rant</p>
@@ -65,7 +68,7 @@ function MobileDesign({ socMedHandles, flipPage}) {
                     <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
                         <p className="text-center font-w-hermann w-hermann-italic mt-3">Prologue</p>
                         <div className="w-1/4 mx-auto mt-3 mb-4 ">
-                            <img className="w-100" src={firstPagePic} alt="Prologue" />
+                            <img className="w-100" src={chapter1Logo} alt="Prologue" />
                         </div>
 
                         {/* Stanzas */}
@@ -81,7 +84,7 @@ function MobileDesign({ socMedHandles, flipPage}) {
                             <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">The Prospector as he is known. A valiant one whose exploits became legends! One can say moved mountains and changed the course of rivers.</p>
                         </div>                        
 
-                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">3</p>
+                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">2</p>
                     </div>
                 </article>
 
@@ -112,7 +115,7 @@ function MobileDesign({ socMedHandles, flipPage}) {
                 <article className="page h-90vh">
                     <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
                         <div className="w-1/3 mx-auto mt-5 mb-5">
-                            <img className="w-100" src={chapter1Logo} alt="Chapter 1" />
+                            <img className="w-100" src={sagesRant} alt="Chapter 1" />
                         </div>
                         <p className="text-center text-xl font-w-hermann w-hermann-reg mb-2">CHAPTER 1</p>
                         <h3 className="text-center font-w-hermann w-hermann-semibold">The Inception</h3>
@@ -123,7 +126,7 @@ function MobileDesign({ socMedHandles, flipPage}) {
                     <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
                         <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 1: The Inception</p>
                         <div className="w-1/4 mx-auto mt-3 mb-4 ">
-                            <img className="w-100" src={firstPagePic} alt="Chapter 1" />
+                            <img className="w-100" src={chapter1Logo} alt="Chapter 1" />
                         </div>
 
                         {/* Stanzas */}
@@ -537,26 +540,146 @@ function MobileDesign({ socMedHandles, flipPage}) {
                 <article className="page h-90vh">
                     <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
                         <div className="w-1/3 mx-auto mt-5 mb-5">
-                            <img className="w-100" src={chapter1Logo} alt="Chapter 2" />
+                            <img className="w-100" src={sagesRant} alt="Chapter 2" />
                         </div>
                         <p className="text-center text-xl font-w-hermann w-hermann-reg mb-2">CHAPTER 2</p>
-                        <h3 className="text-center font-w-hermann w-hermann-semibold">The Cutlass</h3>
+                        <h3 className="text-center font-w-hermann w-hermann-semibold">The Blade at Fellowcro</h3>
                         <p className="text-center text-xl font-w-hermann w-hermann-semibold-italic ch-footer mb-5">The Sages Rant</p>
                     </div>
                 </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 2: The Blade at Fellowcro</p>
+                        <div className="w-1/4 mx-auto mt-3 mb-4 ">
+                            <img className="w-100" src={chapter2Logo} alt="Chapter 2" />
+                        </div>
 
+                        {/* Stanzas */}
+                        <div className="mb-3 content-mobile-inner">
+                            <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">
+                                <span className="text-5xl">S</span>ome very few days after the discovery of The Sages Rant, talks of the Prospector’s adventures buzz among the tongues of the citizens of MustachioVerse. How much truth is lost in his disappearance. And how much fantasy can be refuted by the journal.
+                            </p>
+                        </div>
+                        <div className="mb-3 content-mobile-inner">
+                            <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">But what reigns in the hearts of the young Mustachios is the curiosity of where the stories of the journal lead. What power does the artifacts hold? To be the bearer of the Golden Mustache and keeper of the Grooming Kit.</p>
+                        </div>
+                        <div className="mb-3 content-mobile-inner">
+                            <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">The youngsters begin to seek for the artifacts. One group comes to the mouth of Fellowcro Forest. The arching, gnarled, and twisted black trees that line the edge of the forest bodes a dark and treacherous trek if one even has the courage to enter.</p>
+                        </div>                   
 
+                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">20</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 2: The Blade at Fellowcro</p>
 
+                        {/* Stanzas */}
+                        <div className="mt-3 content-mobile-wrap">
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Guided by the clues and descriptions left by The Prospector, The Mustachios enter the forest with calm minds and sharp senses. That at least is needed for the trail that leads them to the belly of a beast.</p>
+                            </div> 
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">It must be nearing sunset outside the forest's eternal night. The groups continue their hike into trails of the forest. Except for snarls and stares of creatures prowling behind the seemingly conscious overgrowth, nothing much exciting came along the way of the Mustachios. Safety in numbers, maybe.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">When suddenly a shrill scream breaks the thick forest air. In a rush of adrenaline, the young Mustachios leapt into action, searching for the source of the sound. Running and jumping through the branches and roots that came alive closing in on them, wanting to bind and crush. But the Mustachios are wily and athletic, they came upon a clearing where the plants weren’t able to follow them.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">The scream goes off again, louder this time for right in front of them they see it. Bewilderment painted the faces of the Mustachios for this is not in the book.</p>
+                            </div>
+                        </div>
 
+                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">21</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 2: The Blade at Fellowcro</p>
 
+                        {/* Stanzas */}
+                        <div className="mt-3 content-mobile-wrap">
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Shining atop a pile of wriggling vines, The Cutlass’ thin sharp edge gleams as it dances and cuts through the vines as they try to constrict the artifact. Almost sentient, the vines scream with each cut. And sentient they are as they feel the presence of the Mustachios and creep slowly as vines do but without the intention of letting anyone leave the clearing.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">How will the Mustachios get The Cutlass?</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Cave Wizard, who inhabits the area beneath the rocks of a cliff, had experience guarding a magical space. He said to the Mustachios, “There must be some sort of riddle, so any of us could go on and get the razor.”</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">So Candy Witch, with her spells that can make any dessert, along with Shucks, who looks the opposite of his personality, told the Mustachios to gather and put their heads together.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">They all glanced over Rench, a knight best known for his clever strategies and a tactician who can defeat any enemies. “But what am I to do?” Rench said. “I love war but this is another quest. It may not be military, but I’m always up for a game.”</p>
+                            </div>
+                        </div>
 
+                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">22</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 2: The Blade at Fellowcro</p>
 
+                        {/* Stanzas */}
+                        <div className="mt-3 content-mobile-wrap">
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Climber smirked and said, “We can climb the trees and jump from one to another.” A man of great altitude, he aims to be. He looked at each Mustachio and said, “This one’s quite a daring challenge, no one will dare but me.”</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Catch-A-Wave, who was used to plot vengeance for his dear family who died in a spacecraft anomaly, thought to himself, “This is the right time for me to show everyone who’s the child of the sea.”</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">And so Caster, the spell-expert, lifted his wand. “Fellowcro Forest, show us your hand.”  Constellations light up the forest canopy and form into a set of words, a riddle to get the cutlass.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">A true Mustachio of ancient rituals, CarabaoHead, started shaking his body while chanting words of dread, while Carbon, a humanoid fighting against evil, was debating whether he could come up with something partly evil.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Candy Cane, with her hair so white and her shirt so big, had this power unbeknownst to the other Mustachios. She can hypnotize them to sleep, and to buy her more time, that’s what she did.</p>
+                            </div>
+                        </div>
 
+                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">23</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 2: The Blade at Fellowcro</p>
 
+                        {/* Stanzas */}
+                        <div className="mt-3 content-mobile-wrap">
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">The riddle from the sky says:</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold-italic mb-0">This famous pirate looks scruffy</p>
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold-italic mb-0">As he doesn’t seem to have shaved</p>
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold-italic mb-0">By not buying razors</p>
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold-italic mb-0">Lots of money he must have saved</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Will you be the first and only Mustachio to solve this riddle and get The Cutlass?</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Mint your Mustachio now and enter the portal that will transport you to MustachioVerse!</p>
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">
+                                    <a href="https://mustachioverse.com/">https://mustachioverse.com/</a>
+                                </p>
+                            </div>
+                        </div>
 
+                        <div className="mb-5 ch-footer mustachio-logo-mobile-wrap">
+                            <div className="w-1/6 mx-auto mustachio-logo-mobile">
+                                <img className="w-100" src={mustachioLogoFooter} alt="Mustachio Logo" />
+                            </div>
+                        </div>
+                    </div>
+                </article>
 
-
-                {/* Chapter 1 Characters */}
+                {/* Chapter 2 Characters */}
                 <article className="page h-90vh">
                     <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
                         <div className="w-1/2 mx-auto mb-3">
