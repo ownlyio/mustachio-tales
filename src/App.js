@@ -713,7 +713,7 @@ function App() {
                             <div className="d-flex justify-content-around h-full">
                                 <div className="w-2/4 bg-white">
                                     <div className="h-full d-flex flex-column justify-content-start" style={{position: "relative"}}>
-                                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 2: The Cutlass</p>
+                                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 2: The Blade at Fellowcro</p>
                                         <div className="w-1/3 mx-auto mt-3 mb-4">
                                             <img className="w-100" src={chapter2Logo} alt="Chapter 2" />
                                         </div>
