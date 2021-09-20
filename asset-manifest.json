@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.1f61cc9a.chunk.css",
-    "main.js": "/static/js/main.9472085c.chunk.js",
-    "main.js.map": "/static/js/main.9472085c.chunk.js.map",
+    "main.js": "/static/js/main.019afad4.chunk.js",
+    "main.js.map": "/static/js/main.019afad4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.707d1a48.js",
     "runtime-main.js.map": "/static/js/runtime-main.707d1a48.js.map",
     "static/css/2.da1eef19.chunk.css": "/static/css/2.da1eef19.chunk.css",
@@ -24,18 +24,29 @@
     "static/media/berry.2aa54383.png": "/static/media/berry.2aa54383.png",
     "static/media/bug.c397c965.png": "/static/media/bug.c397c965.png",
     "static/media/cairo.02a85dc0.png": "/static/media/cairo.02a85dc0.png",
+    "static/media/candycane.b3e3ffe6.png": "/static/media/candycane.b3e3ffe6.png",
+    "static/media/candywitch.5a049a09.png": "/static/media/candywitch.5a049a09.png",
+    "static/media/carabaohead.9d15758f.png": "/static/media/carabaohead.9d15758f.png",
+    "static/media/carbon.0f281e8a.png": "/static/media/carbon.0f281e8a.png",
+    "static/media/caster.d5eed79d.png": "/static/media/caster.d5eed79d.png",
+    "static/media/catchawave.5891ee20.png": "/static/media/catchawave.5891ee20.png",
+    "static/media/cavewizard.b51d3e16.png": "/static/media/cavewizard.b51d3e16.png",
+    "static/media/chap2.fe83cca1.png": "/static/media/chap2.fe83cca1.png",
+    "static/media/climber.b6dff529.png": "/static/media/climber.b6dff529.png",
     "static/media/MobileDesign.css": "/static/media/cover_square.7f46b3b0.jpg",
     "static/media/gamerboi.48708600.png": "/static/media/gamerboi.48708600.png",
     "static/media/mustachio_logo_2_white.f0c130fd.png": "/static/media/mustachio_logo_2_white.f0c130fd.png",
     "static/media/page1-pic.501fe5ec.png": "/static/media/page1-pic.501fe5ec.png",
     "static/media/page2-pic.06d7214d.png": "/static/media/page2-pic.06d7214d.png",
-    "static/media/pulsar.bd90dafe.png": "/static/media/pulsar.bd90dafe.png"
+    "static/media/pulsar.bd90dafe.png": "/static/media/pulsar.bd90dafe.png",
+    "static/media/rench.173cc87f.png": "/static/media/rench.173cc87f.png",
+    "static/media/shucks.1db11a4c.png": "/static/media/shucks.1db11a4c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.707d1a48.js",
     "static/css/2.da1eef19.chunk.css",
     "static/js/2.d15f4d9d.chunk.js",
     "static/css/main.1f61cc9a.chunk.css",
-    "static/js/main.9472085c.chunk.js"
+    "static/js/main.019afad4.chunk.js"
   ]
 }
