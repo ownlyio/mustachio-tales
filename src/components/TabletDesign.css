@@ -16,10 +16,6 @@
     .content-mobile-inner {
         padding: 0 1.5rem;
     }
-
-    .tc-link {
-        padding-left: 1.2rem;
-    }
 }
 
 @media (max-width: 992px) and (min-height: 700px) {
