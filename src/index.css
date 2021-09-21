@@ -1183,6 +1183,15 @@ a:focus {
     color: #fff;
 }
 
+.tc-link {
+    cursor: pointer;
+}
+
+.tc-link:hover,
+.tc-link:focus {
+    color: var(--yellow);
+}
+
 /* Animation CSS */
 @keyframes pulse {
 	0% {
