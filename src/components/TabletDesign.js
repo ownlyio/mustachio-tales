@@ -36,6 +36,39 @@ import rench from '../images/ch_2/characters/rench.png'
 import shucks from '../images/ch_2/characters/shucks.png'
 
 function TabletDesign({ socMedHandles, flipPage}) {
+    const chapterPages = [
+        {
+            title: 'Prologue',
+            page: 1,
+            pageIndex: 2,
+        },
+        {
+            title: 'Chapter 1: The Inception',
+            page: 4,
+            pageIndex: 5,
+        },
+        {
+            title: 'Mustachio Tales: Chapter 1',
+            page: 8,
+            pageIndex: 9,
+        },
+        {
+            title: 'Chapter 2: The Blade at Fellowcro',
+            page: 18,
+            pageIndex: 19,
+        },
+        {
+            title: 'Mustachio Tales: Chapter 2',
+            page: 23,
+            pageIndex: 24,
+        },
+        {
+            title: 'Chapter 3: Coming Soon...',
+            page: '',
+            pageIndex: 1,
+        },
+    ]
+
     return (
         <div className="d-none d-md-block d-lg-none">
             <FlipPage
@@ -52,6 +85,26 @@ function TabletDesign({ socMedHandles, flipPage}) {
             >
                 <article className="page h-90vh">
                     <div className="page-cover-mobile h-90vh" style={{position: "relative"}}></div>
+                </article>
+
+                {/* Table of Contents */}
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start pt-4" style={{position: "relative"}}>
+                        <h3 className="text-center text-2xl font-w-hermann w-hermann-semibold mb-5">Table of Contents</h3>
+                        
+                        {chapterPages.map((x, k) => (
+                            <div className="row tc-link" onClick={() => flipPage.gotoPage(x.pageIndex)}>
+                                <div className="col-7">
+                                    <p className="font-w-hermann w-hermann mb-0">{x.title}</p>
+                                </div>
+                                <div className="col-5">
+                                    <p className="text-right font-w-hermann w-hermann mb-0">{x.page}</p>
+                                </div>
+                            </div>
+                        ))}
+                        
+                        <p className="text-center text-xl font-w-hermann w-hermann-semibold-italic ch-footer mb-5">The Sages Rant</p>
+                    </div>
                 </article>
 
                 {/* Prologue */}
