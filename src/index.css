@@ -1185,11 +1185,16 @@ a:focus {
 
 .tc-link {
     cursor: pointer;
+    padding-right: 1.2rem;
 }
 
 .tc-link:hover,
 .tc-link:focus {
     color: var(--yellow);
+}
+
+.text-right {
+    text-align: right;
 }
 
 /* Animation CSS */
