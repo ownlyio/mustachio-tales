@@ -49,6 +49,39 @@ function App() {
         setPage(pageIndex)
     }
 
+    const chapterPages = [
+        {
+            title: 'Prologue',
+            page: 2,
+            pageIndex: 2,
+        },
+        {
+            title: 'Chapter 1: The Inception',
+            page: 5,
+            pageIndex: 4,
+        },
+        {
+            title: 'Mustachio Tales: Chapter 1',
+            page: 11,
+            pageIndex: 7,
+        },
+        {
+            title: 'Chapter 2: The Blade at Fellowcro',
+            page: 32,
+            pageIndex: 17,
+        },
+        {
+            title: 'Mustachio Tales: Chapter 2',
+            page: 39,
+            pageIndex: 21,
+        },
+        {
+            title: 'Chapter 3: Coming Soon...',
+            page: '',
+            pageIndex: 1,
+        },
+    ]
+
     const goToMustachioWebsite = () => {
         window.location.href = 'https://mustachioverse.com'
     }
@@ -112,6 +145,31 @@ function App() {
                                     </div>
                                 </div>
                                 <div className="w-2/4 page-cover bg-white"></div>
+                            </div>
+                        </article>
+
+                        {/* Table of Contents */}
+                        <article className="page">
+                            <div className="d-flex justify-content-around h-full">
+                                <div className="w-2/4 bg-white"></div>
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start pt-5" style={{position: "relative"}}>
+                                        <h3 className="text-center text-2xl font-w-hermann w-hermann-semibold mb-5">Table of Contents</h3>
+                                        
+                                        {chapterPages.map((x, k) => (
+                                            <div className="row tc-link" onClick={() => flipPage.gotoPage(x.pageIndex)}>
+                                                <div className="col-7">
+                                                    <p className="font-w-hermann w-hermann mb-0">{x.title}</p>
+                                                </div>
+                                                <div className="col-5">
+                                                    <p className="text-right font-w-hermann w-hermann mb-0">{x.page}</p>
+                                                </div>
+                                            </div>
+                                        ))}
+                                        
+                                        <p className="text-center text-xl font-w-hermann w-hermann-semibold-italic ch-footer mb-5">The Sages Rant</p>
+                                    </div>
+                                </div>
                             </div>
                         </article>
 
