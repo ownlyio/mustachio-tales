@@ -5,6 +5,7 @@ import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import FlipPage from 'react-flip-page'
 import TabletDesign from './components/TabletDesign'
 import MobileDesign from './components/MobileDesign'
+import ChapterPages from './utils/chapters'
 import './App.css'
 
 // chapter 1 images
@@ -49,41 +50,14 @@ function App() {
         setPage(pageIndex)
     }
 
-    const chapterPages = [
-        {
-            title: 'Prologue',
-            page: 2,
-            pageIndex: 2,
-        },
-        {
-            title: 'Chapter 1: The Inception',
-            page: 5,
-            pageIndex: 4,
-        },
-        {
-            title: 'Mustachio Tales: Chapter 1',
-            page: 11,
-            pageIndex: 7,
-        },
-        {
-            title: 'Chapter 2: The Blade at Fellowcro',
-            page: 32,
-            pageIndex: 17,
-        },
-        {
-            title: 'Mustachio Tales: Chapter 2',
-            page: 39,
-            pageIndex: 21,
-        },
-        {
-            title: 'Chapter 3: Coming Soon...',
-            page: '',
-            pageIndex: 1,
-        },
-    ]
-
     const goToMustachioWebsite = () => {
         window.location.href = 'https://mustachioverse.com'
+    }
+
+    const filterChapters = (arr, start, end = arr.length) => {
+        return arr.filter(x => {
+            return (x.id >= start && x.id <= end)
+        })
     }
 
     const socMedHandles = {
@@ -151,20 +125,57 @@ function App() {
                         {/* Table of Contents */}
                         <article className="page">
                             <div className="d-flex justify-content-around h-full">
-                                <div className="w-2/4 bg-white"></div>
                                 <div className="w-2/4 bg-white">
                                     <div className="h-full d-flex flex-column justify-content-start pt-5" style={{position: "relative"}}>
-                                        <h3 className="text-center text-2xl font-w-hermann w-hermann-semibold mb-5">Table of Contents</h3>
+                                        <h3 className="text-center text-2xl font-w-hermann w-hermann-semibold mb-4">Table of Contents</h3>
                                         
-                                        {chapterPages.map((x, k) => (
-                                            <div className="row tc-link" onClick={() => flipPage.gotoPage(x.pageIndex)}>
-                                                <div className="col-7">
-                                                    <p className="font-w-hermann w-hermann mb-0">{x.title}</p>
+                                        {filterChapters(ChapterPages, 1, 17).map((x, k) => (
+                                            !x.subpage ? (
+                                                <div className="row tc-link" onClick={() => flipPage.gotoPage(x.pageIndex)} key={x.id}>
+                                                    <div className="col-7">
+                                                        <p className="font-w-hermann text-lg w-hermann-semibold mb-0">{x.title}</p>
+                                                    </div>
+                                                    <div className="col-5">
+                                                        <p className="text-right text-lg font-w-hermann w-hermann-semibold mb-0">{x.page}</p>
+                                                    </div>
                                                 </div>
-                                                <div className="col-5">
-                                                    <p className="text-right font-w-hermann w-hermann mb-0">{x.page}</p>
+                                            ) : (
+                                                <div className="row tc-link indent" onClick={() => flipPage.gotoPage(x.pageIndex)} key={x.id}>
+                                                    <div className="col-7">
+                                                        <p className="font-w-hermann w-hermann mb-0">{x.title}</p>
+                                                    </div>
+                                                    <div className="col-5">
+                                                        <p className="text-right font-w-hermann w-hermann mb-0">{x.page}</p>
+                                                    </div>
                                                 </div>
-                                            </div>
+                                            )
+                                        ))}
+                                        
+                                        <p className="text-center text-xl font-w-hermann w-hermann-semibold-italic ch-footer mb-5">The Sages Rant</p>
+                                    </div>
+                                </div>
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start pt-5" style={{position: "relative"}}>                                        
+                                        {filterChapters(ChapterPages, 18).map((x, k) => (
+                                            !x.subpage ? (
+                                                <div className="row tc-link" onClick={() => flipPage.gotoPage(x.pageIndex)} key={x.id}>
+                                                    <div className="col-7">
+                                                        <p className="font-w-hermann text-lg w-hermann-semibold mb-0">{x.title}</p>
+                                                    </div>
+                                                    <div className="col-5">
+                                                        <p className="text-right text-lg font-w-hermann w-hermann-semibold mb-0">{x.page}</p>
+                                                    </div>
+                                                </div>
+                                            ) : (
+                                                <div className="row tc-link indent" onClick={() => flipPage.gotoPage(x.pageIndex)} key={x.id}>
+                                                    <div className="col-7">
+                                                        <p className="font-w-hermann w-hermann mb-0">{x.title}</p>
+                                                    </div>
+                                                    <div className="col-5">
+                                                        <p className="text-right font-w-hermann w-hermann mb-0">{x.page}</p>
+                                                    </div>
+                                                </div>
+                                            )
                                         ))}
                                         
                                         <p className="text-center text-xl font-w-hermann w-hermann-semibold-italic ch-footer mb-5">The Sages Rant</p>
