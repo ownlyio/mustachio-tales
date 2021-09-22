@@ -1,6 +1,7 @@
 import FlipPage from 'react-flip-page'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDiscord, faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import ChapterPages from '../utils/chapters'
 import './MobileDesign.css'
 
 // chapter 1
@@ -36,6 +37,12 @@ import rench from '../images/ch_2/characters/rench.png'
 import shucks from '../images/ch_2/characters/shucks.png'
 
 function MobileDesign({ socMedHandles, flipPage}) {
+    const filterChapters = (arr, start, end = arr.length) => {
+        return arr.filter(x => {
+            return (x.id >= start && x.id <= end)
+        })
+    }
+
     return (
         <div className="d-block d-md-none">
             <FlipPage
@@ -52,6 +59,66 @@ function MobileDesign({ socMedHandles, flipPage}) {
             >
                 <article className="page h-90vh">
                     <div className="page-cover-mobile h-90vh" style={{position: "relative"}}></div>
+                </article>
+
+                {/* Table of Contents */}
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start pt-4" style={{position: "relative"}}>
+                        <h3 className="text-center text-2xl font-w-hermann w-hermann-semibold mb-4">Table of Contents</h3>
+                        
+                        {filterChapters(ChapterPages, 1, 20).map((x, k) => (
+                            !x.subpage ? (
+                                <div className="row tc-link" onClick={() => flipPage.gotoPage(x.pageIndexMobile)} key={x.id}>
+                                    <div className="col-7">
+                                        <p className="font-w-hermann w-hermann-semibold mb-0">{x.title}</p>
+                                    </div>
+                                    <div className="col-5">
+                                        <p className="text-right font-w-hermann w-hermann-semibold mb-0">{x.pageMobile}</p>
+                                    </div>
+                                </div>
+                            ) : (
+                                <div className="row tc-link indent" onClick={() => flipPage.gotoPage(x.pageIndexMobile)} key={x.id}>
+                                    <div className="col-7">
+                                        <p className="text-sm font-w-hermann w-hermann mb-0">{x.title}</p>
+                                    </div>
+                                    <div className="col-5">
+                                        <p className="text-right text-sm font-w-hermann w-hermann mb-0">{x.pageMobile}</p>
+                                    </div>
+                                </div>
+                            )
+                        ))}
+                        
+                        <p className="text-center text-xl font-w-hermann w-hermann-semibold-italic ch-footer mb-5">The Sages Rant</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start pt-4" style={{position: "relative"}}>
+                        <h3 className="text-center text-2xl font-w-hermann w-hermann-semibold mb-4">Table of Contents</h3>
+                        
+                        {filterChapters(ChapterPages, 21).map((x, k) => (
+                            !x.subpage ? (
+                                <div className="row tc-link" onClick={() => flipPage.gotoPage(x.pageIndexMobile)} key={x.id}>
+                                    <div className="col-7">
+                                        <p className="font-w-hermann w-hermann-semibold mb-0">{x.title}</p>
+                                    </div>
+                                    <div className="col-5">
+                                        <p className="text-right font-w-hermann w-hermann-semibold mb-0">{x.pageMobile}</p>
+                                    </div>
+                                </div>
+                            ) : (
+                                <div className="row tc-link indent" onClick={() => flipPage.gotoPage(x.pageIndexMobile)} key={x.id}>
+                                    <div className="col-7">
+                                        <p className="text-sm font-w-hermann w-hermann mb-0">{x.title}</p>
+                                    </div>
+                                    <div className="col-5">
+                                        <p className="text-right text-sm font-w-hermann w-hermann mb-0">{x.pageMobile}</p>
+                                    </div>
+                                </div>
+                            )
+                        ))}
+                        
+                        <p className="text-center text-xl font-w-hermann w-hermann-semibold-italic ch-footer mb-5">The Sages Rant</p>
+                    </div>
                 </article>
 
                 {/* Prologue */}
