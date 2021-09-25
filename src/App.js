@@ -210,15 +210,15 @@ function App() {
                                         </div>
 
                                         {/* Stanzas */}
-                                        <div className="mb-3 px-2">
+                                        <div className="mb-3 px-4">
                                             <p className="text-center font-w-hermann w-hermann-semibold mb-0">
                                                 <span className="text-5xl">O</span>, cried the angels with not a whisper heard for the gods have bestowed tales in a land of few words. Hidden in fog and wary seas. MustachioVerse, where the Mustachios feasted, a realm rich with secrets, folklores and many adventures yet to be had.
                                             </p>
                                         </div>
-                                        <div className="mb-3 px-2">
+                                        <div className="mb-3 px-4">
                                             <p className="text-center font-w-hermann w-hermann-semibold mb-0">One among these mustachioed beings, fabled among the land and yet quite mysterious. He is the bearer of the Golden Mustache and keeper of the Grooming Kit, 9 artifacts, each one a wondrous gift or a curse. Probably.</p>
                                         </div>
-                                        <div className="mb-3 px-2">
+                                        <div className="mb-3 px-4">
                                             <p className="text-center font-w-hermann w-hermann-semibold mb-0">The Prospector as he is known. A valiant one whose exploits became legends! One can say moved mountains and changed the course of rivers.</p>
                                         </div>
 
@@ -230,7 +230,7 @@ function App() {
                                         <p className="text-center font-w-hermann w-hermann-italic mt-3">Prologue</p>
 
                                         {/* Stanzas */}
-                                        <div className="mt-3 px-2">
+                                        <div className="mt-3 px-4">
                                             <div className="mb-3">
                                                 <p className="text-center font-w-hermann w-hermann-semibold mb-0">And now the voice to tell the tales of MustachioVerse. Just so happens portal to this curious land has opened.</p>
                                             </div>
@@ -275,15 +275,15 @@ function App() {
                                         </div>
 
                                         {/* Stanzas */}
-                                        <div className="mb-3 px-2">
+                                        <div className="mb-3 px-4">
                                             <p className="text-center font-w-hermann w-hermann-semibold mb-0">
                                                 <span className="text-5xl">I</span>t is morning in MustachioVerse. Sun hidden in a heavy downpour. A strong wind blows the pouring water into a spray, masking what could be the smell of pine cones into a reminder of how soggy your clothes can be.
                                             </p>
                                         </div>
-                                        <div className="mb-3 px-2">
+                                        <div className="mb-3 px-4">
                                             <p className="text-center font-w-hermann w-hermann-semibold mb-0">An epic time to start a quest if you ask a bored Mustachio. The great wind seemingly nudges a group of Mustachios to an old cave.</p>
                                         </div>
-                                        <div className="mb-3 px-2">
+                                        <div className="mb-3 px-4">
                                             <p className="text-center font-w-hermann w-hermann-semibold mb-0">Alas! The old Bigode Cave glowed bright like fire in the winter. And so the young Mustachios, curious as they are, trudged the wet trail to see what the glow is all about.</p>
                                         </div>
 
@@ -295,7 +295,7 @@ function App() {
                                         <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 1: The Inception</p>
 
                                         {/* Stanzas */}
-                                        <div className="mt-3 px-2">
+                                        <div className="mt-3 px-4">
                                             <div className="mb-3">
                                                 <p className="text-center font-w-hermann w-hermann-semibold mb-0">As they come upon the cave's mouth, they see the glow pulsating from behind the rocks. Half hidden with debris, they find the source of this immense glow. It looks like a book with light leaking out from cracks on the cover and the pages.</p>
                                             </div>
@@ -306,7 +306,7 @@ function App() {
                                                 <p className="text-center font-w-hermann w-hermann-semibold mb-0">The deep voice whispers into a fading echo. “The portal opens.” The winds enter the cave, flipping the pages of the now normal looking journal.</p>
                                             </div>
                                             <div className="mb-3">
-                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Abracadoobie with his staff, a deceitful distraction, heard an echo from a distance, smirking, ready for some action. As Bandwip showed deep interest in treasures and adventures, even Cairo, the great thief, lighted up like a candle in the darkness. With a snigger he said, “Ready or not, the next legend is upon us.” Eyes glazing as Berry, the high-pitched wild berry warrior, exclaimed “The coast is clear, now we’re ready for some more!”.</p>
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Abracadoobie with his staff, a deceitful distraction, heard an echo from a distance, smirking, ready for some action. As Bandwip showed deep interest in treasures and adventures, even Cairo, the great thief, lighted up like a candle in the darkness.</p>
                                             </div>
                                         </div>
 
@@ -322,7 +322,10 @@ function App() {
                                         <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 1: The Inception</p>
 
                                         {/* Stanzas */}
-                                        <div className="mt-3 px-2">
+                                        <div className="mt-3 px-4">
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">With a snigger he said, “Ready or not, the next legend is upon us.” Eyes glazing as Berry, the high-pitched wild berry warrior, exclaimed “The coast is clear, now we’re ready for some more!”.</p>
+                                            </div>
                                             <div className="mb-3">
                                                 <p className="text-center font-w-hermann w-hermann-semibold mb-0">Gamer Boi, the avid video gamer, stopped dead in his tracks as he picked up The Lost Diary. “He who dared seek victory through audacious exploits”, it read. “Shall claim The Grooming Kit and Golden Mustache, some light years ahead.”</p>
                                             </div>
@@ -331,9 +334,6 @@ function App() {
                                             </div>
                                             <div className="mb-3">
                                                 <p className="text-center font-w-hermann w-hermann-semibold mb-0">Bug, the melancholic Mustachio, grinned from ear to ear. Now in such good spirits, for the first time in a hundred years! Delighted, Bee Lee jumped up and down in his bespoke yellow jumpsuit. “The time has come for me to depart for the wildest pursuit!”. And so Pulsar flapped his wings, beyond thrilled to fly, for the greatest mystery unsolved emerged and no Mustachio knows why.</p>
-                                            </div>
-                                            <div className="mb-3">
-                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">The Sages Rant as the embossed text in the journal reads. The curious Mustachios find themselves engrossed in the torn up pages. As paints outlandish stories of their land. Of a Golden Mustache and magical artifacts.</p>
                                             </div>
                                         </div>
 
@@ -345,7 +345,10 @@ function App() {
                                         <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 1: The Inception</p>
 
                                         {/* Stanzas */}
-                                        <div className="mt-3 px-2">
+                                        <div className="mt-3 px-4">
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">The Sages Rant as the embossed text in the journal reads. The curious Mustachios find themselves engrossed in the torn up pages. As paints outlandish stories of their land. Of a Golden Mustache and magical artifacts.</p>
+                                            </div>
                                             <div className="mb-3">
                                                 <p className="text-center font-w-hermann w-hermann-semibold mb-0">Quests! Their brains already buzzing in excitement as they dragged their horses and satchels and got ready the start of their own saga.</p>
                                             </div>
@@ -788,15 +791,15 @@ function App() {
                                         </div>
 
                                         {/* Stanzas */}
-                                        <div className="mb-3 px-2">
+                                        <div className="mb-3 px-4">
                                             <p className="text-center font-w-hermann w-hermann-semibold mb-0">
                                                 <span className="text-5xl">S</span>ome very few days after the discovery of The Sages Rant, talks of the Prospector’s adventures buzz among the tongues of the citizens of MustachioVerse. How much truth is lost in his disappearance. And how much fantasy can be refuted by the journal.
                                             </p>
                                         </div>
-                                        <div className="mb-3 px-2">
+                                        <div className="mb-3 px-4">
                                             <p className="text-center font-w-hermann w-hermann-semibold mb-0">But what reigns in the hearts of the young Mustachios is the curiosity of where the stories of the journal lead. What power does the artifacts hold? To be the bearer of the Golden Mustache and keeper of the Grooming Kit.</p>
                                         </div>
-                                        <div className="mb-3 px-2">
+                                        <div className="mb-3 px-4">
                                             <p className="text-center font-w-hermann w-hermann-semibold mb-0">The youngsters begin to seek for the artifacts. One group comes to the mouth of Fellowcro Forest. The arching, gnarled, and twisted black trees that line the edge of the forest bodes a dark and treacherous trek if one even has the courage to enter.</p>
                                         </div>
 
@@ -808,7 +811,7 @@ function App() {
                                         <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 2: The Blade at Fellowcro</p>
 
                                         {/* Stanzas */}
-                                        <div className="mt-3 px-2">
+                                        <div className="mt-3 px-4">
                                             <div className="mb-3">
                                                 <p className="text-center font-w-hermann w-hermann-semibold mb-0">Guided by the clues and descriptions left by The Prospector, The Mustachios enter the forest with calm minds and sharp senses. That at least is needed for the trail that leads them to the belly of a beast.</p>
                                             </div>
@@ -835,7 +838,7 @@ function App() {
                                         <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 2: The Blade at Fellowcro</p>
 
                                         {/* Stanzas */}
-                                        <div className="mt-3 px-2">
+                                        <div className="mt-3 px-4">
                                             <div className="mb-3">
                                                 <p className="text-center font-w-hermann w-hermann-semibold mb-0">Shining atop a pile of wriggling vines, The Cutlass’ thin sharp edge gleams as it dances and cuts through the vines as they try to constrict the artifact. Almost sentient, the vines scream with each cut. And sentient they are as they feel the presence of the Mustachios and creep slowly as vines do but without the intention of letting anyone leave the clearing.</p>
                                             </div>
@@ -861,7 +864,7 @@ function App() {
                                         <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 2: The Blade at Fellowcro</p>
 
                                         {/* Stanzas */}
-                                        <div className="mt-3 px-2">
+                                        <div className="mt-3 px-4">
                                             <div className="mb-3">
                                                 <p className="text-center font-w-hermann w-hermann-semibold mb-0">Climber smirked and said, “We can climb the trees and jump from one to another.” A man of great altitude, he aims to be. He looked at each Mustachio and said, “This one’s quite a daring challenge, no one will dare but me.”</p>
                                             </div>
@@ -891,7 +894,7 @@ function App() {
                                         <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 2: The Blade at Fellowcro</p>
 
                                         {/* Stanzas */}
-                                        <div className="mt-3 px-2">
+                                        <div className="mt-3 px-4">
                                             <div className="mb-3">
                                                 <p className="text-center font-w-hermann w-hermann-semibold mb-0">The riddle from the sky says:</p>
                                             </div>
