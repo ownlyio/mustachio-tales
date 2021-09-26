@@ -1374,7 +1374,7 @@ function App() {
                                     <div className="h-full d-flex flex-column justify-content-center" style={{position: "relative"}}>
                                         <div className="px-4">
                                             <div className="mb-3">
-                                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">TWeaved from sweet candy crystals he is made,</p>
+                                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Tweaved from sweet candy crystals he is made,</p>
                                                 <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Why you ask? That’s the thing his loved ones paid</p>
                                             </div>
                                             <div className="mb-3">
