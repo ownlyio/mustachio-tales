@@ -41,6 +41,9 @@ import climber from './images/ch_2/characters/climber.png'
 import rench from './images/ch_2/characters/rench.png'
 import shucks from './images/ch_2/characters/shucks.png'
 
+// chapter 3 images
+import chapter3Logo from './images/ch_3/chap3.png'
+
 // chapter 3 characters
 import candyfloss from './images/ch_3/characters/candyfloss.png'
 import doorkeeper from './images/ch_3/characters/doorkeeper.png'
@@ -1340,23 +1343,156 @@ function App() {
                                             <img className="w-100" src={sagesRant} alt="Chapter 3" />
                                         </div>
                                         <p className="text-center text-xl font-w-hermann w-hermann-reg mb-2">CHAPTER 3</p>
-                                        <h3 className="text-center font-w-hermann w-hermann-semibold">Sample Title</h3>
+                                        <h3 className="text-center font-w-hermann w-hermann-semibold">Red, White, and Blue</h3>
                                         <p className="text-center text-xl font-w-hermann w-hermann-semibold-italic ch-footer mb-5">The Sages Rant</p>
                                     </div>
                                 </div>
                             </div>
                         </article>
+                        <article className="page">
+                            <div className="d-flex justify-content-around h-full">
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 3: Red, White, and Blue</p>
+                                        <div className="w-1/3 mx-auto mt-3 mb-4">
+                                            <img className="w-100" src={chapter3Logo} alt="Chapter 3" />
+                                        </div>
 
+                                        {/* Stanzas */}
+                                        <div className="mb-3 px-4">
+                                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">
+                                                <span className="text-5xl">T</span>he Mustachios are now out of the forest, but what lies ahead is another place, a location with trails of different directions. Exploring this massive area with confusion, they found an old rusty sign saying:
+                                            </p>
+                                        </div>
+                                        <div className="mb-3 px-4">
+                                            <p className="text-center font-w-hermann w-hermann-italic mb-0">“Grass Grin Maze:</p>
+                                            <p className="text-center font-w-hermann w-hermann-italic mb-0">where you can be completely lost</p>
+                                            <p className="text-center font-w-hermann w-hermann-italic mb-0">unless you’ll find something of red, blue, and white</p>
+                                            <p className="text-center font-w-hermann w-hermann-italic mb-0">that can be your forever light.”</p>
+                                        </div>
+                                        <div className="mb-3 px-4">
+                                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">The Mustachios then decided to stick together, terrified that in every turn, some ferocious animal would jump out. They took a left turn, and then two rights.</p>
+                                        </div>
 
+                                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">61</p>
+                                    </div>
+                                </div>
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 3: Red, White, and Blue</p>
 
+                                        {/* Stanzas */}
+                                        <div className="mt-3 px-4">
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">A scarecrow dressed as a snowman pops out. Scared yet motivated to get out of this terrifyingly vast area, they touch the weird scarecrow. One Mustachio even said hello. Nothing but silence followed. There’s no one else but them.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Inside of the scarecrow’s pocket lies a riddle:</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-italic mb-0">“you can always run in circles</p>
+                                                <p className="text-center font-w-hermann w-hermann-italic mb-0">but the only way is through,</p>
+                                                <p className="text-center font-w-hermann w-hermann-italic mb-0">and lucky is the man</p>
+                                                <p className="text-center font-w-hermann w-hermann-italic mb-0">whose sunlight touches you.”</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">After several attempts to interpret the puzzle, they finally discovered what it meant. Straight ahead, they went through a vine that led to the heart of the maze. Flowers of all kinds and gold-gilded porches, statues, and fountains are found in the area. It almost feels like an ethereal paradise. Their weary bodies and minds found relief in an environment that is the opposite of the dark, bushy chaos that is only ten steps away. It’s a place of serenity and for a minute, they are in awe.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">The sunlight is fading and so it begins. They started to keep looking. They moved every porch and even swam in the fountains, but nothing happened.</p>
+                                            </div>
+                                        </div>
 
+                                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">62</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article className="page">
+                            <div className="d-flex justify-content-around h-full">
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 3: Red, White, and Blue</p>
 
+                                        {/* Stanzas */}
+                                        <div className="mt-3 px-4">
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">A statue whose entirety is covered in moss seems to be familiar. “Aha!” said one Mustachio. “This one looks like the Prospector.” So the ten of them cleaned the statue until it shined, and when the last ray of sunlight hit its mustache, a bright lamp appeared out of its heart. This is the Lamp of Direction!</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Door Keeper, the Mustachio who can teleport to different places in a second, was astounded. “A barber pole! And not just a barber pole, but one that can show us which direction we should go next!”</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Looking as green as the grass in the Grass Grin Maze, Verdant Greed, as greedy as he was, wanted to make the Lamp of Direction his own. And so he plotted and plotted, until EVL Guy stopped him in his thoughts.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">As wicked as his name is, EVL Guy is the darkest magician in the land, who is used to playing with fate. “Oh brother, no wonder you’re silent. I can read your thoughts. Now I may like playing with dark magic but sharing the excitement makes the journey even better.”</p>
+                                            </div>
+                                        </div>
 
+                                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">63</p>
+                                    </div>
+                                </div>
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 3: Red, White, and Blue</p>
 
+                                        {/* Stanzas */}
+                                        <div className="mt-3 px-4">
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">And so the Farmer, the most hardworking one, told the Mustachios to not waste any more second contemplating for an answer, as he still needs to go into the field when dawn arrives.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Now, see, Faun loves to play hide and seek behind the trees. So just being in the Grass Grin Maze is enough, and finding the lamp was even better. He was jumping up and down, all giddied up when Dwinn, the adventurer who loves to win, stomped his feet.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Everyone went silent. “Where do we begin?” As competitive as he is, losing was not an option. And Dwinn knows that the more they spend talking, the longer they’ll stay there.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Frankie Stan, the shadow behind the genius, the one they call sinister, suddenly made a noise. “How about we ask the all-knowing Prospector? I’m sure he’s listening.”</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">So Eddie Crog, the scary-looking one with blood on his face, suspiciously called everyone over to huddle. They wouldn’t budge until Frontline stepped up and scooched over.</p>
+                                            </div>
+                                        </div>
 
+                                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">64</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article className="page">
+                            <div className="d-flex justify-content-around h-full">
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 3: Red, White, and Blue</p>
 
+                                        {/* Stanzas */}
+                                        <div className="mt-3 px-4">
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Together they chanted for enlightenment until the Lamp of Direction stopped spinning. They waited and waited, until it started again. This time, all the colors were moving in the same direction, and glowing lights of red, white, and blue came out of the barber pole and guided them towards their next artifact.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Will you be the first and only Mustachio to solve this riddle and get The Lamp of Direction?</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Mint your Mustachio now and enter the portal that will transport you to MustachioVerse!</p>
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">
+                                                    <a href="https://mustachioverse.com/">https://mustachioverse.com/</a>
+                                                </p>
+                                            </div>
+                                        </div>
 
-
+                                        <div className="mb-5 ch-footer">
+                                            <div className="w-1/6 mx-auto">
+                                                <img className="w-100" src={mustachioLogoFooter} alt="Mustachio Logo" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="w-2/4 bg-white"></div>
+                            </div>
+                        </article>
 
                         {/* Chapter 3 Characters */}
                         <article className="page">
@@ -1757,7 +1893,7 @@ function App() {
                                 <div className="w-2/4 bg-white">
                                     <div className="h-full d-flex flex-column justify-content-center" style={{position: "relative"}}>
                                         <h3 className="text-center font-w-hermann w-hermann-semibold">CHAPTER 4</h3>
-                                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-3">Release Date: October 4, 2021 - 9PM SGT</p>
+                                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-3">Release Date: October 6, 2021 - 9PM SGT</p>
                                         
                                         <div className="d-flex justify-content-around mb-3 w-1/2 mx-auto">
                                             <a href={socMedHandles.fb} target="_blank" rel="noreferrer">
