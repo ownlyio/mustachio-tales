@@ -51,6 +51,18 @@ import frankiestan from '../images/ch_3/characters/frankiestan.png'
 import frontline from '../images/ch_3/characters/frontline.png'
 import verdantgreed from '../images/ch_3/characters/verdantgreed.png'
 
+// chapter 4 characters
+import darkknight from '../images/ch_4/characters/dark_knight.png'
+import firecrackerjack from '../images/ch_4/characters/fire_cracker_jack.png'
+import frosty from '../images/ch_4/characters/frosty.png'
+import ghostclarence from '../images/ch_4/characters/ghost_clarence.png'
+import ghostface from '../images/ch_4/characters/ghost_face.png'
+import ghostprince from '../images/ch_4/characters/ghost_prince.png'
+import ghost from '../images/ch_4/characters/ghost.png'
+import grim from '../images/ch_4/characters/grim.png'
+import kinghobgoblin from '../images/ch_4/characters/king_hobgoblin.png'
+import turfywizard from '../images/ch_4/characters/turfy_wizard.png'
+
 function TabletDesign({ socMedHandles, flipPage}) {
     const filterChapters = (arr, start, end = arr.length) => {
         return arr.filter(x => {
@@ -1509,11 +1521,333 @@ function TabletDesign({ socMedHandles, flipPage}) {
                     </div>
                 </article>
 
+                {/* Chapter 4 Characters */}
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/4 mx-auto mb-3">
+                            <img className="w-100" src={darkknight} alt="Dark Knight" />
+                        </div>
+                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="text-center text-3xl font-w-hermann w-hermann-ultrabold mb-4">Dark Knight</p>
+
+                        <div className="px-2">
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">If you happen to pass by a Mustachio that looks like a zombie</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">That’s probably the famous Dark Knight that you see</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He won so many battles, more than you can count</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">With his mighty strength, no one is paramount</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">When he was younger, He lost one of his eyes because of a ferocious bear</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Later on, he hunted the exact animal in the same forest and killed it there</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He said “messing with me is like a death wish”</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">“If you cross my path, you won’t feel any bliss”</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The Dark Knight you see it not one to be trifled with</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He’s not going to be merciful until he see you bleed</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/4 mx-auto mb-3">
+                            <img className="w-100" src={firecrackerjack} alt="Fire Cracker Jack" />
+                        </div>
+                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="text-center text-3xl font-w-hermann w-hermann-ultrabold mb-4">Fire Cracker Jack</p>
+
+                        <div className="px-2">
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">You don’t wanna mess with fire cracker jack</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He’ll burn your house down in an instant attack</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Fireworks and firecrackers are all that he lives for</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He knows every kind, composition, and color</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">If you can’t see him often there’s a reason why</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He’s busy mixing chemicals to make some supply</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">In a bunker he’s attempting to create something crazy</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Probably to make the loudest firecracker there can be</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Why is he like that? Well, he loves all the noise</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He said he prefers it more than hearing everyone else’s voice</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/4 mx-auto mb-3">
+                            <img className="w-100" src={frosty} alt="Frosty" />
+                        </div>
+                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="text-center text-3xl font-w-hermann w-hermann-ultrabold mb-4">Frosty</p>
+
+                        <div className="px-2">
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Frosty loves the cold the way he loves gold</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">And he doesn’t always listen when’s he’s told</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He said what good would it be to follow every advice</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Not everyone wants your life to be nice</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Frosty wants to make a plantation in his icy location</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Grow fruits and veggies like peaches, carrots, and corn</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He doesn’t want to be nicknamed Frosty the Snowman</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Because he said it’s too basic and he’s not a common man</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">“I’ll live my own life and grown my own food”</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">“Even though I’m stubborn, I know it’s for my own good”</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/4 mx-auto mb-3">
+                            <img className="w-100" src={ghostclarence} alt="Ghost Clarence" />
+                        </div>
+                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="text-center text-3xl font-w-hermann w-hermann-ultrabold mb-4">Ghost Clarence</p>
+
+                        <div className="px-2">
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Rence the tactician also died in the great war</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">His troops were defeated, they’ve suffered worse by far</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">But Rence’s spirit will not give up easily</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">“My body might be gone, but my soul is still steady”</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">“I’ll scare the opponent’s generals, spook their horses and ponies”</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">“Won’t waste a single opportunity to make them all worry”</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">And so, he went on appearing at their camps at night</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Giving them nightmares when he showed up on their sight</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Ghost Clarence might have been strict and boring when he was alive</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Now he’s having fun and scaring enemies is his vibe</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/4 mx-auto mb-3">
+                            <img className="w-100" src={ghostface} alt="Ghost Face" />
+                        </div>
+                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="text-center text-3xl font-w-hermann w-hermann-ultrabold mb-4">Ghost Face</p>
+
+                        <div className="px-2">
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Ghost Face is the man who doesn’t have any charm</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He literally lives every day as if life’s a stupid scam</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He’s a man of terror and the whole town knows</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He likes to scare people by dressing up as a killer ghost</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">One day he went out on the streets holding a bloody knife</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Acted as if it’s the most normal thing in everyone’s daylife</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">When did he start to make people scream?</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Well, his past is quite lonely and dim</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">They said Ghost Face was born out of abuse</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">His parents died in an asylum according to past news</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/4 mx-auto mb-3">
+                            <img className="w-100" src={ghostprince} alt="Ghost Prince" />
+                        </div>
+                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="text-center text-3xl font-w-hermann w-hermann-ultrabold mb-4">Ghost Prince</p>
+
+                        <div className="px-2">
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Ghost Prince died terribly in the great war</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Fighting alongside his knights for what he stood for</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He believes that royalty shouldn’t hide behind castle walls</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">A man should show leadership, have clear and definite goals</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">So, when the war came, he volunteered to go</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The noble should also fight, that’s what he wants to show</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He clearly is one brave and young ambitious prince</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He said through his actions, the Mustachios he’ll convince</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">But on his death, he had just one wish</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">His ghost may wander to that fair maiden he greatly miss</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/4 mx-auto mb-3">
+                            <img className="w-100" src={ghost} alt="Ghost" />
+                        </div>
+                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="text-center text-3xl font-w-hermann w-hermann-ultrabold mb-4">Ghost</p>
+
+                        <div className="px-2">
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Ghost was a man of Japanese descent</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">That’s why if a Mustachio watches anime, he’s always present</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">If you see him, he moves somewhat awkward</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">His posture is bad, he also looks kinda haggard</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Well, Ghost lived his life before as a loner</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Even on his birthdays, he’s the one who makes his greeting banner</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Another mystery in the Mustachioverse is how he died</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Cause no one saw him for two years until his corpse they’d find</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Maybe someone killed him and there’s a murderer on the loose</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Or he wanted to end it all and death is what he choose</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/4 mx-auto mb-3">
+                            <img className="w-100" src={grim} alt="Grim" />
+                        </div>
+                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="text-center text-3xl font-w-hermann w-hermann-ultrabold mb-4">Grim</p>
+
+                        <div className="px-2">
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Grim is the last of reapers in the land</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">A cool guy who can end your life with one flick of his hand</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">At first no one wants to be friend with Grim</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Cause he has this deadly stare as if he’s thinking of a dark scheme</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">But everyone got used to it and loved grim cause he is a funny guy</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">But sometimes he makes scary jokes like “Hey, it’s your time to die!”</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He stopped the dark humor cause it’s making everyone uncomfortable</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">And started helping people by making their last day memorable</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">You think Grim lives a complicated life but Grim is really happy</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He loves his work and a valuable member of the Mustachio community</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/4 mx-auto mb-3">
+                            <img className="w-100" src={kinghobgoblin} alt="King Hobgoblin" />
+                        </div>
+                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="text-center text-3xl font-w-hermann w-hermann-ultrabold mb-4">King Hobgoblin</p>
+
+                        <div className="px-2">
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">This powerful enigmatic king loves gold and satin</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He likes everything fancy, there is no denying</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">King Hobgoblin buys the most expensive wines</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">If he invites you to dinner, the best meal you’ll find</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He’s a generous man who likes to share his wealth</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">If he likes you, you’ll probably receive some jewelry and a golden belt</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">But if you meet him, there’s one thing you should know</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">This king won’t tolerate any disrespect that you’ll show</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">So be extra careful with how you behave</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">If you piss him off, you’re digging your grave</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/4 mx-auto mb-3">
+                            <img className="w-100" src={turfywizard} alt="Turfy Wizard" />
+                        </div>
+                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="text-center text-3xl font-w-hermann w-hermann-ultrabold mb-4">Turfy Wizard</p>
+
+                        <div className="px-2">
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The wizard sells anything that he thinks is cursed</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He has all the weird trinkets you can see if you are bored</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He’s got different spells for something really wicked</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Artifacts, jewelries, and weapons that look twisted</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He even got potions that’ll transform your enemy into a bug</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Or a necklace that’ll make someone smell like a dead frog</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">You see Cave Wizzard is also a fan of astrology</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He’ll tell you your future in exchange of one hefty fee</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Don’t question his methods though or call him a fraud</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He’ll curse your life and play with it like a gameboard</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
                 {/* Up Next */}
                 <article className="page h-90vh">
                     <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
-                        <h3 className="text-center font-w-hermann w-hermann-semibold">CHAPTER 4</h3>
-                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-3">Release Date: October 6, 2021 - 9PM SGT</p>
+                        <h3 className="text-center font-w-hermann w-hermann-semibold">CHAPTER 5</h3>
+                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-3">Release Date: October 13, 2021 - 9PM SGT</p>
                         
                         <div className="d-flex justify-content-around mb-3 w-1/2 mx-auto mobile-socmed-icons">
                             <a href={socMedHandles.fb} target="_blank" rel="noreferrer">
