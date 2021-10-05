@@ -56,6 +56,9 @@ import frankiestan from './images/ch_3/characters/frankiestan.png'
 import frontline from './images/ch_3/characters/frontline.png'
 import verdantgreed from './images/ch_3/characters/verdantgreed.png'
 
+// chapter 4 images
+import chapter4Logo from './images/ch_3/chap3.png'
+
 // chapter 4 characters
 import darkknight from './images/ch_4/characters/dark_knight.png'
 import firecrackerjack from './images/ch_4/characters/fire_cracker_jack.png'
@@ -1891,6 +1894,186 @@ function App() {
                                             <div className="mb-0">
                                                 <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">After several years, this Mustachio finally learned his lesson</p>
                                                 <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">It’s love that makes him happy more than ten mansions</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        {/* Chapter 4 */}
+                        <article className="page">
+                            <div className="d-flex justify-content-around h-full">
+                                <div className="w-2/4 bg-white"></div>
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                                        <div className="w-1/3 mx-auto mt-5 mb-5">
+                                            <img className="w-100" src={sagesRant} alt="Chapter 3" />
+                                        </div>
+                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-2">CHAPTER 4</p>
+                                        <h3 className="text-center font-w-hermann w-hermann-semibold">The Secret of the Southern Seas</h3>
+                                        <p className="text-center text-xl font-w-hermann w-hermann-semibold-italic ch-footer mb-5">The Sages Rant</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article className="page">
+                            <div className="d-flex justify-content-around h-full">
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 4: The Secret of the Southern Seas</p>
+                                        <div className="w-1/3 mx-auto mt-3 mb-4">
+                                            <img className="w-100" src={chapter4Logo} alt="Chapter 4" />
+                                        </div>
+
+                                        {/* Stanzas */}
+                                        <div className="mb-3 px-4">
+                                            <p className="text-center font-w-hermann w-hermann-italic mb-0">
+                                                <span className="text-5xl">"A</span>ll hail the Southern Seas,
+                                            </p>
+                                            <p className="text-center font-w-hermann w-hermann-italic mb-0">Vested of the powers from the Isle of Rhe,</p>
+                                            <p className="text-center font-w-hermann w-hermann-italic mb-0">A broomstache yearning to be untangled,</p>
+                                            <p className="text-center font-w-hermann w-hermann-italic mb-0">Will you be ready for the wrangle?”</p>
+                                        </div>
+                                        <div className="mb-3 px-4">
+                                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">Setting out on a voyage in the Southern Seas, the Mustachios enjoy the gentle breeze offered by the calm and serene waters. Unbeknown to them the danger slowly raging, waiting for the perfect time to strike. </p>
+                                        </div>
+                                        <div className="mb-3 px-4">
+                                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">As the night befall the Mustachios, chaos arose as none in particular started slamming into their ship, causing it to tip over. Poor little Mustachios, drenched in the cold cold water, falling in the whims of the rip tides. </p>
+                                        </div>
+
+                                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">89</p>
+                                    </div>
+                                </div>
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 4: The Secret of the Southern Seas</p>
+
+                                        {/* Stanzas */}
+                                        <div className="mt-3 px-4">
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Screams of terror echo through the night as the Mustachios realize the danger they are currently in.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Their mistake was they rushed in without analyzing the riddle that was thrown at them by the journal. Oh Broomstache of the Southern Seas, how cruel could you be?</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">In a place where sploosh and splash can only be heard in motion, where could their savior be?</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Only a sailor’s best friend could get them out of the Cross Sea now.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“Aha! A comb at rest is as good as a rock!” a Mustachio shouted. </p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">But a comb in motion set everything in its proper place</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Every single Mustachio already thought as much and so, altogether, they let the current take them deep into its deadly tides to a place where no such wind could take control of the swells.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Lucky for them that there is no undertow in this mess of a Cross Sea. That’s what makes the Broomstache of the Southern Seas special. Although, not a lot knows about it. </p>
+                                            </div>
+                                        </div>
+
+                                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">90</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article className="page">
+                            <div className="d-flex justify-content-around h-full">
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 4: The Secret of the Southern Seas</p>
+
+                                        {/* Stanzas */}
+                                        <div className="mt-3 px-4">
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Holding their breath at once, either to conserve their oxygen or to float in reverence, something shiny in the deep abyss. Deep in a coral's mighty grip, a personification of a rock, lies the Charmed Comb, ever so shiny, so elegant, which can untangle almost any knot. </p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">The Comb’s power apparently knows no boundaries! Even the nonparallel phenomenon that is happening on the surface of the waters above can be cleared by this artifact. Extremely tangled ropes should be no problem. Any direction its keeper desires, thou shall bend to its will.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">For a while, the Mustachios could only gloat in awe at the shining beauty of their savior. However, the reminder of their lung’s capacity, or lack thereof, pushed them to swim further to the suspiciously unguarded comb. </p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Frosty, who has the greatest advantage in this journey in the Broomstache of the Southern Seas, could only laugh while watching the other Mustachios shiver in the cold, especially Fire Cracker Jack, the one who revels in fire and explosions. </p>
+                                            </div>
+                                        </div>
+
+                                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">91</p>
+                                    </div>
+                                </div>
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 4: The Secret of the Southern Seas</p>
+
+                                        {/* Stanzas */}
+                                        <div className="mt-3 px-4">
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Ghost Face, ever so dim and lifeless, his face just doesn’t give off what he truly feels, watches the ever brave Ghost Prince, swim faster than any other Mustachio towards the Charmed Comb only to be struck with dismay upon the deathly grip of the coral which holds their savior. </p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">A Mustachio nearly choked on how comedic and anime-like that scene looked. It appears to be the one and only Ghost, the loner of the group. No one really knows why he stuck with this group but none could care less. Either he’s following the one who murdered him or he’s just trying things he has never tried when he decided to end his life.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">The Almighty King Hobgoblin, who swims in his own luxury, urges the clever tactician and a fan of spooking others, Ghost Clarence and the warrior with unparalleled strength, Dark Knight, to work their magic given their experiences to take out the comb.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">However, a particular Mustachio unfortunately took a fancy to the corals rather than the artifact. Cave Wizard, as out-of-place as he is, started really enjoying the voyage when he took a glimpse of the corals, seeing it as a cursed object, wanting to make it his own weapon.</p>
+                                            </div>
+                                        </div>
+
+                                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">92</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article className="page">
+                            <div className="d-flex justify-content-around h-full">
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 4: The Secret of the Southern Seas</p>
+
+                                        {/* Stanzas */}
+                                        <div className="mt-3 px-4">
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Grim, on the other hand, took notice of the evil look adorning Cave Wizard's face, so he smacked him upside the head. While a lot were first intimidated by Grim, he ended up being completely opposite of his name. A valuable member of the Mustachio community, that he is. </p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">This group of particularly odd ones, strong war veterans, and noble Mustachios, chanted for enlightenment inside their heads for The Charmed Comb to be released in the deadly grip of the ironically friendly-looking corals. Unprecedentedly, the ever so shiny comb started shining even more. Enough to blind its spectators! But the Mustachios never back down from anything. The artifact then started pulsating and slowly started floating away from the coral's grip. Swaying from left to right, treating the square waves above as tangles, just to calm its two raging water systems.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Here’s the catch. To which way will The Charmed Comb lead the Mustachios for the next artifact?</p>
+                                            </div>
+                                        </div>
+
+                                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">93</p>
+                                    </div>
+                                </div>
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 4: The Secret of the Southern Seas</p>
+
+                                        {/* Stanzas */}
+                                        <div className="mt-3 px-4">
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Will you be the first and only Mustachio to solve this riddle and get The Lamp of Direction?</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Mint your Mustachio now and enter the portal that will transport you to MustachioVerse!</p>
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">
+                                                    <a href="https://mustachioverse.com/">https://mustachioverse.com/</a>
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div className="mb-5 ch-footer">
+                                            <div className="w-1/6 mx-auto">
+                                                <img className="w-100" src={mustachioLogoFooter} alt="Mustachio Logo" />
                                             </div>
                                         </div>
                                     </div>
