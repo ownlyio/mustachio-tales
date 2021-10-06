@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.1c5c253b.chunk.css",
-    "main.js": "/static/js/main.7ab46bbe.chunk.js",
-    "main.js.map": "/static/js/main.7ab46bbe.chunk.js.map",
+    "main.js": "/static/js/main.9973e75b.chunk.js",
+    "main.js.map": "/static/js/main.9973e75b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.707d1a48.js",
     "runtime-main.js.map": "/static/js/runtime-main.707d1a48.js.map",
     "static/css/2.da1eef19.chunk.css": "/static/css/2.da1eef19.chunk.css",
@@ -36,21 +36,31 @@
     "static/media/chap3.1270aafd.png": "/static/media/chap3.1270aafd.png",
     "static/media/climber.b6dff529.png": "/static/media/climber.b6dff529.png",
     "static/media/MobileDesign.css": "/static/media/cover_square.7f46b3b0.jpg",
+    "static/media/dark_knight.fb9b1f75.png": "/static/media/dark_knight.fb9b1f75.png",
     "static/media/doorkeeper.6aa1033b.png": "/static/media/doorkeeper.6aa1033b.png",
     "static/media/dwinn.caf315d1.png": "/static/media/dwinn.caf315d1.png",
     "static/media/eddiecrog.4a5c46d5.png": "/static/media/eddiecrog.4a5c46d5.png",
     "static/media/evlguy.b57768b4.png": "/static/media/evlguy.b57768b4.png",
     "static/media/farmer.4d44758c.png": "/static/media/farmer.4d44758c.png",
     "static/media/faun.49f3a613.png": "/static/media/faun.49f3a613.png",
+    "static/media/fire_cracker_jack.55de5013.png": "/static/media/fire_cracker_jack.55de5013.png",
     "static/media/frankiestan.ba4e589d.png": "/static/media/frankiestan.ba4e589d.png",
     "static/media/frontline.98ed76a4.png": "/static/media/frontline.98ed76a4.png",
+    "static/media/frosty.b56c8530.png": "/static/media/frosty.b56c8530.png",
     "static/media/gamerboi.48708600.png": "/static/media/gamerboi.48708600.png",
+    "static/media/ghost.1b733378.png": "/static/media/ghost.1b733378.png",
+    "static/media/ghost_clarence.6864047a.png": "/static/media/ghost_clarence.6864047a.png",
+    "static/media/ghost_face.a77acf78.png": "/static/media/ghost_face.a77acf78.png",
+    "static/media/ghost_prince.a024d74a.png": "/static/media/ghost_prince.a024d74a.png",
+    "static/media/grim.74658d04.png": "/static/media/grim.74658d04.png",
+    "static/media/king_hobgoblin.6bd5a418.png": "/static/media/king_hobgoblin.6bd5a418.png",
     "static/media/mustachio_logo_2_white.f0c130fd.png": "/static/media/mustachio_logo_2_white.f0c130fd.png",
     "static/media/page1-pic.501fe5ec.png": "/static/media/page1-pic.501fe5ec.png",
     "static/media/page2-pic.06d7214d.png": "/static/media/page2-pic.06d7214d.png",
     "static/media/pulsar.bd90dafe.png": "/static/media/pulsar.bd90dafe.png",
     "static/media/rench.173cc87f.png": "/static/media/rench.173cc87f.png",
     "static/media/shucks.1db11a4c.png": "/static/media/shucks.1db11a4c.png",
+    "static/media/turfy_wizard.485c467b.png": "/static/media/turfy_wizard.485c467b.png",
     "static/media/verdantgreed.eea68802.png": "/static/media/verdantgreed.eea68802.png"
   },
   "entrypoints": [
@@ -58,6 +68,6 @@
     "static/css/2.da1eef19.chunk.css",
     "static/js/2.d15f4d9d.chunk.js",
     "static/css/main.1c5c253b.chunk.css",
-    "static/js/main.7ab46bbe.chunk.js"
+    "static/js/main.9973e75b.chunk.js"
   ]
 }
