@@ -52,7 +52,7 @@ import frontline from '../images/ch_3/characters/frontline.png'
 import verdantgreed from '../images/ch_3/characters/verdantgreed.png'
 
 // chapter 4 characters
-import chapter4Logo from '../images/ch_3/chap3.png'
+import chapter4Logo from '../images/ch_4/chap4.png'
 
 // chapter 4 characters
 import darkknight from '../images/ch_4/characters/dark_knight.png'
