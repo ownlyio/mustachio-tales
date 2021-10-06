@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.1c5c253b.chunk.css",
-    "main.js": "/static/js/main.9973e75b.chunk.js",
-    "main.js.map": "/static/js/main.9973e75b.chunk.js.map",
+    "main.js": "/static/js/main.61495047.chunk.js",
+    "main.js.map": "/static/js/main.61495047.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.707d1a48.js",
     "runtime-main.js.map": "/static/js/runtime-main.707d1a48.js.map",
     "static/css/2.da1eef19.chunk.css": "/static/css/2.da1eef19.chunk.css",
@@ -34,6 +34,7 @@
     "static/media/cavewizard.b51d3e16.png": "/static/media/cavewizard.b51d3e16.png",
     "static/media/chap2.fe83cca1.png": "/static/media/chap2.fe83cca1.png",
     "static/media/chap3.1270aafd.png": "/static/media/chap3.1270aafd.png",
+    "static/media/chap4.a46c7c95.png": "/static/media/chap4.a46c7c95.png",
     "static/media/climber.b6dff529.png": "/static/media/climber.b6dff529.png",
     "static/media/MobileDesign.css": "/static/media/cover_square.7f46b3b0.jpg",
     "static/media/dark_knight.fb9b1f75.png": "/static/media/dark_knight.fb9b1f75.png",
@@ -68,6 +69,6 @@
     "static/css/2.da1eef19.chunk.css",
     "static/js/2.d15f4d9d.chunk.js",
     "static/css/main.1c5c253b.chunk.css",
-    "static/js/main.9973e75b.chunk.js"
+    "static/js/main.61495047.chunk.js"
   ]
 }
