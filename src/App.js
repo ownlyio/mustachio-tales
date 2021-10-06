@@ -186,7 +186,7 @@ function App() {
                                 </div>
                                 <div className="w-2/4 bg-white">
                                     <div className="h-full d-flex flex-column justify-content-start pt-5" style={{position: "relative"}}>                                        
-                                        {filterChapters(ChapterPages, 18).map((x, k) => (
+                                        {filterChapters(ChapterPages, 18, 35).map((x, k) => (
                                             !x.subpage ? (
                                                 <div className="row tc-link" onClick={() => flipPage.gotoPage(x.pageIndex)} key={x.id}>
                                                     <div className="col-7">
@@ -211,6 +211,40 @@ function App() {
                                         <p className="text-center text-xl font-w-hermann w-hermann-semibold-italic ch-footer mb-5">The Sages Rant</p>
                                     </div>
                                 </div>
+                            </div>
+                        </article>
+                        <article className="page">
+                            <div className="d-flex justify-content-around h-full">
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start pt-5" style={{position: "relative"}}>
+                                        <h3 className="text-center text-2xl font-w-hermann w-hermann-semibold mb-4">Table of Contents</h3>
+                                        
+                                        {filterChapters(ChapterPages, 36).map((x, k) => (
+                                            !x.subpage ? (
+                                                <div className="row tc-link" onClick={() => flipPage.gotoPage(x.pageIndex)} key={x.id}>
+                                                    <div className="col-7">
+                                                        <p className="font-w-hermann text-lg w-hermann-semibold mb-0">{x.title}</p>
+                                                    </div>
+                                                    <div className="col-5">
+                                                        <p className="text-right text-lg font-w-hermann w-hermann-semibold mb-0">{x.page}</p>
+                                                    </div>
+                                                </div>
+                                            ) : (
+                                                <div className="row tc-link indent" onClick={() => flipPage.gotoPage(x.pageIndex)} key={x.id}>
+                                                    <div className="col-7">
+                                                        <p className="font-w-hermann w-hermann mb-0">{x.title}</p>
+                                                    </div>
+                                                    <div className="col-5">
+                                                        <p className="text-right font-w-hermann w-hermann mb-0">{x.page}</p>
+                                                    </div>
+                                                </div>
+                                            )
+                                        ))}
+                                        
+                                        <p className="text-center text-xl font-w-hermann w-hermann-semibold-italic ch-footer mb-5">The Sages Rant</p>
+                                    </div>
+                                </div>
+                                <div className="w-2/4 bg-white"></div>
                             </div>
                         </article>
 
@@ -2481,7 +2515,7 @@ function App() {
                                 <div className="w-2/4 bg-white">
                                     <div className="h-full d-flex flex-column justify-content-center" style={{position: "relative"}}>
                                         <h3 className="text-center font-w-hermann w-hermann-semibold">CHAPTER 5</h3>
-                                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-3">Release Date: October 13, 2021 - 9PM SGT</p>
+                                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-3">Release Date: October 13, 2021 - 7PM SGT</p>
                                         
                                         <div className="d-flex justify-content-around mb-3 w-1/2 mx-auto">
                                             <a href={socMedHandles.fb} target="_blank" rel="noreferrer">
@@ -2514,7 +2548,7 @@ function App() {
                     <FontAwesomeIcon icon={faArrowRight} color="white" size="2x" />
                 </div>
             </div>
-    </div>
+        </div>
     )
 }
 
