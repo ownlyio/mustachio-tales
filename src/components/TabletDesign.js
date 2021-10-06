@@ -96,7 +96,7 @@ function TabletDesign({ socMedHandles, flipPage}) {
                     <div className="h-90vh d-flex flex-column justify-content-start pt-4" style={{position: "relative"}}>
                         <h3 className="text-center text-2xl font-w-hermann w-hermann-semibold mb-5">Table of Contents</h3>
                         
-                        {filterChapters(ChapterPages, 1, 18).map((x, k) => (
+                        {filterChapters(ChapterPages, 1, 27).map((x, k) => (
                             !x.subpage ? (
                                 <div className="row tc-link" onClick={() => flipPage.gotoPage(x.pageIndexTab)} key={x.id}>
                                     <div className="col-7">
@@ -125,7 +125,7 @@ function TabletDesign({ socMedHandles, flipPage}) {
                     <div className="h-90vh d-flex flex-column justify-content-start pt-4" style={{position: "relative"}}>
                         <h3 className="text-center text-2xl font-w-hermann w-hermann-semibold mb-5">Table of Contents</h3>
                         
-                        {filterChapters(ChapterPages, 19).map((x, k) => (
+                        {filterChapters(ChapterPages, 28).map((x, k) => (
                             !x.subpage ? (
                                 <div className="row tc-link" onClick={() => flipPage.gotoPage(x.pageIndexTab)} key={x.id}>
                                     <div className="col-7">
@@ -1991,7 +1991,7 @@ function TabletDesign({ socMedHandles, flipPage}) {
                 <article className="page h-90vh">
                     <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
                         <h3 className="text-center font-w-hermann w-hermann-semibold">CHAPTER 5</h3>
-                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-3">Release Date: October 13, 2021 - 9PM SGT</p>
+                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-3">Release Date: October 13, 2021 - 7PM SGT</p>
                         
                         <div className="d-flex justify-content-around mb-3 w-1/2 mx-auto mobile-socmed-icons">
                             <a href={socMedHandles.fb} target="_blank" rel="noreferrer">
