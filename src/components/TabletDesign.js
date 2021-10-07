@@ -1976,7 +1976,7 @@ function TabletDesign({ socMedHandles, flipPage}) {
                                 <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Or a necklace that’ll make someone smell like a dead frog</p>
                             </div>
                             <div className="mb-3">
-                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">You see Cave Wizzard is also a fan of astrology</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">You see Turfy Wizard is also a fan of astrology</p>
                                 <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He’ll tell you your future in exchange of one hefty fee</p>
                             </div>
                             <div className="mb-0">

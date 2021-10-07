@@ -1737,7 +1737,7 @@ function MobileDesign({ socMedHandles, flipPage}) {
                         {/* Stanzas */}
                         <div className="mt-3 content-mobile-wrap">
                             <div className="mb-3 content-mobile-inner">
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Will you be the first and only Mustachio to solve this riddle and get The Lamp of Direction?</p>
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Will you be the first and only Mustachio to solve this riddle and get The Comb for the Molestache of the Southern Seas?</p>
                             </div>
                             <div className="mb-3 content-mobile-inner">
                                 <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Mint your Mustachio now and enter the portal that will transport you to MustachioVerse!</p>
@@ -2066,7 +2066,7 @@ function MobileDesign({ socMedHandles, flipPage}) {
                                 <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Or a necklace that’ll make someone smell like a dead frog</p>
                             </div>
                             <div className="mb-2">
-                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">You see Cave Wizzard is also a fan of astrology</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">You see Turfy Wizard is also a fan of astrology</p>
                                 <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">He’ll tell you your future in exchange of one hefty fee</p>
                             </div>
                             <div className="mb-0">

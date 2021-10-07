@@ -2001,7 +2001,7 @@ function App() {
                                                 <p className="text-center font-w-hermann w-hermann-semibold mb-0">“Aha! A comb at rest is as good as a rock!” a Mustachio shouted. </p>
                                             </div>
                                             <div className="mb-3">
-                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">But a comb in motion set everything in its proper place</p>
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">But a comb in motion set everything in its proper place.</p>
                                             </div>
                                             <div className="mb-3">
                                                 <p className="text-center font-w-hermann w-hermann-semibold mb-0">Every single Mustachio already thought as much and so, altogether, they let the current take them deep into its deadly tides to a place where no such wind could take control of the swells.</p>
@@ -2095,7 +2095,7 @@ function App() {
                                         {/* Stanzas */}
                                         <div className="mt-3 px-4">
                                             <div className="mb-3">
-                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Will you be the first and only Mustachio to solve this riddle and get The Lamp of Direction?</p>
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Will you be the first and only Mustachio to solve this riddle and get The Comb for the Molestache of the Southern Seas?</p>
                                             </div>
                                             <div className="mb-3">
                                                 <p className="text-center font-w-hermann w-hermann-semibold mb-0">Mint your Mustachio now and enter the portal that will transport you to MustachioVerse!</p>
@@ -2494,7 +2494,7 @@ function App() {
                                                 <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Or a necklace that’ll make someone smell like a dead frog</p>
                                             </div>
                                             <div className="mb-3">
-                                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">You see Cave Wizzard is also a fan of astrology</p>
+                                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">You see Turfy Wizard is also a fan of astrology</p>
                                                 <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He’ll tell you your future in exchange of one hefty fee</p>
                                             </div>
                                             <div className="mb-0">
