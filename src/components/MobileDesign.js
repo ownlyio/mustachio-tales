@@ -66,6 +66,21 @@ import grim from '../images/ch_4/characters/grim.png'
 import kinghobgoblin from '../images/ch_4/characters/king_hobgoblin.png'
 import turfywizard from '../images/ch_4/characters/turfy_wizard.png'
 
+// chapter 5 images
+import chapter5Logo from '../images/ch_4/chap4.png'
+
+// chapter 5 characters
+import creepystrawhat from '../images/ch_5/characters/creepy_strawhat.png'
+import crimson from '../images/ch_5/characters/crimson.png'
+import dummy from '../images/ch_5/characters/dummy.png'
+import hotdog from '../images/ch_5/characters/hotdog.png'
+import incubus from '../images/ch_5/characters/incubus.png'
+import inka from '../images/ch_5/characters/inka.png'
+import jasondkiller from '../images/ch_5/characters/jason_dkiller.png'
+import jungle from '../images/ch_5/characters/jungle.png'
+import kingstellar from '../images/ch_5/characters/king_stellar.png'
+import leatherface from '../images/ch_5/characters/leather_face.png'
+
 function MobileDesign({ socMedHandles, flipPage}) {
     const filterChapters = (arr, start, end = arr.length) => {
         return arr.filter(x => {
@@ -2077,11 +2092,504 @@ function MobileDesign({ socMedHandles, flipPage}) {
                     </div>
                 </article>
 
+                {/* Chapter 5 */}
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <div className="w-1/3 mx-auto mt-5 mb-5">
+                            <img className="w-100" src={sagesRant} alt="Chapter 5" />
+                        </div>
+                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-2">CHAPTER 5</p>
+                        <h3 className="text-center font-w-hermann w-hermann-semibold">Myst of the Ancient Cellar</h3>
+                        <p className="text-center text-xl font-w-hermann w-hermann-semibold-italic ch-footer mb-5">The Sages Rant</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 5: Myst of the Ancient Cellar</p>
+                        <div className="w-1/4 mx-auto mt-3 mb-4 ">
+                            <img className="w-100" src={chapter4Logo} alt="Chapter 4" />
+                        </div>
+
+                        {/* Stanzas */}
+                        <div className="mb-3 content-mobile-inner">
+                            <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">
+                                <span className="text-5xl">P</span>assing through the drawbridge, the Mustachios heaved a sigh of relief when the carriage finally found its bearing from the bumpy ride they annoyingly know so well.
+                            </p>
+                        </div>
+                        <div className="mb-3 content-mobile-inner">
+                            <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">They’re nearing their destination, the infamous abandoned Lady Tickler Castle.</p>
+                        </div>                   
+                        <div className="mb-3 content-mobile-inner">
+                            <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">This castle has its own share of creepy stories and mysteries. The most famous of them all is that Lady Tickler Castle houses magic that is unsettling because no one could foresee how it would be in the future. Not even the most seasoned seer.</p>
+                        </div>          
+                        <div className="mb-3 content-mobile-inner">
+                            <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">It is said to be lined with an air that is both unnerving and enchanting.</p>
+                        </div>          
+
+                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">69</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 5: Myst of the Ancient Cellar</p>
+
+                        {/* Stanzas */}
+                        <div className="mt-3 content-mobile-wrap">
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">For a castle that has long been abandoned by an unknown ruling family, Lady Tickler Castle looks well maintained, unaffected by time and weather. Well, it is designed to be charming for the onlookers. The one who gets lured in may never be able to come out. But myths like that never fazed Mustachios on a mission as they haphazardly strolled into the castle’s banquet hall.</p>
+                            </div> 
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Now, where could something important be hidden in an ancient place such as the Lady Tickler Castle?</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">In the boudoir of the biggest bed chamber? In the library? In the study? In the tower? No, no. Somewhere more unsuspicious should be fitting. All of the Mustachios sat in silence in the impeccably designed parlour of the grand castle thinking of where something magical could be hidden.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">““All this thinking is making me hungry!” </p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Some Mustachios were about to head to the kitchen when someone noticed that the walls were moving. Wait, no, letters are the ones moving, not the wall.</p>
+                            </div>
+                        </div>
+
+                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">70</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 5: Myst of the Ancient Cellar</p>
+
+                        {/* Stanzas */}
+                        <div className="mt-3 content-mobile-wrap">
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">“It could be another riddle! But how can we make the letters on the wall form words that are cohesive enough to understand?”</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Raging thunders sounded after a Mustachio uttered those words and after a while, the letters stopped on their own. It read,</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-italic mb-0">“Slip and slam, bewitch a man</p>
+                                <p className="content-mobile text-center font-w-hermann w-hermann-italic mb-0">Food for his stomach, spirit in him to track</p>
+                                <p className="content-mobile text-center font-w-hermann w-hermann-italic mb-0">Tickle a lady, oh mustache that’s a beauty”</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">After a few moments of contemplating what this riddle meant, there’s only one thing that could make a mustache look so slick and styled. A beard oil, the Slippy Liquid!</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">“A lady can charm a lass through his stomach but nothing could beat a man’s addiction to drinking spirits. It’s that simple,” said Dummy, the fabled right hand man of King Hobgoblin.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">“No, this seems sketchy if it were that easy. Besides, you being of  royal descent is a sham,” argued Jungle. One would think he is also of royalty, but not one Mustachio could recount a monarch with his people, although he does act like a mischievous prince, an entitled one at that.</p>
+                            </div>
+                        </div>
+
+                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">71</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 5: Myst of the Ancient Cellar</p>
+
+                        {/* Stanzas */}
+                        <div className="mt-3 content-mobile-wrap">
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Crimson, great ruler of the Nightosphere, in his thick and sleek smooth voice tried to pacify the situation by saying, “There, there. There shouldn’t be any danger should we interpret it in favor of making it easy for us. There are two options offered by the riddle. It’s either in the kitchen or in the cellar.”</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">The other regals in the room, Hot Dog Prince that everyone is being wary of, King Stellar who’s actually only in search of a possible princess in the castle, and Inka who was once an Egyptian lord, just mumbled their agreement to their fellow ruler.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">At once, all three murder-capable Mustachios chose to head to the cellar in search for the Slippy Liquid.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Jason D Killer, with his mighty machete and an obsession with death, spearheaded the group. His only agenda is to take it quickly to immediately head back to Crystal Lake.</p>
+                            </div>
+                        </div>
+
+                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">72</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 5: Myst of the Ancient Cellar</p>
+
+                        {/* Stanzas */}
+                        <div className="mt-3 content-mobile-wrap">
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Creepy Strawhat also has some organ-hunting errands to do after this adventure for he only arises 23 days every 23 years, so he just followed suit.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Leather Face, with no other identity to show but to be on his hunting one, just silently followed the two to the cellar.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">The rest of the group went in search of the artifact in the kitchen just to come up empty, so Incubus, a dream draining demon, swooshed them all to the cellar using weird motions with his ferocious sceptre.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">The Mustachios were dumbfounded when they saw the scene at the cellar. Lying unconscious on the floor are the three deadly Mustachios who chose to conquer the cellar first.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">“I knew it wouldn’t be this easy!” Obviously, those words came from Jungle.</p>
+                            </div>
+                        </div>
+
+                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">73</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 5: Myst of the Ancient Cellar</p>
+
+                        {/* Stanzas */}
+                        <div className="mt-3 content-mobile-wrap">
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">What other mystery does Lady Tickler Castle have in store for the Mustachios just to hinder their search of the Slippy Liquid?</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Will you be the first and only Mustachio to solve this riddle and get the Slippy Liquid?</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Mint your Mustachio now and enter the portal that will transport you to MustachioVerse!</p>
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">
+                                    <a href="https://mustachioverse.com/">https://mustachioverse.com/</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="mb-5 ch-footer mustachio-logo-mobile-wrap">
+                            <div className="w-1/6 mx-auto mustachio-logo-mobile">
+                                <img className="w-100" src={mustachioLogoFooter} alt="Mustachio Logo" />
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                {/* Chapter 5 Characters */}
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/2 mx-auto mb-3">
+                            <img className="w-100" src={creepystrawhat} alt="Creepy Strawhat" />
+                        </div>
+                        <p className="content-characters-subtitle text-center font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="content-characters-title text-center text-2xl font-w-hermann w-hermann-ultrabold mb-4">Creepy Strawhat</p>
+
+                        <div className="px-2">
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Keep your organs in check</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">For the one in search of it arises 23 days every 23 years</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">A monster raised in the depths of hell</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Creeping for victims no one could ever tell</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Scaring is his favorite game</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Mustachios pray they don’t end up his prey</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Spring is his favorite season</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">The perfect time for him to creep on</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">The reason behind his endeavors are unheard of</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Truly a monster he is to be afraid of</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/2 mx-auto mb-3">
+                            <img className="w-100" src={crimson} alt="Crimson" />
+                        </div>
+                        <p className="content-characters-subtitle text-center font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="content-characters-title text-center text-2xl font-w-hermann w-hermann-ultrabold mb-4">Crimson</p>
+
+                        <div className="px-2">
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Nightosphere is his domain</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">A great ruler albeit full of disdain</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">A crisp clean suit adorning his highness</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Quite peculiar for him in a place brimming of mess</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Been alive since the ancient times</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Surely, he is a foe one had no ties</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Crossing him is something no one would phatom</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">For doing so will always result in irreversible doom</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">No one knows his heartaches, but one thing is for sure</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">He is yearning for his daughter’s love that is obscure</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/2 mx-auto mb-3">
+                            <img className="w-100" src={dummy} alt="Dummy" />
+                        </div>
+                        <p className="content-characters-subtitle text-center font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="content-characters-title text-center text-2xl font-w-hermann w-hermann-ultrabold mb-4">Dummy</p>
+
+                        <div className="px-2">
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Vested with the right to stand next to the Goblin King</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">A loyal servant seems to be more fitting</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Dummy’s story is unknown</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">His ties with others showing no signs it has grown</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Errands for the King he ought to pursue</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">For he only knows the repercussions in refusing to do so</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Incredulous for his participation</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">The Council could only watch in anticipation</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">The downfall in transit of the Great Dummy</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Coming so slow for a number of his enemy</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/2 mx-auto mb-3">
+                            <img className="w-100" src={hotdog} alt="Hot Dog Prince" />
+                        </div>
+                        <p className="content-characters-subtitle text-center font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="content-characters-title text-center text-2xl font-w-hermann w-hermann-ultrabold mb-4">Hot Dog Prince</p>
+
+                        <div className="px-2">
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">The warm looking Hot Dog Prince wanders all about</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">For what? Only he knows the answer to that</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Many have tried inquiring</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">But his oddly jolly personality rendered that outshining</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">A happy virus that he is</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Leaning more to the virus some other fears</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Hot Dog people are a possible sub-species of Dog</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Friendly or lethal, he is capable of just running rouge</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">He could be a monarch in the making</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">But is Hot Dog Prince meant for that while he’s living?</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/2 mx-auto mb-3">
+                            <img className="w-100" src={incubus} alt="Incubus" />
+                        </div>
+                        <p className="content-characters-subtitle text-center font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="content-characters-title text-center text-2xl font-w-hermann w-hermann-ultrabold mb-4">Incubus</p>
+
+                        <div className="px-2">
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Holding you prisoner in your moment of respite</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Do not dare to dream in front of Incubus despite</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Lurking in the deep shadows, a Mustachio with one need</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">A dream from his victims, the one he shall succeed</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Fret not as he doesn’t attack</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">But sod off before he takes you out with one pack</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">With his mighty sceptre, many suspects him to be of royal descent</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Mayhap no answers can be given for Incubus only shouts words of dissent</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">He drains to pick at random</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Does he do it to avoid suspicions of his ruledom?</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/2 mx-auto mb-3">
+                            <img className="w-100" src={inka} alt="Inka" />
+                        </div>
+                        <p className="content-characters-subtitle text-center font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="content-characters-title text-center text-2xl font-w-hermann w-hermann-ultrabold mb-4">Inka</p>
+
+                        <div className="px-2">
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Remnants of his time buried to be sanctified</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Fury at the pit of his stomach lies, waiting to be rectified</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Who has caused his death?</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Who believed he needed to be sanctified?</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Betrayal is something he has truly experienced</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Roars of his people, with him as the receiving end</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">A life anew he wishes as a development</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">But he is crippled with the undwindling fear and resentment </p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">A Lord starting from his birthright</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">The ire of his people, did he ever deserve that attrite?</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/2 mx-auto mb-3">
+                            <img className="w-100" src={jasondkiller} alt="Jason D Killer" />
+                        </div>
+                        <p className="content-characters-subtitle text-center font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="content-characters-title text-center text-2xl font-w-hermann w-hermann-ultrabold mb-4">Jason D Killer</p>
+
+                        <div className="px-2">
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">His obsession with death is highly alarming</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Guarding Crystal Lake, his machete at work is truly spine-chilling</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">He only leaves his shack for adventure and to end intruders</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Be careful not be one of Crystal Lake’s dwellers</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Not a fan of nosiness</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Only doom is met when one gets trapped on his craziness</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Invincible he is not</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">There lies a weakness he’d not dare he’d forgot</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">One his own kin can only send him to oblivion</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">So he makes sure to always be reborn</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/2 mx-auto mb-3">
+                            <img className="w-100" src={jungle} alt="Jungle" />
+                        </div>
+                        <p className="content-characters-subtitle text-center font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="content-characters-title text-center text-2xl font-w-hermann w-hermann-ultrabold mb-4">Jungle</p>
+
+                        <div className="px-2">
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">The jungle is where he feels free the most</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">It is somewhere he could never be lost</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Him wearing a crown of skull sends shiver towards anyone’s spine</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">In front of Jungle, make sure not to do anything out of line</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">His purple hair is much to his dislike</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">So he puts it up in a way that he’d probably like</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Bumps on his hair could mean a thing or two</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">But no one really knows what he could be up to</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">He is one among the mischievous looking Mustachio</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">But would that title be something he could live up to?</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/2 mx-auto mb-3">
+                            <img className="w-100" src={kingstellar} alt="King Stellar" />
+                        </div>
+                        <p className="content-characters-subtitle text-center font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="content-characters-title text-center text-2xl font-w-hermann w-hermann-ultrabold mb-4">King Stellar</p>
+
+                        <div className="px-2">
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">As bleak as his appearance</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Pray tell, this King has lived for centuries</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">His fancy, a nuisance for princesses</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">His love showing thousands of phases</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">No one could handle the extent of his affection</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">For he is a man who does his thing in any situation</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">His parlour serving no other purpose</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Than for this lonesome fellow to wallow in solo</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">His image is clouded with judgement</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Yet as harmless as he is, desperation could only suffice his fulfillment</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/2 mx-auto mb-3">
+                            <img className="w-100" src={leatherface} alt="Leather Face" />
+                        </div>
+                        <p className="content-characters-subtitle text-center font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="content-characters-title text-center text-2xl font-w-hermann w-hermann-ultrabold mb-4">Leather Face</p>
+
+                        <div className="px-2">
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">The one of horror called Leather Face</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">He kills out of fear, not of malice</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">As recurring as a villain as he is</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">He takes orders from his older family members he wishes to please</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">A Chainsaw and a Sledge Hammer are his precious weapon</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">One ought to never cross him for you could easily be someone he’d leap on</p>
+                            </div>
+                            <div className="mb-2">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">His personality is based on his mask</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Without it, nothing in him is in tact</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Just a lost soul yearning to be found</p>
+                                <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">To express a self that is finally bound</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
                 {/* Up Next */}
                 <article className="page h-90vh">
                     <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
-                        <h3 className="text-center font-w-hermann w-hermann-semibold">CHAPTER 5</h3>
-                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-3">Release Date: October 13, 2021 - 7PM SGT</p>
+                        <h3 className="text-center font-w-hermann w-hermann-semibold">CHAPTER 6</h3>
+                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-3">Release Date: October 20, 2021 - 7PM SGT</p>
                         
                         <div className="d-flex justify-content-around mb-3 w-1/2 mx-auto mobile-socmed-icons">
                             <a href={socMedHandles.fb} target="_blank" rel="noreferrer">
