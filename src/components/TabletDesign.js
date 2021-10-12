@@ -111,7 +111,7 @@ function TabletDesign({ socMedHandles, flipPage}) {
                     <div className="h-90vh d-flex flex-column justify-content-start pt-4" style={{position: "relative"}}>
                         <h3 className="text-center text-2xl font-w-hermann w-hermann-semibold mb-5">Table of Contents</h3>
                         
-                        {filterChapters(ChapterPages, 1, 27).map((x, k) => (
+                        {filterChapters(ChapterPages, 1, 30).map((x, k) => (
                             !x.subpage ? (
                                 <div className="row tc-link" onClick={() => flipPage.gotoPage(x.pageIndexTab)} key={x.id}>
                                     <div className="col-7">
@@ -140,7 +140,7 @@ function TabletDesign({ socMedHandles, flipPage}) {
                     <div className="h-90vh d-flex flex-column justify-content-start pt-4" style={{position: "relative"}}>
                         <h3 className="text-center text-2xl font-w-hermann w-hermann-semibold mb-5">Table of Contents</h3>
                         
-                        {filterChapters(ChapterPages, 28).map((x, k) => (
+                        {filterChapters(ChapterPages, 31).map((x, k) => (
                             !x.subpage ? (
                                 <div className="row tc-link" onClick={() => flipPage.gotoPage(x.pageIndexTab)} key={x.id}>
                                     <div className="col-7">

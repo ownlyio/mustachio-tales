@@ -174,7 +174,7 @@ function App() {
                                     <div className="h-full d-flex flex-column justify-content-start pt-5" style={{position: "relative"}}>
                                         <h3 className="text-center text-2xl font-w-hermann w-hermann-semibold mb-4">Table of Contents</h3>
                                         
-                                        {filterChapters(ChapterPages, 1, 17).map((x, k) => (
+                                        {filterChapters(ChapterPages, 1, 20).map((x, k) => (
                                             !x.subpage ? (
                                                 <div className="row tc-link" onClick={() => flipPage.gotoPage(x.pageIndex)} key={x.id}>
                                                     <div className="col-7">
@@ -201,7 +201,7 @@ function App() {
                                 </div>
                                 <div className="w-2/4 bg-white">
                                     <div className="h-full d-flex flex-column justify-content-start pt-5" style={{position: "relative"}}>                                        
-                                        {filterChapters(ChapterPages, 18, 35).map((x, k) => (
+                                        {filterChapters(ChapterPages, 21, 40).map((x, k) => (
                                             !x.subpage ? (
                                                 <div className="row tc-link" onClick={() => flipPage.gotoPage(x.pageIndex)} key={x.id}>
                                                     <div className="col-7">
@@ -231,10 +231,8 @@ function App() {
                         <article className="page">
                             <div className="d-flex justify-content-around h-full">
                                 <div className="w-2/4 bg-white">
-                                    <div className="h-full d-flex flex-column justify-content-start pt-5" style={{position: "relative"}}>
-                                        <h3 className="text-center text-2xl font-w-hermann w-hermann-semibold mb-4">Table of Contents</h3>
-                                        
-                                        {filterChapters(ChapterPages, 36).map((x, k) => (
+                                    <div className="h-full d-flex flex-column justify-content-start pt-5" style={{position: "relative"}}>                                        
+                                        {filterChapters(ChapterPages, 41).map((x, k) => (
                                             !x.subpage ? (
                                                 <div className="row tc-link" onClick={() => flipPage.gotoPage(x.pageIndex)} key={x.id}>
                                                     <div className="col-7">
