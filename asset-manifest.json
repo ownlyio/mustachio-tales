@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a93463a4.chunk.css",
-    "main.js": "/static/js/main.07f9ff27.chunk.js",
-    "main.js.map": "/static/js/main.07f9ff27.chunk.js.map",
+    "main.js": "/static/js/main.4cb18940.chunk.js",
+    "main.js.map": "/static/js/main.4cb18940.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.707d1a48.js",
     "runtime-main.js.map": "/static/js/runtime-main.707d1a48.js.map",
     "static/css/2.da1eef19.chunk.css": "/static/css/2.da1eef19.chunk.css",
@@ -35,6 +35,7 @@
     "static/media/chap2.fe83cca1.png": "/static/media/chap2.fe83cca1.png",
     "static/media/chap3.1270aafd.png": "/static/media/chap3.1270aafd.png",
     "static/media/chap4.a46c7c95.png": "/static/media/chap4.a46c7c95.png",
+    "static/media/chap5.e7acaa5e.png": "/static/media/chap5.e7acaa5e.png",
     "static/media/climber.b6dff529.png": "/static/media/climber.b6dff529.png",
     "static/media/MobileDesign.css": "/static/media/cover_square.7f46b3b0.jpg",
     "static/media/creepy_strawhat.2c3f5a89.png": "/static/media/creepy_strawhat.2c3f5a89.png",
@@ -79,6 +80,6 @@
     "static/css/2.da1eef19.chunk.css",
     "static/js/2.707f4a9e.chunk.js",
     "static/css/main.a93463a4.chunk.css",
-    "static/js/main.07f9ff27.chunk.js"
+    "static/js/main.4cb18940.chunk.js"
   ]
 }
