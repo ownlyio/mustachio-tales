@@ -67,7 +67,7 @@ import kinghobgoblin from '../images/ch_4/characters/king_hobgoblin.png'
 import turfywizard from '../images/ch_4/characters/turfy_wizard.png'
 
 // chapter 5 images
-import chapter5Logo from '../images/ch_4/chap4.png'
+import chapter5Logo from '../images/ch_5/chap5.png'
 
 // chapter 5 characters
 import creepystrawhat from '../images/ch_5/characters/creepy_strawhat.png'

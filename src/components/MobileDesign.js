@@ -67,7 +67,7 @@ import kinghobgoblin from '../images/ch_4/characters/king_hobgoblin.png'
 import turfywizard from '../images/ch_4/characters/turfy_wizard.png'
 
 // chapter 5 images
-import chapter5Logo from '../images/ch_4/chap4.png'
+import chapter5Logo from '../images/ch_5/chap5.png'
 
 // chapter 5 characters
 import creepystrawhat from '../images/ch_5/characters/creepy_strawhat.png'
@@ -2107,7 +2107,7 @@ function MobileDesign({ socMedHandles, flipPage}) {
                     <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
                         <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 5: Myst of the Ancient Cellar</p>
                         <div className="w-1/4 mx-auto mt-3 mb-4 ">
-                            <img className="w-100" src={chapter4Logo} alt="Chapter 4" />
+                            <img className="w-100" src={chapter5Logo} alt="Chapter 5" />
                         </div>
 
                         {/* Stanzas */}
