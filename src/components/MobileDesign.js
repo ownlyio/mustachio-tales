@@ -2160,7 +2160,7 @@ function MobileDesign({ socMedHandles, flipPage}) {
                                 <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">In the boudoir of the biggest bed chamber? In the library? In the study? In the tower? No, no. Somewhere more unsuspicious should be fitting. All of the Mustachios sat in silence in the impeccably designed parlour of the grand castle thinking of where something magical could be hidden.</p>
                             </div>
                             <div className="mb-3 content-mobile-inner">
-                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">““All this thinking is making me hungry!” </p>
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">“All this thinking is making me hungry!”</p>
                             </div>
                             <div className="mb-3 content-mobile-inner">
                                 <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Some Mustachios were about to head to the kitchen when someone noticed that the walls were moving. Wait, no, letters are the ones moving, not the wall.</p>
@@ -2595,6 +2595,198 @@ function MobileDesign({ socMedHandles, flipPage}) {
                             <div className="mb-0">
                                 <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">Just a lost soul yearning to be found</p>
                                 <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">To express a self that is finally bound</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                {/* Chapter 6 */}
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <div className="w-1/3 mx-auto mt-5 mb-5">
+                            <img className="w-100" src={sagesRant} alt="Chapter 6" />
+                        </div>
+                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-2">CHAPTER 6</p>
+                        <h3 className="text-center font-w-hermann w-hermann-semibold">The Chaos by the Tavern</h3>
+                        <p className="text-center text-xl font-w-hermann w-hermann-semibold-italic ch-footer mb-5">The Sages Rant</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 6: The Chaos by the Tavern</p>
+                        <div className="w-1/4 mx-auto mt-3 mb-4 ">
+                            <img className="w-100" src={chapter6Logo} alt="Chapter 6" />
+                        </div>
+
+                        {/* Stanzas */}
+                        <div className="mb-3 content-mobile-inner">
+                            <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">
+                                <span className="text-5xl">E</span>ntering an unfamiliar and hostile district is an easy feat for the adventurous Mustachios. They’ve done it countless times in their individual journeys. However, unlike the first artifacts introduced, this one comes with a lot more risk.
+                            </p>
+                        </div>
+                        <div className="mb-3 content-mobile-inner">
+                            <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">The only clue given to them was that this artifact doesn’t stay in one place. They always have to be on the lookout for something out of the ordinary. They’ve been to countless places just for this certain artifact. Mountains, rivers, forests, caves, even manors were conquered for just one mischievous artifact.</p>
+                        </div>                   
+                        <div className="mb-3 content-mobile-inner">
+                            <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Their search continued ‘til the winter season in a busy village.</p>
+                        </div>          
+                        <div className="mb-3 content-mobile-inner">
+                            <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">They decided to stay for a much needed respite, and a bit of fun too while at it.</p>
+                        </div>          
+
+                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">86</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 6: The Chaos by the Tavern</p>
+
+                        {/* Stanzas */}
+                        <div className="mt-3 content-mobile-wrap">
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Whiskers Village is known to be the busiest district in the MustachioVerse with hustles and bustles left and right, at any time of the day and year.</p>
+                            </div> 
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">One can never be too bored in such a place!</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Trying to enjoy their off-time in the tavern seemed like an impossible task when all the Mustachios can think about is the artifact that just couldn’t stay still.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Does it have the power to teleport?</p>
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Does it have an entity in itself?</p>
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Is it possessed by a mighty being?</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Or...</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Is the Prospector disguising himself as a traveling merchant so no one would suspect of the precious artifact he always carries?</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Hmm… a cape-like barber’s cloth.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Aha! Could it be the Robe of Protection?!</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">*Ding* sounded the doorbell. Another seemingly creepy individual entered the tavern.</p>
+                            </div>
+                        </div>
+
+                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">87</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 6: The Chaos by the Tavern</p>
+
+                        {/* Stanzas */}
+                        <div className="mt-3 content-mobile-wrap">
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Oh, it’s just a traveling merchant here for the winter auction.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">This one, however, did not seem to be cold at all despite all the accessories adorning his fit. It’s like he’s just trying to fit in but couldn’t really care less.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">The only other person in the pub who doesn’t get affected by cold is Frozen Sundae. Of course, because he enjoyed making it a couple degrees lower for everyone while trying to act inconspicuously. What a conflicting Mustachio.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Lullaby, the main act of the night who makes everyone swoon over her melodic voice, acted nonchalant while still keeping the ambience merry for everyone. It was an impromptu performance because everyone recognized the popular singer and she couldn’t deny their requests. That’s how she stays so humble despite the fame.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Lisby, who also jumped on to the impromptu job of bartending, kept her ears open because apparently,  the best secrets are shared in the bar counter. She subtly exchanges messages with Lizzard Prince, the best Mustachio for valuable information.</p>
+                            </div>
+                        </div>
+
+                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">88</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 6: The Chaos by the Tavern</p>
+
+                        {/* Stanzas */}
+                        <div className="mt-3 content-mobile-wrap">
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">While the rest are just enjoying themselves, Squarehead seems to be really annoyed about something. Ever since they arrived in the village, every local has been fawning over her and some are really determined to have her attention. What else can they do? It’s rare for Whiskers Village to have such big doe eyes come by. Unfortunately, they’re underestimating her skills which makes her so mad.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Forest Lord who is always on the lookout for something amiss in his environment was the one who alerted the other Mustachios of the suspicious merchant. Naturally, he and his people always look out for danger to prevent mischief and damage to nature. By his side is his most trusted soldier, Forest Warrior. If it wasn’t for the Forest Lord, he’d rather just stay in the forest but he recognizes that the safety of the Forest Lord is the safety of his home.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">The two drunkards who always make fun of the others are now laughing their asses off after tripping another drunk local. “Life is just one hectic comedy movie,” uttered Leprechaun, a very extroverted fellow who just brings fun everywhere he goes. The other Mustachios are just afraid of him pouring his guts out on that very big pot he carries after drinking so much.</p>
+                            </div>
+                        </div>
+
+                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">89</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 6: The Chaos by the Tavern</p>
+
+                        {/* Stanzas */}
+                        <div className="mt-3 content-mobile-wrap">
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">“Stop being so boring and for once do something crazy!”</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Dragged by Leprechaun’s antics, LSP could just nod throughout his hiccups. Everybody knows that LSP is just trying his best so they just let him be. Although they’re all wondering if the reason for him drinking and agreeing with Leprechaun is for himself or for others again.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Despite all that chaos, everyone is acting so unbothered but they all remain alert. The master of chaos, however, could not just stay still.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">LichKing, the embodiment of all evil, ran up to the mysterious merchant only to have him teleport to the door. He just couldn’t wait for the auction! What an idiot!</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">The mystery guy’s movements prompted everyone to jump in action. The dude just confirmed their suspicions!</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">They all ran towards the door to the outside of the tavern to get a hold of the merchant. Unfortunately, all they got a hold of was the guy’s satchel which contains a dirty long rag and a missive.</p>
+                            </div>
+                        </div>
+
+                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">90</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 6: The Chaos by the Tavern</p>
+
+                        {/* Stanzas */}
+                        <div className="mt-3 content-mobile-wrap">
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">The missive contains cryptic words that says,</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-italic mb-0">“For one to wield the power of the Robe of Protection, take the rag and bring out its most powerful potential.” </p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Unbelievable. What was the Prospector thinking?</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Turning the rag into the Robe of Protection? And without much of a clue?</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Another question... how the hell can someone do that?</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Will you be the first and only Mustachio to solve this riddle and get the Robe of Protection?</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">Mint your Mustachio now and enter the portal that will transport you to MustachioVerse!</p>
+                                <p className="content-mobile text-center font-w-hermann w-hermann-semibold mb-0">
+                                    <a href="https://mustachioverse.com/">https://mustachioverse.com/</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="mb-5 ch-footer mustachio-logo-mobile-wrap">
+                            <div className="w-1/6 mx-auto mustachio-logo-mobile">
+                                <img className="w-100" src={mustachioLogoFooter} alt="Mustachio Logo" />
                             </div>
                         </div>
                     </div>
