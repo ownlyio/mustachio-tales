@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a93463a4.chunk.css",
-    "main.js": "/static/js/main.4cb18940.chunk.js",
-    "main.js.map": "/static/js/main.4cb18940.chunk.js.map",
+    "main.js": "/static/js/main.6a4d1cf2.chunk.js",
+    "main.js.map": "/static/js/main.6a4d1cf2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.707d1a48.js",
     "runtime-main.js.map": "/static/js/runtime-main.707d1a48.js.map",
     "static/css/2.da1eef19.chunk.css": "/static/css/2.da1eef19.chunk.css",
@@ -49,9 +49,12 @@
     "static/media/farmer.4d44758c.png": "/static/media/farmer.4d44758c.png",
     "static/media/faun.49f3a613.png": "/static/media/faun.49f3a613.png",
     "static/media/fire_cracker_jack.55de5013.png": "/static/media/fire_cracker_jack.55de5013.png",
+    "static/media/forest_lord.1c566c3e.png": "/static/media/forest_lord.1c566c3e.png",
+    "static/media/forest_warrior.01c5d17d.png": "/static/media/forest_warrior.01c5d17d.png",
     "static/media/frankiestan.ba4e589d.png": "/static/media/frankiestan.ba4e589d.png",
     "static/media/frontline.98ed76a4.png": "/static/media/frontline.98ed76a4.png",
     "static/media/frosty.b56c8530.png": "/static/media/frosty.b56c8530.png",
+    "static/media/frozen_sundae.0bd9ac37.png": "/static/media/frozen_sundae.0bd9ac37.png",
     "static/media/gamerboi.48708600.png": "/static/media/gamerboi.48708600.png",
     "static/media/ghost.1b733378.png": "/static/media/ghost.1b733378.png",
     "static/media/ghost_clarence.6864047a.png": "/static/media/ghost_clarence.6864047a.png",
@@ -66,12 +69,19 @@
     "static/media/king_hobgoblin.6bd5a418.png": "/static/media/king_hobgoblin.6bd5a418.png",
     "static/media/king_stellar.bfb1cb3e.png": "/static/media/king_stellar.bfb1cb3e.png",
     "static/media/leather_face.e21f73ba.png": "/static/media/leather_face.e21f73ba.png",
+    "static/media/leprechaun.80d66f96.png": "/static/media/leprechaun.80d66f96.png",
+    "static/media/lichking.e6cc6e49.png": "/static/media/lichking.e6cc6e49.png",
+    "static/media/lisby.b185a26e.png": "/static/media/lisby.b185a26e.png",
+    "static/media/lizzard_prince.ae3f2bf3.png": "/static/media/lizzard_prince.ae3f2bf3.png",
+    "static/media/lsp.81b3b19c.png": "/static/media/lsp.81b3b19c.png",
+    "static/media/lullaby.67865ae4.png": "/static/media/lullaby.67865ae4.png",
     "static/media/mustachio_logo_2_white.f0c130fd.png": "/static/media/mustachio_logo_2_white.f0c130fd.png",
     "static/media/page1-pic.501fe5ec.png": "/static/media/page1-pic.501fe5ec.png",
     "static/media/page2-pic.06d7214d.png": "/static/media/page2-pic.06d7214d.png",
     "static/media/pulsar.bd90dafe.png": "/static/media/pulsar.bd90dafe.png",
     "static/media/rench.173cc87f.png": "/static/media/rench.173cc87f.png",
     "static/media/shucks.1db11a4c.png": "/static/media/shucks.1db11a4c.png",
+    "static/media/squarehead.3e865b02.png": "/static/media/squarehead.3e865b02.png",
     "static/media/turfy_wizard.485c467b.png": "/static/media/turfy_wizard.485c467b.png",
     "static/media/verdantgreed.eea68802.png": "/static/media/verdantgreed.eea68802.png"
   },
@@ -80,6 +90,6 @@
     "static/css/2.da1eef19.chunk.css",
     "static/js/2.707f4a9e.chunk.js",
     "static/css/main.a93463a4.chunk.css",
-    "static/js/main.4cb18940.chunk.js"
+    "static/js/main.6a4d1cf2.chunk.js"
   ]
 }
