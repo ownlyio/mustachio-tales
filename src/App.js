@@ -247,7 +247,7 @@ function App() {
                             <div className="d-flex justify-content-around h-full">
                                 <div className="w-2/4 bg-white">
                                     <div className="h-full d-flex flex-column justify-content-start pt-5" style={{position: "relative"}}>                                        
-                                        {filterChapters(ChapterPages, 41).map((x, k) => (
+                                        {filterChapters(ChapterPages, 41, 60).map((x, k) => (
                                             !x.subpage ? (
                                                 <div className="row tc-link" onClick={() => flipPage.gotoPage(x.pageIndex)} key={x.id}>
                                                     <div className="col-7">
@@ -272,7 +272,33 @@ function App() {
                                         <p className="text-center text-xl font-w-hermann w-hermann-semibold-italic ch-footer mb-5">The Sages Rant</p>
                                     </div>
                                 </div>
-                                <div className="w-2/4 bg-white"></div>
+                                <div className="w-2/4 bg-white">
+                                <div className="h-full d-flex flex-column justify-content-start pt-5" style={{position: "relative"}}>                                        
+                                        {filterChapters(ChapterPages, 61).map((x, k) => (
+                                            !x.subpage ? (
+                                                <div className="row tc-link" onClick={() => flipPage.gotoPage(x.pageIndex)} key={x.id}>
+                                                    <div className="col-7">
+                                                        <p className="font-w-hermann text-lg w-hermann-semibold mb-0">{x.title}</p>
+                                                    </div>
+                                                    <div className="col-5">
+                                                        <p className="text-right text-lg font-w-hermann w-hermann-semibold mb-0">{x.page}</p>
+                                                    </div>
+                                                </div>
+                                            ) : (
+                                                <div className="row tc-link indent" onClick={() => flipPage.gotoPage(x.pageIndex)} key={x.id}>
+                                                    <div className="col-7">
+                                                        <p className="font-w-hermann w-hermann mb-0">{x.title}</p>
+                                                    </div>
+                                                    <div className="col-5">
+                                                        <p className="text-right font-w-hermann w-hermann mb-0">{x.page}</p>
+                                                    </div>
+                                                </div>
+                                            )
+                                        ))}
+                                        
+                                        <p className="text-center text-xl font-w-hermann w-hermann-semibold-italic ch-footer mb-5">The Sages Rant</p>
+                                    </div>
+                                </div>
                             </div>
                         </article>
 

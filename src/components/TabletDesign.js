@@ -155,7 +155,36 @@ function TabletDesign({ socMedHandles, flipPage}) {
                     <div className="h-90vh d-flex flex-column justify-content-start pt-4" style={{position: "relative"}}>
                         <h3 className="text-center text-2xl font-w-hermann w-hermann-semibold mb-5">Table of Contents</h3>
                         
-                        {filterChapters(ChapterPages, 31).map((x, k) => (
+                        {filterChapters(ChapterPages, 31, 60).map((x, k) => (
+                            !x.subpage ? (
+                                <div className="row tc-link" onClick={() => flipPage.gotoPage(x.pageIndexTab)} key={x.id}>
+                                    <div className="col-7">
+                                        <p className="font-w-hermann text-lg w-hermann-semibold mb-0">{x.title}</p>
+                                    </div>
+                                    <div className="col-5">
+                                        <p className="text-right text-lg font-w-hermann w-hermann-semibold mb-0">{x.pageTab}</p>
+                                    </div>
+                                </div>
+                            ) : (
+                                <div className="row tc-link indent" onClick={() => flipPage.gotoPage(x.pageIndexTab)} key={x.id}>
+                                    <div className="col-7">
+                                        <p className="font-w-hermann w-hermann mb-0">{x.title}</p>
+                                    </div>
+                                    <div className="col-5">
+                                        <p className="text-right font-w-hermann w-hermann mb-0">{x.pageTab}</p>
+                                    </div>
+                                </div>
+                            )
+                        ))}
+                        
+                        <p className="text-center text-xl font-w-hermann w-hermann-semibold-italic ch-footer mb-5">The Sages Rant</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start pt-4" style={{position: "relative"}}>
+                        <h3 className="text-center text-2xl font-w-hermann w-hermann-semibold mb-5">Table of Contents</h3>
+                        
+                        {filterChapters(ChapterPages, 61).map((x, k) => (
                             !x.subpage ? (
                                 <div className="row tc-link" onClick={() => flipPage.gotoPage(x.pageIndexTab)} key={x.id}>
                                     <div className="col-7">
