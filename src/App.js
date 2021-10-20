@@ -87,7 +87,7 @@ import kingstellar from './images/ch_5/characters/king_stellar.png'
 import leatherface from './images/ch_5/characters/leather_face.png'
 
 // chapter 6 images
-import chapter6Logo from './images/ch_5/chap5.png'
+import chapter6Logo from './images/ch_6/chap6.png'
 
 // chapter 6 characters
 import forestlord from './images/ch_6/characters/forest_lord.png'
