@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a93463a4.chunk.css",
-    "main.js": "/static/js/main.67612d70.chunk.js",
-    "main.js.map": "/static/js/main.67612d70.chunk.js.map",
+    "main.js": "/static/js/main.348d4117.chunk.js",
+    "main.js.map": "/static/js/main.348d4117.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.707d1a48.js",
     "runtime-main.js.map": "/static/js/runtime-main.707d1a48.js.map",
     "static/css/2.da1eef19.chunk.css": "/static/css/2.da1eef19.chunk.css",
@@ -37,6 +37,7 @@
     "static/media/chap4.a46c7c95.png": "/static/media/chap4.a46c7c95.png",
     "static/media/chap5.e7acaa5e.png": "/static/media/chap5.e7acaa5e.png",
     "static/media/chap6.8237c19e.png": "/static/media/chap6.8237c19e.png",
+    "static/media/chap7.4b4b9592.png": "/static/media/chap7.4b4b9592.png",
     "static/media/climber.b6dff529.png": "/static/media/climber.b6dff529.png",
     "static/media/MobileDesign.css": "/static/media/cover_square.7f46b3b0.jpg",
     "static/media/creepy_strawhat.2c3f5a89.png": "/static/media/creepy_strawhat.2c3f5a89.png",
@@ -76,7 +77,17 @@
     "static/media/lizzard_prince.ae3f2bf3.png": "/static/media/lizzard_prince.ae3f2bf3.png",
     "static/media/lsp.81b3b19c.png": "/static/media/lsp.81b3b19c.png",
     "static/media/lullaby.67865ae4.png": "/static/media/lullaby.67865ae4.png",
+    "static/media/magic_man.cc781334.png": "/static/media/magic_man.cc781334.png",
+    "static/media/marci.72e8f684.png": "/static/media/marci.72e8f684.png",
+    "static/media/merman_warrior.fd5672a1.png": "/static/media/merman_warrior.fd5672a1.png",
+    "static/media/mexico.9fd89c94.png": "/static/media/mexico.9fd89c94.png",
+    "static/media/mountain_warrior.449e9486.png": "/static/media/mountain_warrior.449e9486.png",
+    "static/media/mountain_warrior_2.44db39fd.png": "/static/media/mountain_warrior_2.44db39fd.png",
     "static/media/mustachio_logo_2_white.f0c130fd.png": "/static/media/mustachio_logo_2_white.f0c130fd.png",
+    "static/media/neos.9569b1e4.png": "/static/media/neos.9569b1e4.png",
+    "static/media/nightmare.796bbc68.png": "/static/media/nightmare.796bbc68.png",
+    "static/media/ninja.31d097fb.png": "/static/media/ninja.31d097fb.png",
+    "static/media/onku.f87e3a86.png": "/static/media/onku.f87e3a86.png",
     "static/media/page1-pic.501fe5ec.png": "/static/media/page1-pic.501fe5ec.png",
     "static/media/page2-pic.06d7214d.png": "/static/media/page2-pic.06d7214d.png",
     "static/media/pulsar.bd90dafe.png": "/static/media/pulsar.bd90dafe.png",
@@ -91,6 +102,6 @@
     "static/css/2.da1eef19.chunk.css",
     "static/js/2.707f4a9e.chunk.js",
     "static/css/main.a93463a4.chunk.css",
-    "static/js/main.67612d70.chunk.js"
+    "static/js/main.348d4117.chunk.js"
   ]
 }
