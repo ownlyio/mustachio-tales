@@ -8,7 +8,7 @@ const ChapterPages = [
         subpage: false,
         pageIndex: 3,
         pageIndexTab: 4,
-        pageIndexMobile: 5,
+        pageIndexMobile: 6,
     },
     {
         id: 2,
@@ -19,7 +19,7 @@ const ChapterPages = [
         subpage: false,
         pageIndex: 5,
         pageIndexTab: 7,
-        pageIndexMobile: 8,
+        pageIndexMobile: 9,
     },
     {
         id: 3,
@@ -30,7 +30,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 8,
         pageIndexTab: 11,
-        pageIndexMobile: 13,
+        pageIndexMobile: 14,
     },
     {
         id: 4,
@@ -41,7 +41,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 9,
         pageIndexTab: 12,
-        pageIndexMobile: 14,
+        pageIndexMobile: 15,
     },
     {
         id: 5,
@@ -52,7 +52,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 10,
         pageIndexTab: 13,
-        pageIndexMobile: 15,
+        pageIndexMobile: 16,
     },
     {
         id: 6,
@@ -63,7 +63,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 11,
         pageIndexTab: 14,
-        pageIndexMobile: 16,
+        pageIndexMobile: 17,
     },
     {
         id: 7,
@@ -74,7 +74,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 12,
         pageIndexTab: 15,
-        pageIndexMobile: 17,
+        pageIndexMobile: 18,
     },
     {
         id: 8,
@@ -85,7 +85,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 13,
         pageIndexTab: 16,
-        pageIndexMobile: 18,
+        pageIndexMobile: 19,
     },
     {
         id: 9,
@@ -96,7 +96,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 14,
         pageIndexTab: 17,
-        pageIndexMobile: 19,
+        pageIndexMobile: 20,
     },
     {
         id: 10,
@@ -107,7 +107,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 15,
         pageIndexTab: 18,
-        pageIndexMobile: 20,
+        pageIndexMobile: 21,
     },
     {
         id: 11,
@@ -118,7 +118,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 16,
         pageIndexTab: 19,
-        pageIndexMobile: 21,
+        pageIndexMobile: 22,
     },
     {
         id: 12,
@@ -129,7 +129,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 17,
         pageIndexTab: 20,
-        pageIndexMobile: 22,
+        pageIndexMobile: 23,
     },
     {
         id: 13,
@@ -140,7 +140,7 @@ const ChapterPages = [
         subpage: false,
         pageIndex: 18,
         pageIndexTab: 21,
-        pageIndexMobile: 23,
+        pageIndexMobile: 24,
     },
     {
         id: 14,
@@ -151,7 +151,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 22,
         pageIndexTab: 26,
-        pageIndexMobile: 29,
+        pageIndexMobile: 30,
     },
     {
         id: 15,
@@ -162,7 +162,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 23,
         pageIndexTab: 27,
-        pageIndexMobile: 30,
+        pageIndexMobile: 31,
     },
     {
         id: 16,
@@ -173,7 +173,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 24,
         pageIndexTab: 28,
-        pageIndexMobile: 31,
+        pageIndexMobile: 32,
     },
     {
         id: 17,
@@ -184,7 +184,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 25,
         pageIndexTab: 29,
-        pageIndexMobile: 32,
+        pageIndexMobile: 33,
     },
     {
         id: 18,
@@ -195,7 +195,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 26,
         pageIndexTab: 30,
-        pageIndexMobile: 33,
+        pageIndexMobile: 34,
     },
     {
         id: 19,
@@ -206,7 +206,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 27,
         pageIndexTab: 31,
-        pageIndexMobile: 34,
+        pageIndexMobile: 35,
     },
     {
         id: 20,
@@ -217,7 +217,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 28,
         pageIndexTab: 32,
-        pageIndexMobile: 35,
+        pageIndexMobile: 36,
     },
     {
         id: 21,
@@ -228,7 +228,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 29,
         pageIndexTab: 33,
-        pageIndexMobile: 36,
+        pageIndexMobile: 37,
     },
     {
         id: 22,
@@ -239,7 +239,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 30,
         pageIndexTab: 34,
-        pageIndexMobile: 37,
+        pageIndexMobile: 38,
     },
     {
         id: 23,
@@ -250,7 +250,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 31,
         pageIndexTab: 35,
-        pageIndexMobile: 38,
+        pageIndexMobile: 39,
     },
     {
         id: 24,
@@ -261,7 +261,7 @@ const ChapterPages = [
         subpage: false,
         pageIndex: 32,
         pageIndexTab: 36,
-        pageIndexMobile: 39,
+        pageIndexMobile: 40,
     },
     {
         id: 25,
@@ -272,7 +272,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 36,
         pageIndexTab: 41,
-        pageIndexMobile: 45,
+        pageIndexMobile: 46,
     },
     {
         id: 26,
@@ -283,7 +283,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 37,
         pageIndexTab: 42,
-        pageIndexMobile: 46,
+        pageIndexMobile: 47,
     },
     {
         id: 27,
@@ -294,7 +294,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 38,
         pageIndexTab: 43,
-        pageIndexMobile: 47,
+        pageIndexMobile: 48,
     },
     {
         id: 28,
@@ -305,7 +305,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 39,
         pageIndexTab: 44,
-        pageIndexMobile: 48,
+        pageIndexMobile: 49,
     },
     {
         id: 29,
@@ -316,7 +316,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 40,
         pageIndexTab: 45,
-        pageIndexMobile: 49,
+        pageIndexMobile: 50,
     },
     {
         id: 30,
@@ -327,7 +327,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 41,
         pageIndexTab: 46,
-        pageIndexMobile: 50,
+        pageIndexMobile: 51,
     },
     {
         id: 31,
@@ -338,7 +338,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 42,
         pageIndexTab: 47,
-        pageIndexMobile: 51,
+        pageIndexMobile: 52,
     },
     {
         id: 32,
@@ -349,7 +349,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 43,
         pageIndexTab: 48,
-        pageIndexMobile: 52,
+        pageIndexMobile: 53,
     },
     {
         id: 33,
@@ -360,7 +360,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 44,
         pageIndexTab: 49,
-        pageIndexMobile: 53,
+        pageIndexMobile: 54,
     },
     {
         id: 34,
@@ -371,7 +371,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 45,
         pageIndexTab: 50,
-        pageIndexMobile: 54,
+        pageIndexMobile: 55,
     },
     {
         id: 35,
@@ -382,7 +382,7 @@ const ChapterPages = [
         subpage: false,
         pageIndex: 46,
         pageIndexTab: 51,
-        pageIndexMobile: 55,
+        pageIndexMobile: 56,
     },
     {
         id: 36,
@@ -393,7 +393,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 50,
         pageIndexTab: 56,
-        pageIndexMobile: 62,
+        pageIndexMobile: 63,
     },
     {
         id: 37,
@@ -404,7 +404,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 51,
         pageIndexTab: 57,
-        pageIndexMobile: 63,
+        pageIndexMobile: 64,
     },
     {
         id: 38,
@@ -415,7 +415,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 52,
         pageIndexTab: 58,
-        pageIndexMobile: 64,
+        pageIndexMobile: 65,
     },
     {
         id: 39,
@@ -426,7 +426,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 53,
         pageIndexTab: 59,
-        pageIndexMobile: 65,
+        pageIndexMobile: 66,
     },
     {
         id: 40,
@@ -437,7 +437,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 54,
         pageIndexTab: 60,
-        pageIndexMobile: 66,
+        pageIndexMobile: 67,
     },
     {
         id: 41,
@@ -448,7 +448,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 55,
         pageIndexTab: 61,
-        pageIndexMobile: 67,
+        pageIndexMobile: 68,
     },
     {
         id: 42,
@@ -459,7 +459,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 56,
         pageIndexTab: 62,
-        pageIndexMobile: 68,
+        pageIndexMobile: 69,
     },
     {
         id: 43,
@@ -470,7 +470,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 57,
         pageIndexTab: 63,
-        pageIndexMobile: 69,
+        pageIndexMobile: 70,
     },
     {
         id: 44,
@@ -481,7 +481,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 58,
         pageIndexTab: 64,
-        pageIndexMobile: 70,
+        pageIndexMobile: 71,
     },
     {
         id: 45,
@@ -492,7 +492,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 59,
         pageIndexTab: 65,
-        pageIndexMobile: 71,
+        pageIndexMobile: 72,
     },
     {
         id: 46,
@@ -503,7 +503,7 @@ const ChapterPages = [
         subpage: false,
         pageIndex: 60,
         pageIndexTab: 66,
-        pageIndexMobile: 72,
+        pageIndexMobile: 73,
     },
     {
         id: 47,
@@ -514,7 +514,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 64,
         pageIndexTab: 70,
-        pageIndexMobile: 79,
+        pageIndexMobile: 80,
     },
     {
         id: 48,
@@ -525,7 +525,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 65,
         pageIndexTab: 71,
-        pageIndexMobile: 80,
+        pageIndexMobile: 81,
     },
     {
         id: 49,
@@ -536,7 +536,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 66,
         pageIndexTab: 72,
-        pageIndexMobile: 81,
+        pageIndexMobile: 82,
     },
     {
         id: 50,
@@ -547,7 +547,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 67,
         pageIndexTab: 73,
-        pageIndexMobile: 82,
+        pageIndexMobile: 83,
     },
     {
         id: 51,
@@ -558,7 +558,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 68,
         pageIndexTab: 74,
-        pageIndexMobile: 83,
+        pageIndexMobile: 84,
     },
     {
         id: 52,
@@ -569,7 +569,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 69,
         pageIndexTab: 75,
-        pageIndexMobile: 84,
+        pageIndexMobile: 85,
     },
     {
         id: 53,
@@ -580,7 +580,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 70,
         pageIndexTab: 76,
-        pageIndexMobile: 85,
+        pageIndexMobile: 86,
     },
     {
         id: 54,
@@ -591,7 +591,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 71,
         pageIndexTab: 77,
-        pageIndexMobile: 86,
+        pageIndexMobile: 87,
     },
     {
         id: 55,
@@ -602,7 +602,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 72,
         pageIndexTab: 78,
-        pageIndexMobile: 87,
+        pageIndexMobile: 88,
     },
     {
         id: 56,
@@ -613,7 +613,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 73,
         pageIndexTab: 79,
-        pageIndexMobile: 88,
+        pageIndexMobile: 89,
     },
     {
         id: 57,
@@ -624,7 +624,7 @@ const ChapterPages = [
         subpage: false,
         pageIndex: 74,
         pageIndexTab: 80,
-        pageIndexMobile: 89,
+        pageIndexMobile: 90,
     },
     {
         id: 58,
@@ -635,7 +635,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 78,
         pageIndexTab: 85,
-        pageIndexMobile: 96,
+        pageIndexMobile: 97,
     },
     {
         id: 59,
@@ -646,7 +646,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 79,
         pageIndexTab: 86,
-        pageIndexMobile: 87,
+        pageIndexMobile: 98,
     },
     {
         id: 60,
@@ -657,7 +657,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 80,
         pageIndexTab: 87,
-        pageIndexMobile: 98,
+        pageIndexMobile: 99,
     },
     {
         id: 61,
@@ -668,7 +668,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 81,
         pageIndexTab: 88,
-        pageIndexMobile: 99,
+        pageIndexMobile: 100,
     },
     {
         id: 62,
@@ -679,7 +679,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 82,
         pageIndexTab: 89,
-        pageIndexMobile: 100,
+        pageIndexMobile: 101,
     },
     {
         id: 63,
@@ -690,7 +690,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 83,
         pageIndexTab: 90,
-        pageIndexMobile: 101,
+        pageIndexMobile: 102,
     },
     {
         id: 64,
@@ -701,7 +701,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 84,
         pageIndexTab: 91,
-        pageIndexMobile: 102,
+        pageIndexMobile: 103,
     },
     {
         id: 65,
@@ -712,7 +712,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 85,
         pageIndexTab: 92,
-        pageIndexMobile: 103,
+        pageIndexMobile: 104,
     },
     {
         id: 66,
@@ -723,7 +723,7 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 86,
         pageIndexTab: 93,
-        pageIndexMobile: 104,
+        pageIndexMobile: 105,
     },
     {
         id: 67,
@@ -734,11 +734,132 @@ const ChapterPages = [
         subpage: true,
         pageIndex: 87,
         pageIndexTab: 94,
-        pageIndexMobile: 105,
+        pageIndexMobile: 106,
     },
     {
         id: 68,
-        title: 'Chapter 7: Coming Soon...',
+        title: 'Chapter 7: The Conspiracy at Aeolian',
+        page: 172,
+        pageTab: 92,
+        pageMobile: 102,
+        subpage: false,
+        pageIndex: 88,
+        pageIndexTab: 95,
+        pageIndexMobile: 107,
+    },
+    {
+        id: 69,
+        title: 'The Tale of Magic Man',
+        page: 181,
+        pageTab: 97,
+        pageMobile: 109,
+        subpage: true,
+        pageIndex: 93,
+        pageIndexTab: 100,
+        pageIndexMobile: 114,
+    },
+    {
+        id: 70,
+        title: 'The Tale of Marci',
+        page: 183,
+        pageTab: 98,
+        pageMobile: 110,
+        subpage: true,
+        pageIndex: 94,
+        pageIndexTab: 101,
+        pageIndexMobile: 115,
+    },
+    {
+        id: 71,
+        title: 'The Tale of Merman Warrior',
+        page: 185,
+        pageTab: 99,
+        pageMobile: 111,
+        subpage: true,
+        pageIndex: 95,
+        pageIndexTab: 102,
+        pageIndexMobile: 116,
+    },
+    {
+        id: 72,
+        title: 'The Tale of Mexico',
+        page: 187,
+        pageTab: 100,
+        pageMobile: 112,
+        subpage: true,
+        pageIndex: 96,
+        pageIndexTab: 103,
+        pageIndexMobile: 117,
+    },
+    {
+        id: 73,
+        title: 'The Tale of Mountain Warrior',
+        page: 189,
+        pageTab: 101,
+        pageMobile: 113,
+        subpage: true,
+        pageIndex: 97,
+        pageIndexTab: 104,
+        pageIndexMobile: 118,
+    },
+    {
+        id: 74,
+        title: 'The Tale of Mountain Warrior 2',
+        page: 191,
+        pageTab: 102,
+        pageMobile: 114,
+        subpage: true,
+        pageIndex: 98,
+        pageIndexTab: 105,
+        pageIndexMobile: 119,
+    },
+    {
+        id: 75,
+        title: 'The Tale of Neos',
+        page: 193,
+        pageTab: 103,
+        pageMobile: 115,
+        subpage: true,
+        pageIndex: 99,
+        pageIndexTab: 106,
+        pageIndexMobile: 120,
+    },
+    {
+        id: 76,
+        title: 'The Tale of Nightmare',
+        page: 195,
+        pageTab: 104,
+        pageMobile: 116,
+        subpage: true,
+        pageIndex: 100,
+        pageIndexTab: 107,
+        pageIndexMobile: 121,
+    },
+    {
+        id: 77,
+        title: 'The Tale of Ninja',
+        page: 197,
+        pageTab: 105,
+        pageMobile: 117,
+        subpage: true,
+        pageIndex: 101,
+        pageIndexTab: 108,
+        pageIndexMobile: 122,
+    },
+    {
+        id: 78,
+        title: 'The Tale of Onku',
+        page: 199,
+        pageTab: 106,
+        pageMobile: 118,
+        subpage: true,
+        pageIndex: 102,
+        pageIndexTab: 109,
+        pageIndexMobile: 123,
+    },
+    {
+        id: 79,
+        title: 'Chapter 8: Coming Soon...',
         page: '',
         pageTab: '',
         pageMobile: '',
