@@ -4415,6 +4415,225 @@ function App() {
                             </div>
                         </article>
 
+                        {/* Chapter 8 */}
+                        <article className="page">
+                            <div className="d-flex justify-content-around h-full">
+                                <div className="w-2/4 bg-white"></div>
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                                        <div className="w-1/3 mx-auto mt-5 mb-5">
+                                            <img className="w-100" src={sagesRant} alt="Chapter 8" />
+                                        </div>
+                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-2">CHAPTER 8</p>
+                                        <h3 className="text-center font-w-hermann w-hermann-semibold">What Confides in The Land of Colossus</h3>
+                                        <p className="text-center text-xl font-w-hermann w-hermann-semibold-italic ch-footer mb-5">The Sages Rant</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article className="page">
+                            <div className="d-flex justify-content-around h-full">
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 8: What Confides in The Land of Colossus</p>
+                                        <div className="w-1/3 mx-auto mt-3 mb-4">
+                                            <img className="w-100" src={chapter8Logo} alt="Chapter 8" />
+                                        </div>
+
+                                        {/* Stanzas */}
+                                        <div className="mb-3 px-4">
+                                            <p className="text-center font-w-hermann w-hermann-italic mb-0">
+                                                <span className="text-5xl">"</span>All is well deep down in a swirling duel
+                                            </p>
+                                            <p className="text-center font-w-hermann w-hermann-italic mb-0">A cup from the sea, reflect your light on mercury”</p>
+                                        </div>
+                                        <div className="mb-3 px-4">
+                                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">All Mustachios may be adventurous, but not all are self-destructive.</p>
+                                        </div>
+                                        <div className="mb-3 px-4">
+                                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">Everyone is aware of the danger that awaits brazen Mustachios wandering into the Crumb Catcher Cave inside the Land of Colossus. As no Mustachio has ever come out to tell the tales on the Crumb Catcher Cave, they’re basically going into a battle in utter oblivion.</p>
+                                        </div>
+                                        <div className="mb-3 px-4">
+                                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">But did that stop the highly determined Mustachios? No.</p>
+                                        </div>
+                                        <div className="mb-3 px-4">
+                                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">For a giant’s cave, they never thought that the opening would be so small. They literally had to enter it one by one! </p>
+                                        </div>
+
+                                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">203</p>
+                                    </div>
+                                </div>
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 8: What Confides in The Land of Colossus</p>
+
+                                        {/* Stanzas */}
+                                        <div className="mt-3 px-4">
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">The cave was eerily silent which made them all anxious, on top of being met with a pitch-black atmosphere. </p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">After a while of walking in knee-deep mud, holding onto narrow walls, they finally sighted a light at what seems to be a long tunnel. </p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Now, this is the Crumb Catcher Cave. </p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">The cave was majestic! They arrived at the perfect time when the sun is at the perfect angle to shine light beams from what happened after a cave roof collapse.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">It felt so surreal.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">But, the cave was so empty. There were no other passages aside from the one they already went through. </p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Where are the giants? What artifact are they trying to get there? </p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Suddenly, there was a shrill scream! The ground started to shake too! </p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Some Mustachios were about to step near the threshold of the cave, but then… </p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“Wait! There’s water! It’s not just a swamp. It looks bottomless!”</p>
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“Our reflection is very clear!”</p>
+                                            </div>
+                                        </div>
+
+                                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">204</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article className="page">
+                            <div className="d-flex justify-content-around h-full">
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 8: What Confides in The Land of Colossus</p>
+
+                                        {/* Stanzas */}
+                                        <div className="mt-3 px-4">
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Did someone say reflection?</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Are they in search of The Mirror?</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">With no other way to escape the crumbling cave and the ear-splitting scream, all of them decided to just jump in the water, spearheaded by, of course, no other than Paddle who loves diving under the sea.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Surprise, surprise, they all landed on hard ground! Only Peco Rider landed safely though, with the help of Peco-Peco, the beast only he had the ability to tame.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Looking above them, they could still see the water.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“What the hell is going on?” said Paratrooper. He may seem upset but in truth, he is actually happy to have landed on land instead of water. He wants to be a bird, not a fish. Pilot would surely agree with Paratrooper’s thoughts. Flying is, after all, their life. </p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“What are we going to do now? It’s already nearing dusk. How are we even going to get out of this place?” voiced out the concerned PanCake Prince, one among the nicest nobility. </p>
+                                            </div>
+                                        </div>
+
+                                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">205</p>
+                                    </div>
+                                </div>
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 8: What Confides in The Land of Colossus</p>
+
+                                        {/* Stanzas */}
+                                        <div className="mt-3 px-4">
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“We’ll just have to spend the night here obviously, genius,” Penny bitterly replied. He was never a fan of the wealthy, says they all just revel in cruelty, hence why he’s been indifferent towards PanCake Prince since the start of their journey. </p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">PanCake Prince abruptly went on his knees after that. What happened to him?</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Meanwhile, you can hear Loonywise snickering in the background. Did he just play with PanCake Prince’s mind? </p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">When PanCake Prince looked back up, his teary eyes immediately went to Penny.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Penny was livid! Loonywise just showed his trauma to PanCake Prince!</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Penny was furiously reaching for the smirking Loonywise when Peppermint Butler came in between them and said, “We don’t have time for silly tricks here. You’d know if you were wise enough. You could’ve started reading books about those attitudes.”</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Well, that did the trick.</p>
+                                            </div>
+                                        </div>
+
+                                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">206</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article className="page">
+                            <div className="d-flex justify-content-around h-full">
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 8: What Confides in The Land of Colossus</p>
+
+                                        {/* Stanzas */}
+                                        <div className="mt-3 px-4">
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Out of the corner of Pumpkin Man’s eye, who is unusually quiet when he is normally boisterous and mischievous, is BubbleGum, who is still awestruck with the water floating above them. BubbleGum is a brilliant chemist, always in search of something new, so everyone always considers his thoughts in a mission.</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“I can still see our reflection in the water even when there’s no light down here for our reflection.”  </p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-italic mb-0">“All is well deep down in a swirling duel</p>
+                                                <p className="text-center font-w-hermann w-hermann-italic mb-0">A cup from the sea, reflect your light on mercury” </p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">A Liquid Mirror? It doesn’t make any sense. How can Mustachios make use of that?</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“Uhm, let’s just get a cup of the water then bust our way out. I don’t think the sleeping giant that we are currently stepping on would appreciate our presence here.” </p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Oh no…</p>
+                                            </div>
+                                        </div>
+
+                                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">207</p>
+                                    </div>
+                                </div>
+                                <div className="w-2/4 bg-white">
+                                    <div className="h-full d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 8: What Confides in The Land of Colossus</p>
+
+                                        {/* Stanzas */}
+                                        <div className="mt-3 px-4">
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Will you be the first and only Mustachio to solve this riddle and get The Mirror?</p>
+                                            </div>
+                                            <div className="mb-3">
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Mint your Mustachio now and enter the portal that will transport you to MustachioVerse!</p>
+                                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">
+                                                    <a href="https://mustachioverse.com/">https://mustachioverse.com/</a>
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div className="mb-5 ch-footer">
+                                            <div className="w-1/6 mx-auto">
+                                                <img className="w-100" src={mustachioLogoFooter} alt="Mustachio Logo" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
                         {/* Chapter 8 Characters */}
                         <article className="page">
                             <div className="d-flex justify-content-around h-full">
