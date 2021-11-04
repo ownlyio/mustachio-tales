@@ -3712,39 +3712,6 @@ function TabletDesign({ socMedHandles, flipPage}) {
                         </div>
                     </div>
                 </article>
-                <article className="page h-90vh">
-                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
-                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 8: What Confides in The Land of Colossus</p>
-
-                        {/* Stanzas */}
-                        <div className="mt-3 px-4">
-                            <div className="mb-3">
-                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“Actually, we can,” Nightmare replied in a sadistic manner. Those are his first words ever since the journey. He really does uphold his name. He brings nightmares to everyone. He recognized that he had little to no advantage here since no one is willing to rest, so he conspired with Magic Man.</p>
-                            </div>
-                            <div className="mb-3">
-                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“Right, Magic Man? You can finally wield their consciousness now so we can get the heck out of here.”</p>
-                            </div>
-                            <div className="mb-3">
-                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Everyone was filled with dread except the two. Are they really going to betray their fellow Mustachio? Is that what the riddle meant by “leaving without regrets?”</p>
-                            </div>
-                            <div className="mb-3">
-                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Will you be the first and only Mustachio to solve this riddle and get the Scissors?</p>
-                            </div>
-                            <div className="mb-3">
-                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Mint your Mustachio now and enter the portal that will transport you to MustachioVerse!</p>
-                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">
-                                    <a href="https://mustachioverse.com/">https://mustachioverse.com/</a>
-                                </p>
-                            </div>
-                        </div>                       
-
-                        <div className="mb-5 ch-footer mustachio-logo-mobile-wrap">
-                            <div className="w-1/6 mx-auto mustachio-logo-mobile">
-                                <img className="w-100" src={mustachioLogoFooter} alt="Mustachio Logo" />
-                            </div>
-                        </div>
-                    </div>
-                </article>
 
                 {/* Chapter 8 Characters */}
                 <article className="page h-90vh">
