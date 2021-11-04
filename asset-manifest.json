@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a93463a4.chunk.css",
-    "main.js": "/static/js/main.348d4117.chunk.js",
-    "main.js.map": "/static/js/main.348d4117.chunk.js.map",
+    "main.js": "/static/js/main.162602cc.chunk.js",
+    "main.js.map": "/static/js/main.162602cc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.707d1a48.js",
     "runtime-main.js.map": "/static/js/runtime-main.707d1a48.js.map",
     "static/css/2.da1eef19.chunk.css": "/static/css/2.da1eef19.chunk.css",
@@ -22,6 +22,7 @@
     "static/media/App.css": "/static/media/cover.0de918bf.png",
     "static/media/beelee.daa3445e.png": "/static/media/beelee.daa3445e.png",
     "static/media/berry.2aa54383.png": "/static/media/berry.2aa54383.png",
+    "static/media/bubblegum.1097817d.png": "/static/media/bubblegum.1097817d.png",
     "static/media/bug.c397c965.png": "/static/media/bug.c397c965.png",
     "static/media/cairo.02a85dc0.png": "/static/media/cairo.02a85dc0.png",
     "static/media/candycane.b3e3ffe6.png": "/static/media/candycane.b3e3ffe6.png",
@@ -38,6 +39,7 @@
     "static/media/chap5.e7acaa5e.png": "/static/media/chap5.e7acaa5e.png",
     "static/media/chap6.8237c19e.png": "/static/media/chap6.8237c19e.png",
     "static/media/chap7.4b4b9592.png": "/static/media/chap7.4b4b9592.png",
+    "static/media/chap8.28d5ea04.png": "/static/media/chap8.28d5ea04.png",
     "static/media/climber.b6dff529.png": "/static/media/climber.b6dff529.png",
     "static/media/MobileDesign.css": "/static/media/cover_square.7f46b3b0.jpg",
     "static/media/creepy_strawhat.2c3f5a89.png": "/static/media/creepy_strawhat.2c3f5a89.png",
@@ -75,6 +77,7 @@
     "static/media/lichking.e6cc6e49.png": "/static/media/lichking.e6cc6e49.png",
     "static/media/lisby.b185a26e.png": "/static/media/lisby.b185a26e.png",
     "static/media/lizzard_prince.ae3f2bf3.png": "/static/media/lizzard_prince.ae3f2bf3.png",
+    "static/media/loonywise.b2ccb981.png": "/static/media/loonywise.b2ccb981.png",
     "static/media/lsp.81b3b19c.png": "/static/media/lsp.81b3b19c.png",
     "static/media/lullaby.67865ae4.png": "/static/media/lullaby.67865ae4.png",
     "static/media/magic_man.cc781334.png": "/static/media/magic_man.cc781334.png",
@@ -88,9 +91,17 @@
     "static/media/nightmare.796bbc68.png": "/static/media/nightmare.796bbc68.png",
     "static/media/ninja.31d097fb.png": "/static/media/ninja.31d097fb.png",
     "static/media/onku.f87e3a86.png": "/static/media/onku.f87e3a86.png",
+    "static/media/paddle.c7703138.png": "/static/media/paddle.c7703138.png",
     "static/media/page1-pic.501fe5ec.png": "/static/media/page1-pic.501fe5ec.png",
     "static/media/page2-pic.06d7214d.png": "/static/media/page2-pic.06d7214d.png",
+    "static/media/pancake_prince.c8ce3f62.png": "/static/media/pancake_prince.c8ce3f62.png",
+    "static/media/paratrooper.31d2e33c.png": "/static/media/paratrooper.31d2e33c.png",
+    "static/media/peco_rider.b6bbfed2.png": "/static/media/peco_rider.b6bbfed2.png",
+    "static/media/penny.5bedf145.png": "/static/media/penny.5bedf145.png",
+    "static/media/peppermint_butler.4a77457d.png": "/static/media/peppermint_butler.4a77457d.png",
+    "static/media/pilot.85c13942.png": "/static/media/pilot.85c13942.png",
     "static/media/pulsar.bd90dafe.png": "/static/media/pulsar.bd90dafe.png",
+    "static/media/pumpkin_man.eec4ef01.png": "/static/media/pumpkin_man.eec4ef01.png",
     "static/media/rench.173cc87f.png": "/static/media/rench.173cc87f.png",
     "static/media/shucks.1db11a4c.png": "/static/media/shucks.1db11a4c.png",
     "static/media/squarehead.3e865b02.png": "/static/media/squarehead.3e865b02.png",
@@ -102,6 +113,6 @@
     "static/css/2.da1eef19.chunk.css",
     "static/js/2.707f4a9e.chunk.js",
     "static/css/main.a93463a4.chunk.css",
-    "static/js/main.348d4117.chunk.js"
+    "static/js/main.162602cc.chunk.js"
   ]
 }
