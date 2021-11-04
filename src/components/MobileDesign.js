@@ -112,7 +112,7 @@ import ninja from '../images/ch_7/characters/ninja.png'
 import onku from '../images/ch_7/characters/onku.png'
 
 // chapter 8 images
-import chapter8Logo from '../images/ch_7/chap7.png'
+import chapter8Logo from '../images/ch_8/chap8.png'
 
 // chapter 8 characters
 import bubblegum from '../images/ch_8/characters/bubblegum.png'
