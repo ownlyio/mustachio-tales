@@ -123,7 +123,7 @@ import paratrooper from '../images/ch_8/characters/paratrooper.png'
 import pecorider from '../images/ch_8/characters/peco_rider.png'
 import penny from '../images/ch_8/characters/penny.png'
 import peppermintbutler from '../images/ch_8/characters/peppermint_butler.png'
-// import pilot from '../images/ch_8/characters/pilot.png'
+import pilot from '../images/ch_8/characters/pilot.png'
 import pumpkinman from '../images/ch_8/characters/pumpkin_man.png'
 
 function TabletDesign({ socMedHandles, flipPage}) {
@@ -4006,7 +4006,7 @@ function TabletDesign({ socMedHandles, flipPage}) {
                 <article className="page h-90vh">
                     <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
                         <div className="w-1/4 mx-auto mb-3">
-                            {/* <img className="w-100" src={pilot} alt="Pilot" /> */}
+                            <img className="w-100" src={pilot} alt="Pilot" />
                         </div>
                         <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The Tale of</p>
                         <p className="text-center text-3xl font-w-hermann w-hermann-ultrabold mb-4">Pilot</p>

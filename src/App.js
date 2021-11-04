@@ -128,7 +128,7 @@ import paratrooper from './images/ch_8/characters/paratrooper.png'
 import pecorider from './images/ch_8/characters/peco_rider.png'
 import penny from './images/ch_8/characters/penny.png'
 import peppermintbutler from './images/ch_8/characters/peppermint_butler.png'
-// import pilot from './images/ch_8/characters/pilot.png'
+import pilot from './images/ch_8/characters/pilot.png'
 import pumpkinman from './images/ch_8/characters/pumpkin_man.png'
  
 function App() {
@@ -4952,7 +4952,7 @@ function App() {
                                 <div className="w-2/4 bg-white">
                                     <div className="h-full d-flex flex-column justify-content-center" style={{position: "relative"}}>
                                         <div className="w-1/2 mx-auto mb-4">
-                                            {/* <img className="w-100" src={pilot} alt="Pilot" /> */}
+                                            <img className="w-100" src={pilot} alt="Pilot" />
                                         </div>
                                         <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
                                         <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Pilot</p>
