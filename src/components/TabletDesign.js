@@ -126,6 +126,21 @@ import peppermintbutler from '../images/ch_8/characters/peppermint_butler.png'
 import pilot from '../images/ch_8/characters/pilot.png'
 import pumpkinman from '../images/ch_8/characters/pumpkin_man.png'
 
+// chapter 9 images
+import chapter9Logo from '../images/ch_8/chap8.png'
+
+// chapter 9 characters
+import dako from '../images/ch_9/characters/dako.png'
+import laya from '../images/ch_9/characters/laya.png'
+import raggedyprince from '../images/ch_9/characters/raggedy_prince.png'
+import scarecrow from '../images/ch_9/characters/scare_crow.png'
+import shoko from '../images/ch_9/characters/shoko.png'
+import signmaker from '../images/ch_9/characters/sign_maker.png'
+import simone from '../images/ch_9/characters/simone.png'
+import skatezone from '../images/ch_9/characters/skatezone.png'
+import skeletonprince from '../images/ch_9/characters/skeleton_prince.png'
+import slendie from '../images/ch_9/characters/slendie.png'
+
 function TabletDesign({ socMedHandles, flipPage}) {
     const filterChapters = (arr, start, end = arr.length) => {
         return arr.filter(x => {
@@ -4035,11 +4050,172 @@ function TabletDesign({ socMedHandles, flipPage}) {
                     </div>
                 </article>
 
+                {/* Chapter 9 */}
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <div className="w-1/3 mx-auto mt-5 mb-5">
+                            <img className="w-100" src={sagesRant} alt="Chapter 9" />
+                        </div>
+                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-2">CHAPTER 9</p>
+                        <h3 className="text-center font-w-hermann w-hermann-semibold">The Sky's Contempt at Fellowcro</h3>
+                        <p className="text-center text-xl font-w-hermann w-hermann-semibold-italic ch-footer mb-5">The Sages Rant</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 9: The Sky's Contempt at Fellowcro</p>
+                        <div className="w-1/4 mx-auto mt-3 mb-4 ">
+                            <img className="w-100" src={chapter9Logo} alt="Chapter 9" />
+                        </div>
+
+                        {/* Stanzas */}
+                        <div className="mb-3 px-4">
+                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">
+                                <span className="text-5xl">T</span>he Mustachios never thought they’d be back at the mouth of Fellowcro Forest again, but alas, here they are met with vicious snarls and creepy vines ready to make them stay eternally inside the forest again.
+                            </p>
+                        </div>
+                        <div className="mb-3 px-4">
+                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">With not much of a choice, they start trekking through the forest’s eternal night full of screams of misery with one thing in mind: To get to Bristle Batons Hot Spring.</p>
+                        </div>
+                        <div className="mb-3 px-4">
+                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">After a couple more hours of just navigating through Fellowcro Forest, it suddenly became eerily silent. No snarls and growls from the creatures of the night, no chirping from the deadly birds, no shrill screams from the vines, nothing. It was statically silent.</p>
+                        </div>
+                        <div className="mb-3 px-4">
+                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">Like the calm before another storm.</p>
+                        </div>
+                        <div className="mb-3 px-4">
+                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">But, this wasn’t described in the book. Every Mustachio knows that Fellowcro Forest can never be silent, and most definitely never calm.</p>
+                        </div>
+                        <div className="mb-3 px-4">
+                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">To prepare for whatever was coming, they went to a cave to plan.</p>
+                        </div>
+                        <div className="mb-3 px-4">
+                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">As the last of the Mustachios entered the cave, it was suddenly blocked by a boulder! Who or what put that there?</p>
+                        </div>
+                        <div className="mb-3 px-4">
+                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">“Hey! There’s an opening here! It was said that the Bristle Batons Hot Spring is at the end of a cave right?”</p>
+                        </div>
+                        <div className="mb-3 px-4">
+                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">After the long arduous trek through the series of caves, they finally made it to a clearing.</p>
+                        </div>
+                        <div className="mb-3 px-4">
+                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">What a wonderful sight!</p>
+                        </div>
+
+                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">122</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 9: The Sky's Contempt at Fellowcro</p>
+
+                        {/* Stanzas */}
+                        <div className="mt-3 px-4">
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">The Towel of Healing is just right in front of them!</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Forever warming the body and relieves exhaustion of the beholder.</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“Well, the Towel of Healing is just an arm snatch away, why don’t we enjoy ourselves first in this Hot Spring? After all that we went through, this is just well deserved,” Skeleton Prince nonchalantly said while taking in all the steam from the Hot Spring.</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“No, you brat. As much as I’d like to support your idea of relaxation, this is Fellowcro Forest we’re talking about. Nothing is safe here,” butted Raggedy Prince, ruining Skeleton Prince’s relaxation fantasies. Then, they started arguing. Raggedy Prince may be a sunshine but he can be a bummer sometimes. Did he see bad memories just now?</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Such peculiar royals they are.</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Luckily, Simone went in between, “Rather than engaging in pointless quarrels, you two should just appreciate each other. You never know what you can lose because of your foolishness.” That sounded deep coming from Simone, filled with so much regret for his past mistakes.</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“Right! But you should still fight for what is right! One mistake, one death is already too many!” seconded Laya, not afraid of speaking her mind.</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“All this talking is pointless! The Towel of Healing is floating above the steaming water, we have no other choice but to go through it,” Well, Dako is just relieved that it’s still silent and that there weren't any sounds of bombing, something he really despises. He’d rather go through the scalding hot water and scare people since he’s no longer limited to just a television in one place. Look, he just carries his own!</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“I’ll just stay here. Y'all know I can’t get myself wet,” Shoko said while waving his somewhat cyborg arm.</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">No one but Scare Crow paid attention to him with his small “Me too.” As much as Scare Crow is adorable, it’s kinda annoying how not a single thing about him is scary when he should be the one scaring others. Such a scaredy cat, “How about you, Skate Zone? Would you stay with us too?”</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Skate Zone just replied, “Whatever,” and immediately went through the steaming water with not a single care in his bones. He must be the most indifferent Mustachio everyone has met.</p>
+                            </div>
+                        </div>                        
+
+                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">123</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 9: The Sky's Contempt at Fellowcro</p>
+
+                        {/* Stanzas */}
+                        <div className="mt-3 px-4">
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“Wait! Sign Maker has something to show!”</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“Too late,” said Slendie, the master of every new Mustachio technology.</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Sign Maker held up a sign that said… ”DANGER ⚡”</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">All hell is about to let loose now that Sign Maker has done his job and that is to either act like a seer or become the one to decide your future. He’s apparently in his seer mode.</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Thunderous cracks of lighting now surround the Towel of Healing. If the vines were the one hindering them from getting the Cutlass in their past adventures, now it’s high voltage lightning protecting the Towel of Healing!</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“Let’s just go for it. We can just heal ourselves after.”</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“Idiot! It can’t heal fatal wounds or sickness!”</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“Then what is it for?”</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">A riddle from the same sky appeared saying:</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-italic mb-0">Not for a miracle, not as a gem</p>
+                                <p className="text-center font-w-hermann w-hermann-italic mb-0">A scruffy pirate’s most priced item</p>
+                                <p className="text-center font-w-hermann w-hermann-italic mb-0">Anger the skies and face your sentence</p>
+                                <p className="text-center font-w-hermann w-hermann-italic mb-0">Madness of the heavens as an endless sequence</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Did they do something to upset the sky?</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Will you be the first and only Mustachio to solve this riddle and get The Towel of Healing?</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Mint your Mustachio now and enter the portal that will transport you to MustachioVerse!</p>
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">
+                                    <a href="https://mustachioverse.com/">https://mustachioverse.com/</a>
+                                </p>
+                            </div>
+                        </div>                       
+
+                        <div className="mb-5 ch-footer mustachio-logo-mobile-wrap">
+                            <div className="w-1/6 mx-auto mustachio-logo-mobile">
+                            {/* <div className="w-1/12 mx-auto mustachio-logo-mobile"> */}
+                                <img className="w-100" src={mustachioLogoFooter} alt="Mustachio Logo" />
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
                 {/* Up Next */}
                 <article className="page h-90vh">
                     <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
-                        <h3 className="text-center font-w-hermann w-hermann-semibold">CHAPTER 9</h3>
-                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-3">Release Date: November 10, 2021 - 7PM SGT</p>
+                        <h3 className="text-center font-w-hermann w-hermann-semibold">THE FINAL CHAPTER</h3>
+                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-3">Release Date: November 18, 2021 - 7PM SGT</p>
                         
                         <div className="d-flex justify-content-around mb-3 w-1/2 mx-auto mobile-socmed-icons">
                             <a href={socMedHandles.fb} target="_blank" rel="noreferrer">
