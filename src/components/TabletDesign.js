@@ -4211,6 +4211,328 @@ function TabletDesign({ socMedHandles, flipPage}) {
                     </div>
                 </article>
 
+                {/* Chapter 9 Characters */}
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/4 mx-auto mb-3">
+                            <img className="w-100" src={dako} alt="Dako" />
+                        </div>
+                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="text-center text-3xl font-w-hermann w-hermann-ultrabold mb-4">Dako</p>
+
+                        <div className="px-2">
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He’s the subject to every movie lovers’ nightmare</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He is no longer something you can just ignore</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Well, he can now haunt people without television</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Look, he can now just carry his own</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Folding paper cranes remain as his hobby</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">As he’s still denied the chance for recovery</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He despises hearing sounds of bombing</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Says it is the culprit for all of his suffering</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">But he remains steadfast in his movie called life</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">How funny for he doesn’t feel like he’s alive</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/4 mx-auto mb-3">
+                            <img className="w-100" src={laya} alt="Laya" />
+                        </div>
+                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="text-center text-3xl font-w-hermann w-hermann-ultrabold mb-4">Laya</p>
+
+                        <div className="px-2">
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">How funny for he doesn’t feel like he’s alive</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Laya has always been that simple</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">“Oust DU30! One is already too many!”</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Sincerely, from the ones who’s had enough already</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The wounds suffered by her ancestors</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">She fights to avoid a gruesome future for her successors</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Laya is not afraid to speak her mind</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">For she fights for the greatness of all humankind</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">A megaphone and a placard in hand</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Her voice is still the best weapon for others to understand</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/4 mx-auto mb-3">
+                            <img className="w-100" src={raggedyprince} alt="Raggedy Prince" />
+                        </div>
+                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="text-center text-3xl font-w-hermann w-hermann-ultrabold mb-4">Raggedy Prince</p>
+
+                        <div className="px-2">
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Patches of memories he holds</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">All the classic memoir he upholds</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Raggedy Prince is your go-to</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">For memories nobody else has an access to</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He’s not much older than a couple of years</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">But he’s seen old memories enough to bring him close to tears</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He is a prince by birthright but nobody pays attention to him</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Born out of wedlock, considered a shame on a whim</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He’s still a child inside, he’s just a nice burst of serotonin</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">As if he’s never been wronged by the world he was born in</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/4 mx-auto mb-3">
+                            <img className="w-100" src={scarecrow} alt="Scare Crow" />
+                        </div>
+                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="text-center text-3xl font-w-hermann w-hermann-ultrabold mb-4">Scare Crow</p>
+
+                        <div className="px-2">
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Contrary to popular opinion, this Mustachio is an epitome of utter disparity</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Things he should scare just laughs, “What a pity. Not a single thing about him is scary,”</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He get easily frightened, has a bit of a faint heart</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">A rare sight for Mustachios normally always up for a fight</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Scare Crow is his name</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The bad nature in him no one can never inflame</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He is an easy target for the pranksters</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Could never hold a grudge even to bad screenwriters</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Honestly, he is just nothing like a ghoul</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Even has innocence that could burn the twisted soul</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/4 mx-auto mb-3">
+                            <img className="w-100" src={shoko} alt="Shoko" />
+                        </div>
+                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="text-center text-3xl font-w-hermann w-hermann-ultrabold mb-4">Shoko</p>
+
+                        <div className="px-2">
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Things most important in life are those simple possessions</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">But becoming powerful is one of Shoko’s ulterior obsessions</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He is such a fellow to be wary of</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Rose from great bandits he was made of</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">In search of a perfect mentor</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He comes across as a fierce oppressor</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">His potential is limitless</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Shoko is a mystery, always expressionless</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">A powerful cyborg he can be when unleashed</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Albeit his power has never been pre-established</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/4 mx-auto mb-3">
+                            <img className="w-100" src={signmaker} alt="Sign Maker" />
+                        </div>
+                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="text-center text-3xl font-w-hermann w-hermann-ultrabold mb-4">Sign Maker</p>
+
+                        <div className="px-2">
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">If you're waiting for a sign, this is it</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">All the signs you’re waiting for, call on Sign Maker to make it explicit</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Such a fun dude to be around</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Even his eyes smiles like he’s never been to a battleground</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He’s an artist for true predictions</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Like a seer but with his hands as representations</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">What he comes up with on placards are masterpieces</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Most of those are what people despises</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He’s both loved and abhorred</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">For what shows on the signs are mostly uncensored</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/4 mx-auto mb-3">
+                            <img className="w-100" src={simone} alt="Simone" />
+                        </div>
+                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="text-center text-3xl font-w-hermann w-hermann-ultrabold mb-4">Simone</p>
+
+                        <div className="px-2">
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">His consciousness long gone because of an unprecedented power</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Now for some reason, he has gained a bit of it as if like a  wallflower</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">On his hand is the cursed crown</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">A memory of a foolishness he was drowned</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Taking it was his biggest regret</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He was hoping it was all just a bet</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He’s now filled with grief for all the things he has lost</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Over a power he didn’t even want, he’d rather just be a ghost</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Navigating through the world once again as Simone</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He’s being hit by all the meanings of being alone</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/4 mx-auto mb-3">
+                            <img className="w-100" src={skatezone} alt="SkateZone" />
+                        </div>
+                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="text-center text-3xl font-w-hermann w-hermann-ultrabold mb-4">SkateZone</p>
+
+                        <div className="px-2">
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Skate Zone is a Mustachio that is always disinterested</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Boards and beers are the only things he has been invested</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He couldn’t give two cents to anything even if he wanted to</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">That’s just he is, he doesn’t even care even if there’s a mosquito</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Being reckless is just his nature</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Just does anything for the sake of adventure</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">No one really knows his real motives</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Even when drunk, his true feelings he never gives</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">His background unknown</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He may pose a threat if his colors gets shown</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/4 mx-auto mb-3">
+                            <img className="w-100" src={skeletonprince} alt="Skeleton Prince" />
+                        </div>
+                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="text-center text-3xl font-w-hermann w-hermann-ultrabold mb-4">Skeleton Prince</p>
+
+                        <div className="px-2">
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Obviously, Skeleton Prince needs more calcium</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Get more milk for him as his medium</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">A spoiled brat always whining</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Does he even care if he is losing?</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">It’s like he’s just in it for the clout</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">His reasons always filled with doubt</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He’s used to getting all that he wants</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">So annoying when he starts his rants</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Honestly, why is he like that?</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Aside from his title, what more reasons for Skeleton Prince to be given a pat?</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
+                        <div className="w-1/4 mx-auto mb-3">
+                            <img className="w-100" src={slendie} alt="Slendie" />
+                        </div>
+                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                        <p className="text-center text-3xl font-w-hermann w-hermann-ultrabold mb-4">Slendie</p>
+
+                        <div className="px-2">
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Slendie is one tough and cool Mustachio</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Who has been through a lot, this I tell you</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He lost the love of his life unexpectedly</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">This made his life somewhat cold and lonely</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">But after a few months of soul-searching and reflection</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He found his purpose again and direction</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">He started making apps that help other people</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Making complicated things understandable and simple</p>
+                            </div>
+                            <div className="mb-0">
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Now Slendie is the master of every new Mustachio technology</p>
+                                <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">You can’t beat him in that area, he’s several levels above ordinary</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
                 {/* Up Next */}
                 <article className="page h-90vh">
                     <div className="h-90vh d-flex flex-column justify-content-center" style={{position: "relative"}}>
