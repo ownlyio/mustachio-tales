@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a93463a4.chunk.css",
-    "main.js": "/static/js/main.162602cc.chunk.js",
-    "main.js.map": "/static/js/main.162602cc.chunk.js.map",
+    "main.js": "/static/js/main.a93559be.chunk.js",
+    "main.js.map": "/static/js/main.a93559be.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.707d1a48.js",
     "runtime-main.js.map": "/static/js/runtime-main.707d1a48.js.map",
     "static/css/2.da1eef19.chunk.css": "/static/css/2.da1eef19.chunk.css",
@@ -40,10 +40,12 @@
     "static/media/chap6.8237c19e.png": "/static/media/chap6.8237c19e.png",
     "static/media/chap7.4b4b9592.png": "/static/media/chap7.4b4b9592.png",
     "static/media/chap8.28d5ea04.png": "/static/media/chap8.28d5ea04.png",
+    "static/media/chap9.97460409.png": "/static/media/chap9.97460409.png",
     "static/media/climber.b6dff529.png": "/static/media/climber.b6dff529.png",
     "static/media/MobileDesign.css": "/static/media/cover_square.7f46b3b0.jpg",
     "static/media/creepy_strawhat.2c3f5a89.png": "/static/media/creepy_strawhat.2c3f5a89.png",
     "static/media/crimson.dece21b0.png": "/static/media/crimson.dece21b0.png",
+    "static/media/dako.7fe6c338.png": "/static/media/dako.7fe6c338.png",
     "static/media/dark_knight.fb9b1f75.png": "/static/media/dark_knight.fb9b1f75.png",
     "static/media/doorkeeper.6aa1033b.png": "/static/media/doorkeeper.6aa1033b.png",
     "static/media/dummy.36c12976.png": "/static/media/dummy.36c12976.png",
@@ -72,6 +74,7 @@
     "static/media/jungle.42d8b5df.png": "/static/media/jungle.42d8b5df.png",
     "static/media/king_hobgoblin.6bd5a418.png": "/static/media/king_hobgoblin.6bd5a418.png",
     "static/media/king_stellar.bfb1cb3e.png": "/static/media/king_stellar.bfb1cb3e.png",
+    "static/media/laya.3a769471.png": "/static/media/laya.3a769471.png",
     "static/media/leather_face.e21f73ba.png": "/static/media/leather_face.e21f73ba.png",
     "static/media/leprechaun.80d66f96.png": "/static/media/leprechaun.80d66f96.png",
     "static/media/lichking.e6cc6e49.png": "/static/media/lichking.e6cc6e49.png",
@@ -102,8 +105,16 @@
     "static/media/pilot.85c13942.png": "/static/media/pilot.85c13942.png",
     "static/media/pulsar.bd90dafe.png": "/static/media/pulsar.bd90dafe.png",
     "static/media/pumpkin_man.eec4ef01.png": "/static/media/pumpkin_man.eec4ef01.png",
+    "static/media/raggedy_prince.182ad297.png": "/static/media/raggedy_prince.182ad297.png",
     "static/media/rench.173cc87f.png": "/static/media/rench.173cc87f.png",
+    "static/media/scare_crow.da74e157.png": "/static/media/scare_crow.da74e157.png",
+    "static/media/shoko.283ad2f6.png": "/static/media/shoko.283ad2f6.png",
     "static/media/shucks.1db11a4c.png": "/static/media/shucks.1db11a4c.png",
+    "static/media/sign_maker.f75a5800.png": "/static/media/sign_maker.f75a5800.png",
+    "static/media/simone.ec18a221.png": "/static/media/simone.ec18a221.png",
+    "static/media/skatezone.46ed5f49.png": "/static/media/skatezone.46ed5f49.png",
+    "static/media/skeleton_prince.497c7138.png": "/static/media/skeleton_prince.497c7138.png",
+    "static/media/slendie.3c922642.png": "/static/media/slendie.3c922642.png",
     "static/media/squarehead.3e865b02.png": "/static/media/squarehead.3e865b02.png",
     "static/media/turfy_wizard.485c467b.png": "/static/media/turfy_wizard.485c467b.png",
     "static/media/verdantgreed.eea68802.png": "/static/media/verdantgreed.eea68802.png"
@@ -113,6 +124,6 @@
     "static/css/2.da1eef19.chunk.css",
     "static/js/2.707f4a9e.chunk.js",
     "static/css/main.a93463a4.chunk.css",
-    "static/js/main.162602cc.chunk.js"
+    "static/js/main.a93559be.chunk.js"
   ]
 }
