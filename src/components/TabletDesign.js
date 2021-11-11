@@ -127,7 +127,7 @@ import pilot from '../images/ch_8/characters/pilot.png'
 import pumpkinman from '../images/ch_8/characters/pumpkin_man.png'
 
 // chapter 9 images
-import chapter9Logo from '../images/ch_8/chap8.png'
+import chapter9Logo from '../images/ch_9/chap9.png'
 
 // chapter 9 characters
 import dako from '../images/ch_9/characters/dako.png'
