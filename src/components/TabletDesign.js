@@ -141,6 +141,21 @@ import skatezone from '../images/ch_9/characters/skatezone.png'
 import skeletonprince from '../images/ch_9/characters/skeleton_prince.png'
 import slendie from '../images/ch_9/characters/slendie.png'
 
+// chapter 10 images
+import chapter10Logo from '../images/ch_9/chap9.png'
+
+// chapter 10 characters
+import sludgie from '../images/ch_10/characters/sludgie.png'
+import spaceman from '../images/ch_10/characters/space_man.png'
+import spacepirate from '../images/ch_10/characters/space_pirate.png'
+import spiritdream from '../images/ch_10/characters/spirit_dream.png'
+import stanmarch from '../images/ch_10/characters/stan_march.png'
+import stopover from '../images/ch_10/characters/stopover.png'
+import swampmonster from '../images/ch_10/characters/swamp_monster.png'
+import theviolinist from '../images/ch_10/characters/the_violinist.png'
+import townspeople from '../images/ch_10/characters/towns_people.png'
+import tsuku from '../images/ch_10/characters/tsuku.png'
+
 function TabletDesign({ socMedHandles, flipPage}) {
     const filterChapters = (arr, start, end = arr.length) => {
         return arr.filter(x => {
@@ -4557,6 +4572,164 @@ function TabletDesign({ socMedHandles, flipPage}) {
                             <div className="mb-0">
                                 <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">Now Slendie is the master of every new Mustachio technology</p>
                                 <p className="text-center text-lg font-w-hermann w-hermann-reg mb-0">You can’t beat him in that area, he’s several levels above ordinary</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                {/* Chapter 10 */}
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <div className="w-1/3 mx-auto mt-5 mb-5">
+                            <img className="w-100" src={sagesRant} alt="Chapter 10" />
+                        </div>
+                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-2">CHAPTER 10</p>
+                        <h3 className="text-center font-w-hermann w-hermann-semibold">Trapped in the Void of Time</h3>
+                        <p className="text-center text-xl font-w-hermann w-hermann-semibold-italic ch-footer mb-5">The Sages Rant</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 10: Trapped in the Void of Time</p>
+                        <div className="w-1/4 mx-auto mt-3 mb-4 ">
+                            <img className="w-100" src={chapter10Logo} alt="Chapter 10" />
+                        </div>
+
+                        {/* Stanzas */}
+                        <div className="mb-3 px-4">
+                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">
+                                <span className="text-5xl">A</span>ccording to the old journal, the last artifact will be found on the most isolated and oldest surviving lighthouse in the vicious Southern Seas, the Crustache Lighthouse. It is said to be reached only through air travel because relentless waves are hitting it in all directions. The waves are apparently higher than the tower itself! 
+                            </p>
+                        </div>
+                        <div className="mb-3 px-4">
+                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">Unfortunately, those who have the power to teleport cannot go there if they’ve never been there and none of these travelling Mustachios has taken the challenge to go there too. Hell, even the keepers of the Crustache Lighthouse rarely go there anymore.</p>
+                        </div>
+                        <div className="mb-3 px-4">
+                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">The Mustachios went there of their own accord. Some had to wake up their demons so that they could fly there, some went on a helicopter, and some just did their own thing just to get there.</p>
+                        </div>
+                        <div className="mb-3 px-4">
+                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">Crustache Lighthouse was looking rusty and malleable, obviously not the safest place to be in. It’s quite a mystery how this has survived the resentful looking waves.</p>
+                        </div>
+                        <div className="mb-3 px-4">
+                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">But contrary to the exterior, the interior was magnificent!</p>
+                        </div>
+                        <div className="mb-3 px-4">
+                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">Just like the Lady Tickler Castle, it’s like it’s never been touched, never encompassed by time and space. Everything is just crisp and clean.</p>
+                        </div>
+                        <div className="mb-3 px-4">
+                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">Well of course, what could we expect from the lighthouse that holds the Seat of Time?</p>
+                        </div>
+                        <div className="mb-3 px-4">
+                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">With the Seat of Time, one can see the past or future depending on the spin.</p>
+                        </div>
+                        <div className="mb-3 px-4">
+                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">Clockwise = future. Counter Clockwise = past.</p>
+                        </div>
+                        <div className="mb-3 px-4">
+                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">How far one can go in time depends on the speed of spin. One must be careful though because they can be thrown off the spinning chair and get stuck in the time zone. Not too long if it’s just a minute ago.</p>
+                        </div>
+
+                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">136</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 10: Trapped in the Void of Time</p>
+
+                        {/* Stanzas */}
+                        <div className="mt-3 px-4">
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">This might be the only artifact explicitly described in the old journal by the Prospector.</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">The most obvious place the Seat of Time could be located is in the Control Room of the lighthouse so they didn’t waste much time dwelling on it. </p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">What a surprise! The Control Room isn’t just a Control Room after all, it’s a whole floor with a 360 view of the sea, and centered is the Seat of Time. </p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Wary of any traps, the Mustachios almost tiptoed while looking around the inconspicuous Control Room. </p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“The Seat of Time isn’t as grand as was described in the journal,” said Stan March, such a keen observer, but not a perfect one.</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“Is there something wrong with it? Can StopOver check it out?” asked Violinist since he has high respect towards StopOver. Both of them being such achievers in life, him being skilled in Violin, and StopOver being skilled in fixing anything, except for his heart. </p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“Seems like nothing’s wrong with it,” replied StopOver. </p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“Yeah, nothing seems wrong with it, but something with this place is wrong. There are a lot of broken souls here,” said Spirit Dream, the caretaker of broken souls.</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“A lot? I thought this place is rarely visited even with it being so old? Was there a lot of corruption here too?” asked Towns People, with great courage and conviction to change the vile world he lives in.</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“Well, at least the view here is splendid,” said Sludgie, a Mustachio of many talents and a cheerful one to be with.</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Wait… Did he say splendid? Since when did being slammed with gigantic waves become a splendid view?</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Suddenly, becoming alert, they all looked out the windows. The once raging seas became so calm, and the sky became so blue after being so gloomy.</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Only now did they notice that Swamp Monster was innocently sitting on the Seat of Time! Oh no! Swamp Monster may not cause any harm intentionally despite being a hideous monster, but he isn’t exactly the sharpest tool in the box!</p>
+                            </div>
+                        </div>                        
+
+                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">137</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Chapter 10: Trapped in the Void of Time</p>
+
+                        {/* Stanzas */}
+                        <div className="mt-3 px-4">
+                        <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">He didn’t seem to spin in any direction either, so what time zone are they in? There might really be something wrong with the Seat of Time as opposed to what StopOver said.</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“I may eat brains but I definitely don’t have the brightest one. Let me just ask all of you... How long have we been here?” asked Tsuku, the zombie Asian Mustachio.</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“Idiots! How did we miss the fact that everything here is affected by the Seat of Time?!”</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“I enjoy the serenity of this vast space, a never-ending void. While we’re here, we should establish connections to other species. Let’s learn about their culture, hear their crazy stories…” and Space Man continued rambling on with his fantasies with Space Pirate, another space junky. The latter was just actually curious of the treasures they can find here so that he could steal it. The others couldn’t do anything but to just roll their eyes and whisper amongst themselves in panic.</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Picking up a piece of paper at the foot of the Seat of Time, Swamp Monster read,</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-italic mb-0">“Nothing alike, unretractable</p>
+                                <p className="text-center font-w-hermann w-hermann-italic mb-0">An investment non-renewable</p>
+                                <p className="text-center font-w-hermann w-hermann-italic mb-0">Unreal but true, just like in a mime</p>
+                                <p className="text-center font-w-hermann w-hermann-italic mb-0">Forming in an instant but lasts a lifetime”</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Countless questions dance around the minds of the Mustachios after Swamp Monster uttered those words.</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">They should be the one in possession of the Seat of Time, not the other way around! Now, how will they get out of this void and finally take possession of the Seat of Time? </p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Will you be the first and only Mustachio to solve this riddle and get The Seat of Time from the Crustache Lighthouse?</p>
+                            </div>
+                            <div className="mb-3">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Mint your Mustachio now and enter the portal that will transport you to MustachioVerse!</p>
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">
+                                    <a href="https://mustachioverse.com/">https://mustachioverse.com/</a>
+                                </p>
+                            </div>
+                        </div>                       
+
+                        <div className="mb-5 ch-footer mustachio-logo-mobile-wrap">
+                            <div className="w-1/6 mx-auto mustachio-logo-mobile">
+                            {/* <div className="w-1/12 mx-auto mustachio-logo-mobile"> */}
+                                <img className="w-100" src={mustachioLogoFooter} alt="Mustachio Logo" />
                             </div>
                         </div>
                     </div>
