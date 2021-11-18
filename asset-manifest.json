@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a93463a4.chunk.css",
-    "main.js": "/static/js/main.a93559be.chunk.js",
-    "main.js.map": "/static/js/main.a93559be.chunk.js.map",
+    "main.js": "/static/js/main.6c9696b2.chunk.js",
+    "main.js.map": "/static/js/main.6c9696b2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.707d1a48.js",
     "runtime-main.js.map": "/static/js/runtime-main.707d1a48.js.map",
     "static/css/2.da1eef19.chunk.css": "/static/css/2.da1eef19.chunk.css",
@@ -33,6 +33,7 @@
     "static/media/caster.d5eed79d.png": "/static/media/caster.d5eed79d.png",
     "static/media/catchawave.5891ee20.png": "/static/media/catchawave.5891ee20.png",
     "static/media/cavewizard.b51d3e16.png": "/static/media/cavewizard.b51d3e16.png",
+    "static/media/chap10.6b4a0753.png": "/static/media/chap10.6b4a0753.png",
     "static/media/chap2.fe83cca1.png": "/static/media/chap2.fe83cca1.png",
     "static/media/chap3.1270aafd.png": "/static/media/chap3.1270aafd.png",
     "static/media/chap4.a46c7c95.png": "/static/media/chap4.a46c7c95.png",
@@ -115,7 +116,17 @@
     "static/media/skatezone.46ed5f49.png": "/static/media/skatezone.46ed5f49.png",
     "static/media/skeleton_prince.497c7138.png": "/static/media/skeleton_prince.497c7138.png",
     "static/media/slendie.3c922642.png": "/static/media/slendie.3c922642.png",
+    "static/media/sludgie.14371ae6.png": "/static/media/sludgie.14371ae6.png",
+    "static/media/space_man.13a61fe6.png": "/static/media/space_man.13a61fe6.png",
+    "static/media/space_pirate.4932fae5.png": "/static/media/space_pirate.4932fae5.png",
+    "static/media/spirit_dream.615914e2.png": "/static/media/spirit_dream.615914e2.png",
     "static/media/squarehead.3e865b02.png": "/static/media/squarehead.3e865b02.png",
+    "static/media/stan_march.7eb2de6c.png": "/static/media/stan_march.7eb2de6c.png",
+    "static/media/stopover.75261f12.png": "/static/media/stopover.75261f12.png",
+    "static/media/swamp_monster.7520e9e6.png": "/static/media/swamp_monster.7520e9e6.png",
+    "static/media/the_violinist.808d0016.png": "/static/media/the_violinist.808d0016.png",
+    "static/media/towns_people.20cd081c.png": "/static/media/towns_people.20cd081c.png",
+    "static/media/tsuku.73f1514f.png": "/static/media/tsuku.73f1514f.png",
     "static/media/turfy_wizard.485c467b.png": "/static/media/turfy_wizard.485c467b.png",
     "static/media/verdantgreed.eea68802.png": "/static/media/verdantgreed.eea68802.png"
   },
@@ -124,6 +135,6 @@
     "static/css/2.da1eef19.chunk.css",
     "static/js/2.707f4a9e.chunk.js",
     "static/css/main.a93463a4.chunk.css",
-    "static/js/main.a93559be.chunk.js"
+    "static/js/main.6c9696b2.chunk.js"
   ]
 }
