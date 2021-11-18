@@ -6320,8 +6320,8 @@ function App() {
                                 <div className="w-2/4 bg-white"></div>
                                 <div className="w-2/4 bg-white">
                                     <div className="h-full d-flex flex-column justify-content-center" style={{position: "relative"}}>
-                                        <h3 className="text-center font-w-hermann w-hermann-semibold">THE FINAL CHAPTER</h3>
-                                        <p className="text-center text-lg font-w-hermann w-hermann-reg mb-3">Release Date: November 18, 2021 - 7PM SGT</p>
+                                        <h3 className="text-center font-w-hermann w-hermann-semibold">THE END</h3>
+                                        {/* <p className="text-center text-lg font-w-hermann w-hermann-reg mb-3">Release Date: November 18, 2021 - 7PM SGT</p> */}
                                         
                                         <div className="d-flex justify-content-around mb-3 w-1/2 mx-auto">
                                             <a href={socMedHandles.fb} target="_blank" rel="noreferrer">
