@@ -142,7 +142,7 @@ import skeletonprince from '../images/ch_9/characters/skeleton_prince.png'
 import slendie from '../images/ch_9/characters/slendie.png'
 
 // chapter 10 images
-import chapter10Logo from '../images/ch_9/chap9.png'
+import chapter10Logo from '../images/ch_10/chap10.png'
 
 // chapter 10 characters
 import sludgie from '../images/ch_10/characters/sludgie.png'

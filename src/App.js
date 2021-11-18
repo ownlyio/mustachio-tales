@@ -132,7 +132,7 @@ import pilot from './images/ch_8/characters/pilot.png'
 import pumpkinman from './images/ch_8/characters/pumpkin_man.png'
 
 // chapter 9 images
-import chapter9Logo from './images/ch_9/chap9.png'
+import chapter9Logo from './images/ch_10/chap10.png'
 
 // chapter 9 characters
 import dako from './images/ch_9/characters/dako.png'
@@ -147,7 +147,7 @@ import skeletonprince from './images/ch_9/characters/skeleton_prince.png'
 import slendie from './images/ch_9/characters/slendie.png'
 
 // chapter 10 images
-import chapter10Logo from './images/ch_9/chap9.png'
+import chapter10Logo from './images/ch_10/chap10.png'
 
 // chapter 10 characters
 import sludgie from './images/ch_10/characters/sludgie.png'
