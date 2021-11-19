@@ -6238,7 +6238,7 @@ function App() {
                                         </div>
                                         <a href={openSeaURL + 69} rel="noreferrer" target="_blank" className="opensea-link">
                                             <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">LichKing</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Stan March</p>
                                         </a>
                                     </div>
                                 </div>
