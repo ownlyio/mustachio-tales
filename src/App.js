@@ -619,8 +619,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={abracadoobie} alt="Abracadoobie" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">AbracaDoobie</p>
+                                        <a href={openSeaURL + 6} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">AbracaDoobie</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -658,8 +660,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={aster} alt="Aster" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Aster</p>
+                                        <a href={openSeaURL + 13} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Aster</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -736,8 +740,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={bandwip} alt="Bandwip" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Bandwip</p>
+                                        <a href={openSeaURL + 45} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Bandwip</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -775,8 +781,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={beelee} alt="Bee Lee" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Bee Lee</p>
+                                        <a href={openSeaURL + 36} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Bee Lee</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -814,8 +822,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={berry} alt="Berry" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Berry</p>
+                                        <a href={openSeaURL + 49} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Berry</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -853,8 +863,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={bug} alt="Bug" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Bug</p>
+                                        <a href={openSeaURL + 41} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Aster</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -892,8 +904,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={cairo} alt="Cairo" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Cairo</p>
+                                        <a href={openSeaURL + 60} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Aster</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -931,8 +945,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={gamerboi} alt="Gamer Boi" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Gamer Boi</p>
+                                        <a href={openSeaURL + 22} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Gamer Boi</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -1172,8 +1188,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={candycane} alt="Candy Cane" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Candy Cane</p>
+                                        <a href={openSeaURL + 53} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Candy Cane</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -1211,8 +1229,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={candywitch} alt="Candy Witch" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Candy Witch</p>
+                                        <a href={openSeaURL + 18} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Candy Witch</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -1367,8 +1387,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={catchawave} alt="Catch A Wave" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Catch A Wave</p>
+                                        <a href={openSeaURL + 9} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Catch A Wave</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -1445,8 +1467,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={climber} alt="Climber" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Climber</p>
+                                        <a href={openSeaURL + 66} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Climber</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -1484,8 +1508,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={rench} alt="Rench" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Rench</p>
+                                        <a href={openSeaURL + 28} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Rench</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -1523,8 +1549,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={shucks} alt="Shucks" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Shucks</p>
+                                        <a href={openSeaURL + 61} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Shucks</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -1725,8 +1753,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={candyfloss} alt="Candy Floss" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Candy Floss</p>
+                                        <a href={openSeaURL + 77} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Candy Floss</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -1764,8 +1794,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={doorkeeper} alt="Door Keeper" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Door Keeper</p>
+                                        <a href={openSeaURL + 40} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Door Keeper</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -1803,8 +1835,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={dwinn} alt="Dwinn" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Dwinn</p>
+                                        <a href={openSeaURL + 23} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Dwinn</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -1842,8 +1876,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={eddiecrog} alt="Eddie Crog" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Eddie Crog</p>
+                                        <a href={openSeaURL + 50} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Eddie Crog</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -1881,8 +1917,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={evlguy} alt="EVL Guy" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">EVL Guy</p>
+                                        <a href={openSeaURL + 65} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">EVL Guy</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -1920,8 +1958,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={farmer} alt="Farmer" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Farmer</p>
+                                        <a href={openSeaURL + 93} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Aster</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -1959,8 +1999,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={faun} alt="Faun" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Faun</p>
+                                        <a href={openSeaURL + 39} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Aster</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -1998,8 +2040,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={frankiestan} alt="Frankie Stan" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Frankie Stan</p>
+                                        <a href={openSeaURL + 59} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Aster</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -2037,8 +2081,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={frontline} alt="Frontline" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Frontline</p>
+                                        <a href={openSeaURL + 37} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Aster</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -2076,8 +2122,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={verdantgreed} alt="Verdant Greed" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Verdant Greed</p>
+                                        <a href={openSeaURL + 17} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Verdant Greed</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -2297,8 +2345,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={darkknight} alt="Dark Knight" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Dark Knight</p>
+                                        <a href={openSeaURL + 44} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Dark Knight</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -2375,8 +2425,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={frosty} alt="Frosty" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Frosty</p>
+                                        <a href={openSeaURL + 16} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Frosty</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -2492,8 +2544,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={ghostprince} alt="Ghost Prince" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Ghost Prince</p>
+                                        <a href={openSeaURL + 54} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Ghost Prince</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -2531,8 +2585,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={ghost} alt="Ghost" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Ghost</p>
+                                        <a href={openSeaURL + 24} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Ghost</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -2570,8 +2626,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={grim} alt="Grim" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Grim</p>
+                                        <a href={openSeaURL + 46} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Grim</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -2609,8 +2667,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={kinghobgoblin} alt="King Hobgoblin" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">King Hobgoblin</p>
+                                        <a href={openSeaURL + 29} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">King Hobgoblin</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -2648,8 +2708,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={turfywizard} alt="Turfy Wizard" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Turfy Wizard</p>
+                                        <a href={openSeaURL + 56} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Turfy Wizard</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -2916,8 +2978,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={crimson} alt="Crimson" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Crimson</p>
+                                        <a href={openSeaURL + 52} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Crimson</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -2955,8 +3019,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={dummy} alt="Dummy" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Dummy</p>
+                                        <a href={openSeaURL + 15} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Dummy</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -2994,8 +3060,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={hotdog} alt="Hot Dog Prince" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Hot Dog Prince</p>
+                                        <a href={openSeaURL + 73} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Hot Dog Prince</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -3072,8 +3140,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={inka} alt="Inka" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Inka</p>
+                                        <a href={openSeaURL + 7} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Inka</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -3111,8 +3181,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={jasondkiller} alt="Jason D Killer" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Jason D Killer</p>
+                                        <a href={openSeaURL + 67} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Jason D Killer</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -3150,8 +3222,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={jungle} alt="Jungle" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Jungle</p>
+                                        <a href={openSeaURL + 21} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Jungle</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -3189,8 +3263,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={kingstellar} alt="King Stellar" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">King Stellar</p>
+                                        <a href={openSeaURL + 4} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">King Stellar</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -3228,8 +3304,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={leatherface} alt="Leather Face" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Leather Face</p>
+                                        <a href={openSeaURL + 58} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Leather Face</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -3484,8 +3562,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={forestlord} alt="Forest Lord" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Forest Lord</p>
+                                        <a href={openSeaURL + 31} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Forest Lord</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -3562,8 +3642,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={frozensundae} alt="Frozen Sundae" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Frozen Sundae</p>
+                                        <a href={openSeaURL + 62} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Frozen Sundae</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -3640,8 +3722,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={lichking} alt="LichKing" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">LichKing</p>
+                                        <a href={openSeaURL + 34} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">LichKing</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -3679,8 +3763,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={lisby} alt="Lisby" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Lisby</p>
+                                        <a href={openSeaURL + 55} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Lisby</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -3757,8 +3843,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={lsp} alt="LSP" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">LSP</p>
+                                        <a href={openSeaURL + 19} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">LSP</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -3796,8 +3884,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={lullaby} alt="Lullaby" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Lullaby</p>
+                                        <a href={openSeaURL + 78} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Lullaby</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -3835,8 +3925,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={squarehead} alt="Squarehead" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Squarehead</p>
+                                        <a href={openSeaURL + 3} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Squarehead</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -4121,8 +4213,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={magicman} alt="Magic Man" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Magic Man</p>
+                                        <a href={openSeaURL + 64} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Magic Man</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -4160,8 +4254,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={marci} alt="Marci" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Marci</p>
+                                        <a href={openSeaURL + 25} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Marci</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -4199,8 +4295,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={mermanwarrior} alt="Merman Warrior" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Merman Warrior</p>
+                                        <a href={openSeaURL + 74} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Merman Warrior</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -4238,8 +4336,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={mexico} alt="Mexico" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Mexico</p>
+                                        <a href={openSeaURL + 1} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Mexico</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -4277,8 +4377,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={mountainwarrior} alt="Mountain Warrior" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Mountain Warrior</p>
+                                        <a href={openSeaURL + 5} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Mountain Warrior</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -4355,8 +4457,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={neos} alt="Neos" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Neos</p>
+                                        <a href={openSeaURL + 43} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Neos</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -4394,8 +4498,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={nightmare} alt="Nightmare" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Nightmare</p>
+                                        <a href={openSeaURL + 11} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Nightmare</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -4433,8 +4539,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={ninja} alt="Ninja" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Ninja</p>
+                                        <a href={openSeaURL + 10} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Ninja</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -4472,8 +4580,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={onku} alt="Onku" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Onku</p>
+                                        <a href={openSeaURL + 33} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Onku</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -4732,8 +4842,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={bubblegum} alt="BubbleGum" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">BubbleGum</p>
+                                        <a href={openSeaURL + 70} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">BubbleGum</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -4771,8 +4883,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={loonywise} alt="Loonywise" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Loonywise</p>
+                                        <a href={openSeaURL + 71} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Loonywise</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -4810,8 +4924,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={paddle} alt="Paddle" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Paddle</p>
+                                        <a href={openSeaURL + 8} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Paddle</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -4888,8 +5004,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={paratrooper} alt="Paratrooper" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Paratrooper</p>
+                                        <a href={openSeaURL + 47} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Paratrooper</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -4927,8 +5045,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={pecorider} alt="Peco Rider" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Peco Rider</p>
+                                        <a href={openSeaURL + 26} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Peco Rider</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -5005,8 +5125,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={peppermintbutler} alt="PepperMint Butler" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">PepperMint Butler</p>
+                                        <a href={openSeaURL + 38} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">PepperMint Butler</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -5044,8 +5166,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={pilot} alt="Pilot" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Pilot</p>
+                                        <a href={openSeaURL + 20} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Pilot</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -5083,8 +5207,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={pumpkinman} alt="Pumpkin Man" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Pumpkin Man</p>
+                                        <a href={openSeaURL + 51} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Pumpkin Man</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -5334,8 +5460,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={dako} alt="Dako" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Dako</p>
+                                        <a href={openSeaURL + 75} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Dako</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -5373,8 +5501,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={laya} alt="Laya" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Laya</p>
+                                        <a href={openSeaURL + 68} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Laya</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -5412,8 +5542,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={raggedyprince} alt="Raggedy Prince" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Raggedy Prince</p>
+                                        <a href={openSeaURL + 30} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Raggedy Prince</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -5451,8 +5583,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={scarecrow} alt="Scare Crow" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Scare Crow</p>
+                                        <a href={openSeaURL + 63} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Scare Crow</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -5490,8 +5624,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={shoko} alt="Shoko" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Shoko</p>
+                                        <a href={openSeaURL + 32} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Shoko</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -5568,8 +5704,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={simone} alt="Simone" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Simone</p>
+                                        <a href={openSeaURL + 35} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Simone</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -5646,8 +5784,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={skeletonprince} alt="Skeleton Prince" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Skeleton Prince</p>
+                                        <a href={openSeaURL + 57} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">LichKing</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -5685,8 +5825,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={slendie} alt="Slendie" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Slendie</p>
+                                        <a href={openSeaURL + 2} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Slendie</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -5930,8 +6072,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={sludgie} alt="Sludgie" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Sludgie</p>
+                                        <a href={openSeaURL + 72} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Sludgie</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -5969,8 +6113,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={spaceman} alt="Space Man" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Space Man</p>
+                                        <a href={openSeaURL + 14} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Space Man</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -6008,8 +6154,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={spacepirate} alt="Space Pirate" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Space Pirate</p>
+                                        <a href={openSeaURL + 76} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Space Pirate</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -6047,8 +6195,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={spiritdream} alt="Spirit Dream" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Spirit Dream</p>
+                                        <a href={openSeaURL + 12} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Spirit Dream</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -6086,8 +6236,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={stanmarch} alt="Stan March" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Stan March</p>
+                                        <a href={openSeaURL + 69} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">LichKing</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -6203,8 +6355,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={theviolinist} alt="The Violinist" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">The Violinist</p>
+                                        <a href={openSeaURL + 48} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">The Violinist</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -6242,8 +6396,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={townspeople} alt="Towns People" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Towns People</p>
+                                        <a href={openSeaURL + 27} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Towns People</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
@@ -6281,8 +6437,10 @@ function App() {
                                         <div className="w-1/2 mx-auto mb-4">
                                             <img className="w-100" src={tsuku} alt="Tsuku" />
                                         </div>
-                                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
-                                        <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Tsuku</p>
+                                        <a href={openSeaURL + 42} rel="noreferrer" target="_blank" className="opensea-link">
+                                            <p className="text-center text-xl font-w-hermann w-hermann-reg mb-0">The Tale of</p>
+                                            <p className="text-center text-4xl font-w-hermann w-hermann-semibold mb-0">Tsuku</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="w-2/4 bg-white">
