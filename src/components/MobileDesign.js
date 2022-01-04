@@ -156,6 +156,9 @@ import theviolinist from '../images/ch_10/characters/the_violinist.png'
 import townspeople from '../images/ch_10/characters/towns_people.png'
 import tsuku from '../images/ch_10/characters/tsuku.png'
 
+// epilogue images
+import epilogueLogo from '../images/ch_1/page2-pic.png'
+
 function MobileDesign({ socMedHandles, flipPage}) {
     const filterChapters = (arr, start, end = arr.length) => {
         return arr.filter(x => {
@@ -5376,6 +5379,126 @@ function MobileDesign({ socMedHandles, flipPage}) {
                             <div className="mb-0">
                                 <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">One person offered him a cure for his zombie situation</p>
                                 <p className="content-characters-mobile text-center text-lg font-w-hermann w-hermann-reg mb-0">But he neglected it, saying he enjoys being a scary distraction</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                {/* Epilogue */}
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <div className="w-1/3 mx-auto mt-5 mb-5">
+                            <img className="w-100" src={sagesRant} alt="Epilogue" />
+                        </div>
+                        <p className="text-center text-xl font-w-hermann w-hermann-reg mb-2">Epilogue</p>
+                        <h3 className="text-center font-w-hermann w-hermann-semibold">Memories</h3>
+                        <p className="text-center text-xl font-w-hermann w-hermann-semibold-italic ch-footer mb-5">The Sages Rant</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Epilogue: Memories</p>
+                        <div className="w-1/4 mx-auto mt-3 mb-4 ">
+                            <img className="w-100" src={epilogueLogo} alt="Epilogue" />
+                        </div>
+
+                        {/* Stanzas */}
+                        <div className="mb-3 content-mobile-inner">
+                            <p className="text-center font-w-hermann w-hermann-italic mb-0">
+                                <span className="text-5xl">"N</span>othing alike, unretractable
+                            </p>
+                            <p className="text-center font-w-hermann w-hermann-italic mb-0">An investment non-renewable</p>
+                            <p className="text-center font-w-hermann w-hermann-italic mb-0">Unreal but true, just like in a mime</p>
+                            <p className="text-center font-w-hermann w-hermann-italic mb-0">Forming in an instant but lasts a lifetime”</p>
+                        </div>
+                        <div className="mb-3 content-mobile-inner">
+                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">Being handed this riddle in the midst of being possessed by the Seat of Time just doesn’t bode well with the Mustachios.</p>
+                        </div>
+                        <div className="mb-3 content-mobile-inner">
+                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">Its answer seems to be so doubtfully easy: <i>Memories.</i></p>
+                        </div>
+                        <div className="mb-3 content-mobile-inner">
+                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">What do memories have to do with their escape?</p>
+                        </div>
+                        <div className="mb-3 content-mobile-inner">
+                            <p className="text-center font-w-hermann w-hermann-semibold mb-0">Will it lead them to another artifact?</p>
+                        </div>
+
+                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">171</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Epilogue: Memories</p>
+
+                        {/* Stanzas */}
+                        <div className="mt-3 content-mobile-wrap">
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Whilst discussing this, Swamp Monster went out of the control room unnoticed. What trouble could he possibly be up to now?</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Lurking in the dark stairs of Crustache Lighthouse, Swamp Monster stumbled upon a mysterious room full of books. Now…why would someone keep a library in a lighthouse where the books could be wet anytime it decides to fall prey to the relentless waves?</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Scared to ruin the sacred looking books, he went back in the control room still unnoticed while the other Mustachios were racking their brains for a possible escape.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">You’d usually see Swamp Monster with his eyes innocently unfocused, but now, he seems to be in deep thought. Unable to convey his thoughts properly, he approached an unsurprised Stan March. Didn’t seem like his adventure was unnoticed at all, Stan March is such a keen observer indeed.</p>
+                            </div>
+                        </div>
+
+                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">172</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Epilogue: Memories</p>
+
+                        {/* Stanzas */}
+                        <div className="mt-3 content-mobile-wrap">
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Without saying a word and without minding his slimy touch, Stan March let Swamp Monster lead her through whatever place Swamp Monster deemed important.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">The library looked massive! Certainly not belonging to a place such as the Crustache Lighthouse. </p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Swamp Monster was smart to bring another Mustachio to check out these sacred looking books or else, he might ruin the books by touching them.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">As Stan March started exploring the book, a secret door slammed open!</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">Hesitant to walk through the door, they only caught a glimpse of what seemed like a whole new world.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">The other Mustachios then flocked to the secret library upon noticing the disappearance of the two.</p>
+                            </div>
+                        </div>
+
+                        <p className="text-center font-w-hermann w-hermann-semibold-italic page-num">173</p>
+                    </div>
+                </article>
+                <article className="page h-90vh">
+                    <div className="h-90vh d-flex flex-column justify-content-start" style={{position: "relative"}}>
+                        <p className="text-center font-w-hermann w-hermann-italic mt-3">Epilogue: Memories</p>
+
+                        {/* Stanzas */}
+                        <div className="mt-3 content-mobile-wrap">
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">“Is this the Prospector’s place? OR NOT?”</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">They whisper amongst themselves as they stare out into the vast space of what could be their next adventure.</p>
+                            </div>
+                            <div className="mb-3 content-mobile-inner">
+                                <p className="text-center font-w-hermann w-hermann-semibold mb-0">A place for new memories. </p>
+                            </div>
+                        </div>
+
+                        <div className="mb-5 ch-footer mustachio-logo-mobile-wrap">
+                            <div className="w-1/6 mx-auto mustachio-logo-mobile">
+                                <img className="w-100" src={mustachioLogoFooter} alt="Mustachio Logo" />
                             </div>
                         </div>
                     </div>
